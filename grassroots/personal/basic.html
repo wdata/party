@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>个人信息</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="flexible" content="initial-dpr=2"/>
+    <link rel="stylesheet" href="../../plugin/flexible/flexible.css">
+    <script src="../../plugin/flexible/flexible.js"></script>
+    <link rel="stylesheet" href="../../plugin/swiper/css/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/general/general_header.css"/>
+    <link rel="stylesheet" href="../../css/grassroots/personal/basic.css">
+</head>
+
+<body>
+<div class="page">
+    <header class="head">
+        <div class="header">
+            <a onclick="history.go(-1);"><span></span></a>
+            <span>基本信息</span>
+            <a href="edit_index.html" class="save">保存</a>
+        </div>
+    </header>
+</div>
+<div class="personal-edit">
+    <div class="heart">
+        <div class="block">
+            <ul>
+                <li><a id="name" href="#">
+                    <img class="addto hide" src="../../images/grassroots/personal/addTo.png"/>
+                    <img class="modify" src="../../images/grassroots/personal/modify.png" alt="#"/>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：<span><input
+                        type="text" name="name" value="李芸芸" readonly/></span></a></li>
+                <li>
+                    <a id="gender" href="#"><img class="addto" src="../../images/grassroots/personal/addTo.png"
+                                                 alt="#"/><img class="modify hide"
+                                                               src="../../images/grassroots/personal/modify.png"
+                                                               alt="#"/>
+                        性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：<span></span></a>
+                </li>
+                <li><a id="basic" href="#"><img class="addto" src="../../images/grassroots/personal/addTo.png" alt="#"/><img
+                        class="modify hide" src="../../images/grassroots/personal/modify.png"
+                        alt="#"/>出生年月：<span></span></a></li>
+                <li><a id="jion" href="#"><img class="addto" src="../../images/grassroots/personal/addTo.png"
+                                               alt="#"/><img class="modify hide"
+                                                             src="../../images/grassroots/personal/modify.png" alt="#"/>入党时间：<span></span></a>
+                </li>
+                <li><a id="phone" href="#"><img class="addto" src="../../images/grassroots/personal/addTo.png" alt="#"/><img
+                        class="modify hide" src="../../images/grassroots/personal/modify.png"
+                        alt="#"/>联系手机号：<span><input type="text" name="phone" value="" readonly/></span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="remind">
+    <div class="gender">
+        <section><a class="cancel" href="#">取消</a><a class="determine" href="#">确定</a></section>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">男</div>
+                <div class="swiper-slide">女</div>
+            </div>
+        </div>
+        <div class="frame"></div>
+    </div>
+</div>
+<script src="../../plugin/swiper/js/swiper-3.3.1.min.js"></script>
+<script src="../../plugin/zepto/zepto.js"></script>
+<script src="../../plugin/zepto/event.js"></script>
+<script src="../../plugin/zepto/touch.js"></script>
+<!--出生年月插件-->
+<script src="../../plugin/datePicker/datePicker.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../js/grassroots/personal/basic.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

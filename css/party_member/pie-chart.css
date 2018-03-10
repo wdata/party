@@ -1,0 +1,77 @@
+
+.head{
+    color:#333;
+    height:1rem;
+    line-height: 1rem;
+    border-bottom: 1px solid #e2e2e2;
+    margin-left:0.26rem;
+    font-size: 0.3rem;
+}
+.canvas{
+    width:80%;
+    margin:0.4rem auto;
+    text-align: center;
+}
+.icon{
+    width:100%;
+    height:0.2rem;
+    background-color: #e2e2e2;
+}
+.list>li{
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    display: -webkit-flex;
+    height:1.3rem;
+    line-height: 1.3rem;
+    color:#333;
+    border-bottom: 1px solid #e2e2e2;
+    padding:0 0.5rem;
+    font-size:0.35rem;
+}
+.list>li>span{
+    flex:1;
+}
+.list>li>span.text>i{
+    display: inline-block;
+    width:0.2rem;
+    height:0.2rem;
+    border-radius: 50%;
+
+    margin-right:0.2rem;
+    position: relative;
+    top:-0.02rem;
+}
+.list>li>span.num{
+    text-align: right;
+    color:#666;
+}
+.list>li>span.text>i.red{
+    background-color: #ee402f;
+}
+.list>li>span.text>i.green{
+    background-color: #34a68f;
+}
+.list>li>span.text>i.blue{
+    background-color: #3891a7;
+}
+.list>li>span.text>i.orange{
+    background-color: #f26f18;
+}
+.list>li>span.text>i.yellow{
+    background-color: #f5d22f;
+}
+.list>li>span.text>i.black{
+    background-color: #222a3b;
+}
+.list>li>span.text>i.mazarine{
+    background-color: #3d64d4;
+}
+.list>li>span.text>i.reseda{
+    background-color: #45dc9a;
+}
+.list>li>span.text>i.rose-red{
+    background-color: #ef278a;
+}
+.list>li>span.text>i.crimson{
+    background-color: #cc0e0e;
+}

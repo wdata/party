@@ -1,0 +1,67 @@
+/*-------------------------------------活动首页CSS-------------------------------*/
+.instructions{
+    width: 100%;
+    min-height:93%;
+    box-sizing: border-box;
+    background-color:#E4E9EF;
+    padding:74px 10px 10px;
+}
+.heart{
+    width: 100%;
+    height: 100%;
+}
+.instructions li{
+    background-color:#fff;
+    position:relative;
+    font-size:12px;
+    padding:0.35rem;
+    border-bottom:1px solid #eee;
+    margin-bottom:10px;
+}
+.instructions li header{
+    height:100%;
+    display: flex;
+    align-items:center;
+    margin-bottom:0.1rem;
+}
+
+.instructions .belongs{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    height:1rem;
+    width:100%;
+    font-size:14px;
+}
+.instructions .belongs .name{
+    color:#333;
+    margin-right:10px;
+}
+.instructions .belongs .level{
+    color:#666;
+}
+.instructions .belongs .being{
+    color:#333;
+}
+.instructions .belongs .being span{
+    color:#ce3d3a;
+}
+.instructions li .logo{
+    width:1.2rem;
+    height:1.2rem;
+    display: block;
+    border-radius:50%;
+    margin-right:0.35rem;
+}
+.instructions .words{
+    line-height: 0.5rem;
+    margin-bottom: 0.2rem;
+    color: #656565;
+    margin-left: 16%;
+    background-color: #F5F6F8;
+    padding: 10px;
+}
+.instructions li time{
+    color:#999;
+    margin-left:16%;
+}

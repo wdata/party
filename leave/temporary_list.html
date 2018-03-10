@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>留言板</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="flexible" content="initial-dpr=2" />
+    <link rel="stylesheet" href="../plugin/flexible/flexible.css">
+    <script src="../plugin/flexible/flexible.js"></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/general/general_header_opacity.css"/>
+    <link rel="stylesheet" href="../css/leave/temporary_list.css">
+</head>
+<body>
+<div class="bg"></div>
+<div class="page">
+    <header class ="head">
+        <div class="header"><span>留言板</span><a onclick="history.go(-1);"><span></span></a></div>
+    </header>
+    <a class="icon"><i></i></a>
+    <!--首次进入后的页面-->
+    <div class="shade"><!--添加class名hide隐藏遮罩层-->
+        <div class="content">
+            <div class="bg"><img src="../images/leave/tiaozhuan.png" alt=""></div>
+            <div class="hint">您还没有创建留言板，去创建吧</div>
+            <div id="btn" class="btn">知道了</div>
+        </div>
+    </div>
+    <!--添加临时支部名称-->
+    <div class="add_shade hide"><!--添加class名hide隐藏弹框-->
+        <div class="container">
+            <div class="inp"><input type="text" placeholder="创建临时党支部名称"></div>
+            <div class="btn">
+                <a class="cancel">取消</a>
+                <a class="ensure">确定</a>
+            </div>
+        </div>
+    </div>
+    <!--临时党支部列表-->
+    <div class="party_list"><!--添加class名hide隐藏列表-->
+        <div class="seek">
+            <i></i><input type="search" placeholder="搜索">
+        </div>
+        <div class="add_party">
+            <div class="head">我创建的临时党支部(<span>3</span>)</div>
+            <ul>
+                <li>
+                    <div class="head_img"><img src="../images/leave/head/gao.png" alt=""></div>
+                    <span class="name">党建体系建设临时党支部</span>
+                </li>
+                <li>
+                    <div class="head_img"><img src="../images/leave/head/gao.png" alt=""></div>
+                    <span class="name">党建体系建设临时党支部</span>
+                </li>
+                <li>
+                    <div class="head_img"><img src="../images/leave/head/gao.png" alt=""></div>
+                    <span class="name">党建体系建设临时党支部</span>
+                </li>
+            </ul>
+        </div>
+        <div class="join_party">
+            <div class="head">我加入的临时党支部(<span>4</span>)</div>
+            <ul>
+                <li>
+                    <div class="head_img"><img src="../images/leave/head/gao.png" alt=""></div>
+                    <span class="name">党建体系建设临时党支部</span>
+                </li>
+                <li>
+                    <div class="head_img"><img src="../images/leave/head/gao.png" alt=""></div>
+                    <span class="name">党建体系建设临时党支部</span>
+                </li>
+                <li>
+                    <div class="head_img"><img src="../images/leave/head/gao.png" alt=""></div>
+                    <span class="name">党建体系建设临时党支部</span>
+                </li>
+
+
+
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="../plugin/zepto/zepto.js"></script>
+<script src="../plugin/zepto/event.js"></script>
+<script src="../plugin/zepto/touch.js"></script>
+<script src="../js/leave/temporary_list.js"></script>
+</body>
+</html>

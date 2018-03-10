@@ -1,0 +1,207 @@
+/*头部，保存*/
+.page .head .header .save{
+    position: absolute;
+    right:0.2rem;
+    color:#e2e2e2;
+    font-size:0.37rem;
+    left:auto;
+}
+/*基本信息编辑页面  0.009259*/
+.personal-edit{
+    width:100%;
+    height:100%;
+}
+.personal-edit .heart{
+    width:94.4444%;
+    margin:0 auto;
+    padding-bottom:0.54rem;
+}
+.personal-edit .block{
+    width:100%;
+}
+.personal-edit .block a{
+    color:#666;
+    font-size:0.36rem;
+    display:block;
+    width:100%;
+    height:1.5rem;
+    line-height:1.5rem;
+    border-bottom:1px solid #999;
+    padding-left:0.7rem;
+    position:relative;
+}
+.personal-edit li span{
+    display: inline-block;
+    position: absolute;
+    top:0;
+    height:1.5rem;
+    line-height: 0.5rem;
+    color:#333333;
+    padding-top:0.5rem;
+}
+.personal-edit  input{
+    border:0;
+    font-size:0.36rem;
+    height:0.8rem;
+    line-height:0.8rem;
+}
+.personal-edit .block img{
+    width:0.55rem;
+    height:0.55rem;
+    position: absolute;
+    left:0;
+    top:0.45rem;
+}
+/*遮罩层弹出层*/
+.remind{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0,0,0,0.7);
+    display:none;
+}
+.remind_title,.date{
+    width:100%;
+    height:55%;
+    background-color:#fff;
+    position: fixed;
+    bottom:0;
+    right:0;
+    left:0;
+}
+.remind_title section,.date section{
+    position:absolute;
+    left:0;
+    right:0;
+    width:100%;
+    height:1.5rem;
+}
+.remind_title section .cancel,.date section .cancel{
+    font-size:0.36rem;
+    float:left;
+    color:#666;
+    padding:0.5rem;
+}
+.remind_title section .determine,.date section .determine{
+    color:#ce3a3d;
+    font-size:0.36rem;
+    float:right;
+    overflow:hidden;
+    padding:0.5rem;
+}
+.remind_title .swiper-container{
+    width:100%;
+    height:1.5rem;
+    position: fixed;
+    bottom:15%;
+    right:0;
+    left:0;
+    overflow:visible!important;
+}
+.remind_title .swiper-slide{
+    color:#666;
+    width:100%;
+    height:1.5rem;
+    line-height:1.5rem;
+    text-align:center;
+    font-size:0.4rem;
+}
+.remind_title .frame{
+    border-top-width:1px;
+    border-bottom-width:1px;
+    border-color:#999;
+    border-style: solid;
+    width:100%;
+    height:1.5rem;
+    position: fixed;
+    bottom:15%;
+    right:0;
+    left:0;
+}
+.remind_title{
+    display:none;
+}
+.date ul{
+    width:100%;
+    height:3rem;
+    position: fixed;
+    bottom:15%;
+    right:0;
+    left:0;
+    display: block;
+}
+.date ul a{
+    color:#666;
+    display:block;
+    width:100%;
+    height:1.5rem;
+    line-height:1.5rem;
+    text-align:center;
+    font-size:0.5rem;
+}
+.date{
+    height:60%;
+    display:block;
+}
+
+/*插件   出生年月样式修改*/
+.ym_roll,.date_roll_mask{
+    position: fixed;
+    bottom:1%;
+    right:0;
+    left:0;
+    font-weight:normal!important;
+    height:40%!important;
+}
+.gearDate .date section{
+    position:absolute;
+    top:0.8rem;
+    left:0;
+    right:0;
+    width:100%;
+    height:1.5rem;
+    padding:0!important;
+}
+.ym_roll>div{
+    height:100%!important;
+}
+.date_mm{
+    text-indent:0!important;
+}
+.tooth,.date_grid{
+    color:#666;
+}
+.gearDate{
+    background: rgba(0,0,0,0.7)!important;
+}
+.remind .swiper-container .swiper-slide-active{
+    color:#333333;
+}
+.branch{
+    overflow: hidden!important;
+}
+.remind_branch .swiper-branch{
+    width:100%;
+    height:40%;
+    position: fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    overflow:hidden!important;
+}
+.remind_pos .swiper_position{
+    width:100%;
+    height:40%;
+    position: fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    overflow:hidden!important;
+}
+.remind_branch .branch .frame,.remind_pos .position .frame{
+    bottom: 15.5%;
+}

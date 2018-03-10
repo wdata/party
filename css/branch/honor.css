@@ -1,0 +1,24 @@
+.banner{
+    width:100%;
+}
+.banner>img{
+    width:100%;
+}
+.content{
+    display: flex;
+    display: -webkit-flex;
+    padding:0.3rem 0 0 0.26rem;
+    background-color: #FFE9CA;
+}
+.content>.item {
+    flex:1;
+}
+.content>.item>.title>img{
+    width:100%;
+}
+.content>.item>.text{
+    padding-right:0.26rem;
+    color:#ce3a3d;
+    line-height:0.5rem;
+    text-align: center;
+}

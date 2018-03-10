@@ -1,0 +1,207 @@
+/*党员先锋与党员先锋空间的公共样式*/
+
+
+/*头部*/
+
+header.head {
+	width: 100%;
+	height: 6rem;
+	background: url(../../../images/branch/head_bg.png) no-repeat;
+	background-size: cover;
+}
+
+header.head .head_return {
+	height: 44px;
+	line-height: 44px;
+	color: #fff;
+	font-size: 16px;
+	background-color: rgba(0,0,0, 0.5);
+	z-index:10000;
+	margin-top:20px;
+}
+
+header.head .head_return>i {
+	margin:11px 0 0 0.35rem;
+	display: inline-block;
+	width: 0.3rem;
+	height: 22px;
+	background: url("../../../images/member_develop/return.png") no-repeat 100%;
+	background-size: 100%;
+}
+
+
+/*关注*/
+
+.attention {
+	background-size: 100%;
+	width: 2.4rem;
+	height: 0.75rem;
+	line-height: 0.75rem;
+	float: right;
+	margin-right: 3%;
+	margin-top: 1.3rem;
+	border:1px solid #fff;
+	border-radius:0.75rem;
+}
+.attention img{
+	width:0.35rem;
+	height:0.35rem;
+	margin-top:0.2rem;
+	margin-left:0.25rem;
+	margin-right:0.1rem;
+	display:block;
+	float:left;
+}
+.attention>a {
+	color: #fff;
+	float:left;
+}
+.title_img{
+	text-align: center;
+	margin-top:0.45rem;
+}
+.title_img .img-bg{
+	width:2rem;
+	height:2rem;
+	border-radius: 50%;
+	background-color:rgba(255,255,255,0.2);
+	margin: auto;
+	padding:5px;
+}
+.title_img .img-bg>img{
+	width:100%;
+	height:100%;
+	border-radius: 50%;
+}
+
+.title_img .clearFix:after {
+	content:""; height:0; visibility:hidden; display:block; clear:both;
+}
+.title_img  .clearFix {
+	zoom:1;
+}
+.title_img .title .inwrap{
+	float:left; position:relative; left:50%;
+}
+.title_img .title{
+	margin:0.2rem auto;
+	overflow:hidden;
+	position:relative;
+}
+.title_img a .title .inwrap .position {
+	float:left;
+	position:relative;
+	left:-45%;
+}
+.title_img a .title .inwrap .position li {
+	float:left;
+	padding:0 0.08rem;
+	height:0.5rem;
+	line-height: 0.6rem;
+	color:#ffffff;
+	font-size:10px;
+}
+.title_img .title .inwrap .position li.icon{
+	opacity: 0.6;
+}
+.title_img .title .inwrap .position li.userName{
+	font-size:14px;
+}
+.title_img .title .inwrap .position li>.character{
+	display: inline-block;
+	height:0.3rem;
+	line-height:0.3rem;
+}
+
+.title_img .clearFix:after {
+	content: "";
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+
+.title_img .clearFix {
+	zoom: 1;
+}
+
+.title_img .name .inwrap,
+.title_img .title>.inwrap {
+	float: left;
+	position: relative;
+	left: 50%;
+}
+
+.title_img .name .inwrap .org {
+	float: left;
+	position: relative;
+	left: -50%;
+}
+
+.title_img .name .inwrap .org li {
+	float: left;
+	margin: 0 0.08rem;
+	padding: 0 0.16rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 22px;
+	font-size: 9px;
+}
+.perslea{
+	font-size:0.5rem;
+	padding:0.5rem;
+	border-bottom:1px solid #999999;
+}
+
+/*遮罩层弹出层*/
+.remind{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(7,17,27,0.8);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    display:block;
+}
+.remind .prompt>img{
+	width:2rem;
+	height:6.8rem;
+	margin-left:7.5rem;
+}
+.remind .determine{
+	position: fixed;
+    top: 79%;
+    left: 36%;
+    z-index: 999999;
+    color: #fff;
+    display:block;
+    width:2.7rem;
+    height:1rem;
+    line-height:1rem;
+    text-align:center;
+    background-color:rgba(206,61,58,1);
+    font-size:0.5rem;
+    border-radius:3px;
+}
+.remind address{
+	display:block;
+	margin:0 auto;
+	color:#fff;
+	font-size:0.5rem;
+	border:1px solid #fff;
+	width:84%;
+	height:1.2rem;
+	line-height:1.2rem;
+	text-align:center;
+	border-radius:1.2rem;
+}
+.remind .attention{
+	background-color:rgba(164,60,71,1);
+	border-radius:0.3rem;
+}

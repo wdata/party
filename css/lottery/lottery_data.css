@@ -1,0 +1,172 @@
+body{
+	background-color:#f0f0f0;
+}
+.heart>header{
+	position: fixed;
+}
+.page{
+	position: fixed;
+}
+
+.calendar {
+	width:100%;
+}
+#chux{
+	position:absolute;
+	bottom:0;
+	left:0;
+	font-size:0.4rem;
+}
+.calendar .lottery{
+	width:3.6rem;
+	height:1rem;
+	line-height:1rem;
+	text-align:center;
+	background-color:#EA575A;
+	color:#fff;
+	font-size:0.36rem;
+	display: block;
+	position:absolute;
+	bottom:-15%;
+	left:50%;
+	margin-left:-1.8rem;
+}
+
+.calendar header{
+	position:absolute;
+	height:2.8rem;
+	width:100%;
+	top: 64px;
+	left:0;right:0;
+	background-color:#CE3A3D;
+}
+.hear{
+	width:100%;
+	position:absolute;
+	top:1.9rem;
+	display: flex;
+}
+.hear img{
+	width:1.2rem;
+	height:1.5rem;
+	display: block;
+	position: absolute;
+}
+.hear img:first-child{
+	left:10%;
+}
+.hear img:last-child{
+	right:3%;
+}
+.qiandao{
+	width:100%;
+	height:2rem;
+	text-align:right;
+	display:flex;
+	justify-content:flex-end;
+}
+.qiandao img{
+	display: inline-block;
+	width:1rem;
+	float:left;
+}
+.qiandao a{
+	display: block;
+	font-size:0.45rem;
+	color:#333;
+	margin:0.8rem 0.6rem 0 0;
+	overflow:hidden;
+}
+.qiandao a span{
+	float:left;
+	line-height:0.8rem;
+	margin-left:0.1rem;
+	margin-top:0.1rem;
+}
+/*-------------------------日期插件修改-------------------*/
+#box{
+	display: none;
+}
+.calendar-content{
+	display: block;
+	top: 2.41rem;!important;
+	width:96%;
+	min-height:68%;
+	left:2%;
+	transform:translate3d(0,0, 0);
+	background-color:#fff;
+	border-radius:0.9rem;
+	overflow:visible;
+}
+.calendar-header{
+	display: flex;
+	height:2.4rem;
+	background-color:#ea575a;
+	border-top-right-radius: 0.9rem;
+	border-top-left-radius: 0.9rem;
+	letter-spacing:2px;
+}
+.calendar-month{
+	position:relative;
+	width:100%!important;
+	line-height:2.4rem;
+}
+.calendar-month a{
+	color:#fff!important;
+	font-size:0.58rem;
+}
+.switch-btn{
+	width:0.4rem;
+	height:0.7rem;
+	position:absolute;
+	top:50%;
+	margin-top:-0.35rem!important;
+}
+.calendar-month a img{
+	width:0.4rem;
+	height:0.7rem;
+	display: block;
+}
+.month-prev{
+	left:10%;
+}
+.month-next {
+	right:10%;
+	transform:rotateY(180deg);
+}
+
+.month_body{
+	height:100%;
+}
+.calendar-list a{
+	color:#333;
+}
+.calendar-list span:nth-child(7n) a{
+	color:#666;
+}
+.calendar-list span:nth-child(7n+1) a{
+	color:#666;
+}
+.disabled{
+	color:#333;
+}
+.nextdate,.prevdate{
+	visibility:hidden!important;
+}
+.month_mask{
+	display: none!important;
+}
+/*星期*/
+.month_weekarea li{
+	color:#333;
+}
+/*提示*/
+.prompt{
+	width:100%;
+	height:1rem;
+	line-height:1rem;
+	color:#ea575a;
+	text-align: center;
+	font-size:0.36rem;
+}
+

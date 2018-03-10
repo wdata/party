@@ -1,0 +1,400 @@
+/*党员发展空间*/
+/*******************头部样式******************/
+.page{
+    background-color: #e4e9ef;
+    padding-bottom: 0.4rem;
+}
+header.head{
+    width:100%;
+    height:7rem;
+    background: url(../../images/member_develop/head_bg.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 5.5%;
+}
+header.head .head_return{
+    height: 44px;
+    line-height: 44px;
+    color:#e8e8e8;
+    font-size:16px;
+    background-color: rgba(0,0,0,0.2);
+    margin-bottom: 0.2rem;
+    margin-top:20px;
+}
+header.head .head_return>i{
+    display: inline-block;
+    width:0.3rem;
+    height: 22px;
+    margin-top: 11px;
+    margin-left: 0.35rem;
+    background: url("../../images/member_develop/return.png") no-repeat 100%;
+    background-size: 100%;
+}
+.title_img{
+    text-align: center;
+}
+.title_img .img-bg{
+    width:2rem;
+    height:2rem;
+    border-radius: 50%;
+    margin: auto;
+    padding:5px;
+}
+
+
+.title_img .clearFix:after {
+    content:""; height:0; visibility:hidden; display:block; clear:both;
+}
+.title_img  .clearFix {
+    zoom:1;
+}
+.title_img .title{
+    margin:0.2rem auto;
+    overflow:hidden;
+    position:relative;
+
+}
+.title_img .title>.inwrap{
+    float:left; position:relative; left:50%;
+}
+.title_img .title .inwrap .position {
+    float:left;
+    position:relative;
+    left: -40%;
+}
+.title_img .title .inwrap .position li {
+    float:left;
+    padding:0 0.08rem;
+    height:0.5rem;
+    line-height: 0.5rem;
+    color:#ffffff;
+    font-size:10px;
+}
+.title_img .title .inwrap .position li.icon{
+    opacity: 0.6;
+}
+.title_img .title .inwrap .position li.userName{
+        font-size: 0.36rem;
+}
+
+
+
+.title_img img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+.title_img .name{
+    color:#ffffff;
+    border:1px solid #ffffff;
+    border-radius: 22px;
+    height:0.5rem;
+    line-height:0.5rem;
+    margin:auto;
+    padding:0 0.35rem;
+    display:inline-block;
+}
+.head_message{
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    color:#c2c2c2;
+    margin-top:0.6rem;
+    font-size:10px;
+}
+.head_message .item{
+    flex:1;
+    text-align: center;
+    border-right:1px solid rgba(255,255,255,0.5);
+}
+.head_message .item span{
+    color:#fefefe;
+    font-size:12px;
+}
+.head_message .last{
+    border-right:none;
+}
+.head_message .item p{
+    margin-top: 5px;
+}
+/*************导航部分***************/
+.page nav{
+    width: 95%;
+    margin: 0.7rem auto;
+    border-radius: 3px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+}
+.page nav .nav_container{
+    display: flex;
+    display: -webkit-flex;
+    width: 95%;
+    margin-left: 1%;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.page nav .title{
+    flex: 1;
+    text-align: center;
+    color: #999999;
+    margin-top: 0.4rem;
+}
+.nav_container .title:last-child{
+    flex:1.2;
+}
+.nav_container .active{
+    color: #ce3d2a!important;
+}
+.nav_container .active p{
+    border: 0.05rem solid #ce3d39;
+}
+.page nav p{
+    width: 21%;
+    margin: 0.25rem auto 0;
+}
+/*************入党申请书正文******************/
+article{
+    background: #ffffff;
+    border-radius: 3px;
+    width: 92%;
+    margin: 0.5rem auto 0;
+}
+article .article_container{
+    padding: 0.4rem 0.2rem 0.2rem;
+}
+article .article_container h3{
+    display: inline-block;
+    font-size: 0.38rem;
+    margin-left: 24%;
+    color: #333333;
+
+}
+article .article_container a{
+    background: url(../../images/member_develop/edit.png) no-repeat;
+    background-size: 100%;
+    width: 0.7rem;
+    height: 0.7rem;
+    position: absolute;
+    right: 8%;
+}
+.apply{
+    overflow-y: auto;
+    height: 7.6rem;
+    margin-top: 4%;
+    line-height: 0.5rem;
+    color: #666666;
+    padding:0.35rem 4%;
+}
+.apply h4,.apply p,.apply div{
+    width: 92%;
+    margin: 0 auto;
+    line-height: 0.5rem;
+    color: #666666;
+}
+.apply p{
+    text-indent: 2em;
+}
+.apply img{
+    max-width:100%;
+    display:block;
+}
+/*************思想汇报，考试记录,支部和党委意见区域******************/
+.thought_report,.exam_record,.party_opinion{
+   padding:0.3rem;
+   display: none;
+    min-height:9rem;
+
+}
+.chooseYear{
+    margin:0.35rem 0;
+    position:relative;
+}
+.chooseYear .substr,.chooseYear>.plus{
+    width: 0.15rem;
+    height: 0.15rem;
+    display: inline-block;
+}
+.chooseYear .substr img,.chooseYear>.plus>img{
+    width: 100%;
+}
+.chooseYear i{
+    position: relative;
+    padding: 3% 11%;
+    color: #aab2bd;
+    font-size: 0.35rem;
+}
+.chooseYear .thought_reportEdit{
+    background: url(../../images/member_develop/edit.png) no-repeat;
+    background-size: 100%;
+    width: 0.7rem;
+    height: 0.7rem;
+    position: absolute;
+    right: 8%;
+    top:-0.14rem;
+}
+.thought_report .report_box,.exam_record .record_box,.party_opinion .opinion_box{
+    display: flex;
+    display: -webkit-flex;
+}
+.report_box .left,.record_box .left,.opinion_box .left{
+    flex:1;
+    border-right: 1px solid #999999;
+    position: relative;
+    padding-right:0.1rem;
+}
+.record_box .left p{
+    color: #666666;
+    margin-top: 46%;
+}
+.report_box .left p,.opinion_box .left p{
+    color: #666666;
+    margin-top: 56%;
+}
+.report_box .left span,.record_box .left span,.opinion_box .left span{
+    width: 0.25rem;
+    height: 0.25rem;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 34%;
+    left: 93%;
+}
+.report_box .left span.important,.record_box .left span.important,.opinion_box .left span.important{
+    background: #ce3d3a;
+}
+.report_box .left span.probationary,.record_box .left span.probationary,.opinion_box .left span.probationary{
+   background: #ff613c;
+}
+.report_box .left span.activist,.record_box .left span.activist,.opinion_box .left span.activist{
+    background: #ffb517;
+}
+.report_box .left span.mass,.record_box .left span.mass,.opinion_box .left span.mass{
+    background: #81b7ff;
+}
+.report_box .left span.members,.record_box .left span.members,.opinion_box .left span.members{
+    background: #3E0D12;
+}
+/*列表右边*/
+.report_box .right,.opinion_box .right{
+    flex: 5;
+    margin: 0 0 4% 5%;
+    background: #ffffff;
+    padding: 0.5rem 0.3rem;
+    border-radius: 3px;
+    position: relative;
+    /*flex: 5;*/
+    /*margin: 0 0 4% 5%;*/
+    /*background: #ffffff;*/
+    /*border-radius: 3px;*/
+}
+.report_box .right a,.record_box .right a,.opinion_box .right a{
+    display: flex;
+    display: -webkit-flex;
+}
+
+.report_box .right span,.record_box .right span,.opinion_box .right span{
+    width: 0;
+    height: 0;
+    border-top: 0.2rem solid transparent;
+    border-bottom: 0.2rem solid transparent;
+    border-right: 0.2rem solid #ffffff;
+    position: absolute;
+    border-radius: 0;
+    position:absolute;
+    top: 41%;
+    left: -2%;
+}
+.report_box .right .date,.opinion_box .right .date{
+    flex: 0.45;
+    text-align: center;
+}
+.report_box .right .date p,.record_box .right .date p,.opinion_box .right .date p{
+    color: #bbc2cb;
+   
+}
+.report_box .right .date p:nth-child(1),.record_box .right .date p:nth-child(1),.opinion_box .right .date p:nth-child(1){
+    border-bottom: 1px solid #bbc2cb;
+    font-size: 0.5rem;
+    padding-bottom: 0.1rem;
+}
+.report_box .right .date p:nth-child(2),.record_box .right .date p:nth-child(2),.opinion_box .right .date p:nth-child(2){
+    font-size: 0.4rem;
+    padding-top: 0.1rem;
+    display: inline-block;
+    width: 0.9rem;
+}
+
+.report_box .right .opinion_content,.record_box .right .opinion_content,.opinion_box .right .opinion_content{
+    flex: 4;
+    margin-left: 0.4rem;
+    color:#333;
+    line-height:0.5rem;
+}
+.report_box .right .opinion_content h3,.record_box .right .opinion_content h3,.opinion_box .right .opinion_content h3{
+    color: #333333;
+    font-size: 0.35rem;
+}
+.report_box .right .opinion_content p,.record_box .right .opinion_content p,.opinion_box .right .opinion_content p{
+    color: #999999;
+    margin-top: 0.3rem;
+    width:5rem;
+    overflow: hidden;  /*溢出隐藏*/
+    text-overflow: ellipsis; /*以省略号...显示*/
+    white-space: nowrap;  /*强制不换行*/
+}
+/*****考试记录*****/
+.report_box .right,.record_box .right,.opinion_box .right{
+    flex: 5;
+    margin: 0 0 4% 5%;
+    background: #ffffff;
+    border-radius: 3px;
+}
+.exam_record .record_box a{
+    flex: 5;
+    display: flex;
+    padding: 0.3rem;
+    position: relative;
+}
+.exam_record .record_box .right .date{
+    flex: 0.45;
+    text-align: center;
+}
+.exam_record .record_box .right .opinion_content{
+    flex: 3;
+    margin-left: 0.4rem;
+    margin-top: 6%;  
+}
+.exam_record .record_box .right .score{
+    flex: 1;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 0.38rem;
+    color: #cd3d3a;
+}
+
+/************底部***************/
+footer{
+    background: #ce3d39;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer>p{
+    text-align: center;
+    line-height: 1.3rem;
+    color: #fff;
+    font-size: 0.36rem;
+}
+/**************************iphone5屏幕*********************/
+@media(max-width:321px){
+    header.head {
+    width: 100%;
+    height: 7rem;
+    background: url(../../images/member_develop/head_bg.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 10.5%;
+}
+}
+

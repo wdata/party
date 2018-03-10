@@ -1,0 +1,103 @@
+.content{
+    position:relative;
+    width:100%;
+    min-height:93%;
+    background-color:#EEEDF2;
+}
+.heart{
+    width:100%;
+    height:100%;
+}
+.content-header{
+    width:100%;
+    height:6rem;
+    background-image:url("../../../images/branch/head_bg.png");
+    background-size:cover;
+    color:#fff;
+    font-size:14px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    position:relative;
+}
+.content-header ul{
+    display:flex;
+    width:100%;
+}
+.content-header ul li{
+    flex:1;
+    text-align:center;
+    border-right:1px solid #5e5857;
+}
+.content-header ul li span{
+    display:block;
+    margin-bottom:0.2rem;
+}
+.content-header p{
+    line-height:1rem;
+    margin-bottom:0.5rem;
+}
+.content-header .logo{
+    display:inline-block;
+    width:1.8rem;
+    height:1.8rem;
+    border-radius:50%;
+    margin:0.8rem 0 0.4rem;
+}
+.information{
+    position:absolute;
+    top:10px;
+    right:10px;
+    padding:0.2rem;
+    height:0.7rem;
+    border:1px solid #fff;
+    border-radius:0.7rem;
+    background-color: rgba(255,255,255,0.3);
+}
+
+.back-color{
+    background-color:#eee;
+    height:0.5rem;
+}
+
+.statis{
+    width:100%;
+    position:relative;
+    padding:0.35rem 0;
+}
+#gender{
+    width:100%;
+    height:8rem;
+    margin-bottom:0.5rem;
+    border-bottom:1px solid #eee;
+    background-color:#fff!important;
+    padding:0.2rem;
+}
+#standing{
+    margin-top:0.5rem;
+    width:100%;
+    height:10rem;
+    background-color:#fff!important;
+    padding:0.2rem;
+}
+#education{
+    margin-top:0.5rem;
+    width:100%;
+    height:10rem;
+    background-color:#fff!important;
+    padding:0.2rem;
+}
+
+
+/*统计信息*/
+
+.title_img {
+    padding-top:0.6rem;
+}
+.title_img img{
+    margin-bottom:0.5rem;
+}
+.title_img span{
+    color:#fff;
+    font-size:0.4rem;
+}

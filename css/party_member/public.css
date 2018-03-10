@@ -1,0 +1,276 @@
+/*党员先锋与党员先锋空间的公共样式*/
+/*头部*/
+header.head{
+    width:100%;
+    padding:74px 0 0.35rem;
+    background: url(../../images/branch/head_bg.png) no-repeat;
+    background-size: cover;
+}
+/*关注*/
+.attention{
+    background: url(../../images/party_member/guanzhu.png) no-repeat;
+    background-size: 100%;
+    width: 2rem;
+    height: 0.65rem;
+    line-height: 0.65rem;
+    float: right;
+    margin-right: 3%;
+    padding-left: 8%;
+    margin-top: 0.26rem;
+}
+.attention>a{
+    color: #fff;
+}
+
+.title_img{
+    text-align: center;
+}
+.title_img .img-bg{
+    width:2.1rem;
+    height:2.1rem;
+    border-radius: 50%;
+    background-color:rgba(255,255,255,0.2);
+    margin:3px auto;
+    padding:5px;
+}
+.title_img img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+
+
+.title_img>.title{
+    margin:0.2rem auto;
+    overflow:hidden;
+    position:relative;
+
+}
+.title_img>.title .inwrap .position {
+    float:left;
+    position:relative;
+    left:-45%;
+}
+.title_img>.title .inwrap .position li {
+    float:left;
+    padding:0 0.08rem;
+    height:0.5rem;
+    line-height: 0.5rem;
+    color:#ffffff;
+    font-size:10px;
+}
+.title_img>.title .inwrap .position li.icon{
+    opacity: 0.6;
+}
+.title_img>.title .inwrap .position li.userName{
+    font-size:11px;
+}
+
+
+.title_img>.name{
+    margin:0 auto;
+    overflow:hidden;
+    position:relative;
+}
+.title_img .clearFix:after {
+    content:"";
+    height:0; 
+    visibility:hidden; 
+    display:block; 
+    clear:both;
+}
+.title_img  .clearFix {
+    zoom:1;
+}
+.title_img>.name .inwrap,.title_img>.title>.inwrap{
+    float:left; position:relative; left:50%;
+}
+.title_img>.name .inwrap .org {
+    float:left;
+    position:relative;
+    left:-50%; }
+.title_img>.name .inwrap .org li {
+    float:left;
+    margin:0 0.08rem;
+    padding:0 0.08rem;
+    height:0.5rem;
+    line-height: 0.5rem;
+    color:#ffffff;
+    border:1px solid #ffffff;
+    border-radius: 22px;
+    font-size:9px;
+}
+.head_message{
+    width:100%;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    color:#c2c2c2;
+    margin-top:0.6rem;
+    font-size:10px;
+}
+.head_message .item{
+    flex:1;
+    text-align: center;
+    border-right:1px solid rgba(255,255,255,0.5);
+}
+.head_message .item span{
+    color:#fefefe;
+    font-size:12px;
+}
+.head_message .last{
+    border-right:none;
+}
+.head_message .item p{
+    margin-top: 5px;
+}
+/*最新台账向左滑动图片*/
+.newledgers,.fourpoints,.tracks,.modelledgers{
+    padding: 10px;
+}
+.newSlide>img{
+    width: 100%;
+    height: 100%;
+}
+.leaderSlide{
+    width: 1.55rem!important;
+    height: 3rem!important;
+}
+.leaderSlide>img{
+    width: 100%;
+    height: 1.55rem;
+    border-radius: 70px;
+
+}
+.leaderSlide>p{
+    line-height: 0.1rem!important;
+}
+.banner{
+
+    border-bottom: 1px solid #c2c2c2;
+}
+.banner>.head>.right>img{
+    width: 100%;
+}
+.swiper-container .swiper-slide p{
+    text-align: center;
+    font-size: 0.266rem;
+    padding-top:10px;
+    color:#666666;
+}
+.swiper-slide>.firstImg{
+    border-radius: 5px 0 0 5px;
+}
+.banner .head .right{
+    float: right;
+    width:0.5rem;
+    height:0.5rem;
+    background: url(../../images/branch/right.png) no-repeat 100%;
+    background-size: 100%;
+}
+.banner .head .right a{
+	width:100%;
+	height:100%;
+	display: block;
+}
+/*最新台账*/
+.titleRight{
+    width: 0.35rem;
+    height: 0.35rem;
+    margin-left: 0.2rem;
+}
+.fourpoints .head .four-target,.tracks .head .four-target{
+    float: inherit!important;
+}
+.newSlide{
+    width: 2.4rem!important;
+    height: 2.4rem;
+}
+
+/*轨迹*/
+
+.track{
+    width: 3rem;
+    margin-left: 37%;
+}
+.track>span{
+    display: inline-block;
+    width: 0.5rem;
+    height: 2px;
+    background-color: #f8d7d8;
+    margin-right: 3px;
+    margin-bottom: 2%;
+}
+.leaderHead{
+    height: 1rem!important;
+}
+.ledgerTrack{
+    height: 6.2rem;
+    padding: 0px 10px 10px 10px!important;
+}
+.grow-container{
+    height: 5rem;
+}
+.swiper-container .grow-slide img {
+    width: 100%;
+    height: 100%;
+}
+.swiper-container .grow-slide{
+    height: 4.58rem;
+}
+.swiper-container .swiper-slide .bg {
+    position: relative;
+    top: -2px;
+    display: block;
+    background: url(../../images/index/bg.png) no-repeat -2px 0;
+    background-size: 100%;
+    width: 100%;
+    height: 15px;
+}
+/*四个指标*/
+.target-box{
+    margin-bottom: 0.5rem;
+}
+.target-box>p{
+    font-size: 0.4rem;
+    display: inline-block;
+    width: 90%;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.target-display{
+    display: inline-block;
+    width: 9%;
+}
+.target-display .shuliang{
+	font-size:0.4rem;
+	color:#666;
+	
+}
+.target-display
+/*小标题左边的红杠*/
+.ledger .head .title span,.banner .head .title span,.other .head .title span,.newledgers .head .title span,.fourpoints .head .title span,.tracks .head .title span,.modelledgers .head .title span{
+    display: inline-block;
+    width:1px;
+    height:10px;
+    background-color: #cc3e39;
+    margin-right:3px;
+}
+/************************会滑动的台账************************/
+
+
+.banner,.ledger,.other,.newledgers,.fourpoints,.tracks,.modelledgers{
+    padding:10px;
+}
+.banner .head,.ledger .head,.other .head,.newledgers .head,.fourpoints .head,.tracks .head,.modelledgers .head{
+    width: 100%;
+    height: 0.9rem;
+    position: relative;
+    margin-top: 0.1rem;
+}
+.banner .head .title,.ledger .head .title a,.other .head .title,.newledgers .head .title,.fourpoints .head .title,.tracks .head .title,.modelledgers .head .title{
+    color: #333333;
+    font-size: 0.4rem;
+    font-weight: bolder;
+    float: left;
+}

@@ -1,0 +1,119 @@
+.help_edit{
+	width:100%;
+	position:absolute;
+	top: 64px;left:0;right:0;
+	padding:0.35rem 0;
+	box-sizing:border-box;
+}
+body{
+	background-color:#e4e9ef;
+}
+.page{
+	z-index:100;
+}
+.help_edit .heart{
+	width:100%;height:100%;
+	position:relative;
+}
+.help_edit .heart header{
+	background-color: #fff;
+	font-size:0.38rem;
+	width:100%;
+	height:1rem;
+	line-height:1rem;
+	padding:0 0.35rem;
+	color:#999;
+	margin-bottom:0.3rem;
+}
+.help_edit .heart header>input{
+	border:0;
+	cursor:none;
+	margin-left:0.15rem;
+	width:88%;
+	height:0.8rem;
+	color:#333;
+	font-size:0.36rem;
+}
+.help_edit .words{
+	background-color:#fff;
+	padding:0 0.35rem;
+	margin-bottom:0.6rem;
+	padding-bottom:0.35rem;
+}
+.help_edit .words header{
+	background-color:#fff;
+	line-height:1rem;
+	font-size:0.38rem;
+	color:#999;
+}
+.help_edit .text{
+	width:100%;
+	height:10rem;
+	font-size:0.35rem;
+	line-height:0.5rem;
+	color:#666;
+	overflow:auto;
+	text-indent:0.1rem;
+}
+.help_edit .heart footer{
+	text-align: center;
+}
+.help_edit .heart footer>.tijiao{
+	display:inline-block;
+	width:4rem;
+	height:1rem;
+	line-height:1rem;
+	text-align: center;
+	color:#fff;
+	background-color:#e14b47;
+	font-size:0.35rem;
+	border-radius:1rem;
+	border:0;
+}
+
+.help_edit input::placeholder{
+	color:#999;
+}
+
+
+
+
+
+.apply_right{
+    width: 13%;
+    background: #ce3d3a;
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    top: 35%;
+    right: 0;
+}
+.apply_right>p,.addPicture>p,.addFile>p{
+    color: #fff;
+    font-size: 0.38rem;
+    padding-top: 13%;
+    padding-bottom: 13%;
+
+}
+.addPicture,.addFile{
+    border-top: 1px solid #da807f;
+}
+.apply_right .pictureBox,.apply_right .documentBox{
+    width: 0.8rem;
+    height: 0.9rem;
+    margin: 0.2rem auto 0;
+}
+.apply_right .pictureBox{
+    background: url(../../../images/member_develop/picture.png) no-repeat;
+    background-size: 100%;
+}
+.apply_right .documentBox{
+    background: url(../../../images/member_develop/attach.png) no-repeat;
+    background-size: 100%;
+}
+.apply_right .pictureBox>input,.apply_right .documentBox>input{
+    opacity: 0;
+    width:100%;
+    height:100%;
+}

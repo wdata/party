@@ -1,0 +1,69 @@
+.jia{
+    position:fixed;
+    width:1rem;
+    height:44px;
+    top:20px;
+    right:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#ce3d3a;
+    font-weight:bold;
+}
+.party_spirit{
+    position:relative;
+    padding: 74px 0.35rem 0;
+    font-size:14px;
+    color:#333;
+}
+.heart{
+    position:relative;
+}
+.content{
+    border-bottom:1px solid #eee;
+    min-height:3rem;
+    padding:0.3rem 0;
+    display:flex;
+    width:100%;
+}
+.content .words{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    padding:0 0.2rem 0 0;
+    width:69%;
+}
+.content .words header{
+    font-weight:500;
+    font-size:15px;
+    line-height:0.5rem;
+    color:#333;
+}
+.content .words section{
+    /*text-indent:0.35rem;*/
+    /*overflow:hidden;*/
+    /*text-overflow:ellipsis;*/
+    /*display: -webkit-box;*/
+    /*-webkit-line-clamp: 3;*/
+    /*-webkit-box-orient: vertical;*/
+    word-wrap: break-word;
+    word-break: normal;
+    padding:0.2rem 0.2rem 0.2rem 0;
+    font-size:12px;
+    line-height:0.5rem;
+    color:#666;
+    overflow: hidden;
+    max-height: 3rem;
+    margin-bottom: 0.5rem;
+}
+.content .words footer{
+    color:#999;
+    font-size:12px;
+    /*padding-left:0.35rem;*/
+}
+.content .icon{
+    max-width:2.4rem;
+    height:2.4rem;
+    display:flex;
+}

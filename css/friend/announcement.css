@@ -1,0 +1,45 @@
+.leadership_speak{
+    width:100%;
+    position: absolute;
+    top:64px;left:0;right:0;
+    padding:0 0.35rem 0.35rem;
+}
+.heart{
+    width:100%;
+    position:relative;
+}
+
+.words{
+    line-height:0.55rem;
+    letter-spacing:0.6px;
+}
+.words header{
+    color:#333;
+    font-weight:bold;
+    font-size:0.38rem;
+    margin:0.35rem 0 0.45rem;
+}
+.words p{
+    color:#666;
+    font-size:0.34rem;
+    text-indent:0.5rem;
+    margin:0.2rem 0;
+}
+.words time{
+    color:#999;
+    font-size:0.28rem;
+}
+.words img{
+    max-width:100%;
+    display:block;
+    margin:0.2rem 0;
+}
+.words .nav{
+    margin-bottom:0.2rem;
+    font-size:0.5rem;
+    line-height:0.7rem;
+    text-align: center;
+}
+.words time span:first-child{
+    margin-right:0.1rem;
+}

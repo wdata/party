@@ -1,0 +1,446 @@
+/*重置头部样式*/
+header.head .header {
+    height: 74px;
+    text-align: inherit;
+    font-size: 16px;
+    padding: 20px 10px 0 12%;
+    display: flex;
+    align-items: center;
+    line-height:inherit;
+}
+header.head .header>a {
+    height: 54px;
+}
+header.head .header>a>span {
+    margin-top: 16px;
+}
+
+
+
+/*台账1*/
+body,html{
+    width:100%;
+    height: 100%;
+}
+.ledgee{
+    background-color: #e3e9ef;
+    padding-bottom: 0.4rem;
+    min-height:100%;
+    padding-top:20px;
+}
+.ledgee>.content{
+    position: relative;
+    z-index: 100;
+    height:100%;
+    min-height:10rem;
+}
+/*banner*/
+.banner{
+    width:100%;
+    height: 44px;
+}
+.ledgee .banner .banner_bg{
+    position: relative;
+    top:-74px;
+    width:100%;
+    height:9rem;
+}
+.banner .banner_bg>img{
+    width:100%;
+    height:100%;
+}
+
+/*正文*/
+dl .content{
+    position: relative;
+    z-index: 100;
+    height:100%;
+}
+.content .search{
+    width:80%;
+    margin:3rem auto 0;
+    background-color: rgba(255,255,255,0.84);
+    color:#999999;
+    height:1rem;
+    line-height: 1rem;
+    border-radius: 20px;
+}
+.content .search>input{
+    border:none;
+    padding-left:0.27rem;
+    background-color: transparent;
+    width:85%;
+    margin-right: 0.3rem;
+    /*border-right: 1px solid #c2c2c2;*/
+}
+.content .search>i{
+    display: inline-block;
+    width:0.5rem;
+    height:0.5rem;
+    background: url("../../images/ledger_list/search_red.png")no-repeat 100% 100%;
+    background-size: 100%;
+    vertical-align: middle;
+}
+
+/*导航*/
+.content>.nav{
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    height:1rem;
+    line-height: 1rem;
+    width:95%;
+    margin:0.28rem auto 0;
+}
+.content>.nav>.item{
+    flex:1;
+    color:#ffb6b4;
+    text-align: center;
+}
+.content>.nav>.active,.content>.nav>.screen{
+    color:#ffffff;
+}
+
+.content>.nav>.time>i{
+    display: inline-block;
+    width:0.3rem;
+    height:0.3rem;
+    margin-left:0.2rem;
+    background: url("../../images/ledger_list/time.png") no-repeat 100%;
+    background-size: 100%;
+    vertical-align: middle;
+}
+.content>.nav>.screen>i{
+    display: inline-block;
+    width:0.4rem;
+    height:0.5rem;
+    margin-right:0.1rem;
+    background: url("../../images/ledger_list/screen.png") no-repeat 100%;
+    background-size: 100%;
+    vertical-align: middle;
+}
+.content>.nav>.item>p{
+    width:60%;
+    height:2px;
+    background-color: #ffffff;
+    margin: auto;
+    position: relative;
+    top:-0.09rem;
+}
+/*列表*/
+.list{
+    width:95%;
+    margin: 0 auto;
+    margin-top:1rem;
+}
+.list dl{
+    width:100%;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    padding: 0.27rem;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #ffffff;
+}
+.list dl dt{
+    flex:0 0 2.2rem;
+    padding-right: .21rem;
+    width:2.2rem;
+    height:2.7rem;
+}
+.list dl dt>img{
+    width:100%;
+    height:100%;
+}
+.list dl dd.content{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:2.7rem;
+    width:75%;
+}
+.list dl dd.content>h2{
+    color:#333333;
+    display:block;
+    height:0.9rem;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0.1rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    width: 95%;
+}
+.list dl dd.content>.content{
+    font-size: 12px;
+    color:#999999;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    line-height: 0.6rem;
+    height: 1rem;
+}
+.list dl dd.content>.overview{
+    margin:0.15rem 0;
+    font-size: 10px;
+    height:1.1rem;
+    overflow:hidden;
+}
+.list dl dd.content>.overview>span{
+    display: inline-block;
+    padding:0.12rem;
+    border: 1px solid #e2e2e2;
+    border-radius: 12px;
+    color:#c2c2c2;
+    margin-right: 0.08rem;
+    margin-bottom:0.2rem;
+}
+.list dl dd.content>.overview>i{
+    display: inline-block;
+    width: 0.5rem;
+    height:0.5rem;
+    background: url("../../images/ledger_list/right.png") no-repeat 100%;
+    background-size: 100%;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.list dl dd.content>.overview>i a{
+    display: block;
+    width: 100%;
+    height:100%;
+}
+.list dl dd.content>.foot .foot_title{
+    font-size: 10px;
+}
+.list dl dd.content>.foot .foot_title>span{
+    position: relative;
+    top:-0.2rem;
+    color:#999999;
+}
+.list dl dd.content>.foot .foot_title>i.time{
+    position: absolute;
+    bottom:0.2rem;
+    right:0;
+    color:#c2c2c2;
+}
+.list dl dd.content>.foot .foot_title>img{
+    width:0.6rem;
+    height:0.6rem;
+    border-radius: 50%;
+}
+.list .footer{
+    width:95%;
+    text-align: center;
+    margin:0 auto 0.4rem;
+    background-color: #ffffff;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+}
+.list .footer>div{
+    flex:1;
+    height:1rem;
+    line-height: 1rem;
+    color:#acbac9;
+}
+.list .footer>div>a{
+    color:#acbac9;
+}
+.list .footer>div.active{
+    color:#ce3d39;
+}
+.list .footer>div.collect>i{
+    background: url("../../images/ledger_list/default_star.png") no-repeat 100%;
+    background-size: 100%;
+}
+.list .footer>.collect.active>i{
+    background: url("../../images/ledger_list/star.png") no-repeat 100%;
+    background-size: 100%;
+}
+.list .footer>div.comment>a>i{
+    background: url("../../images/ledger_list/comment.png") no-repeat 100%;
+    background-size: 100%;
+}
+.list .footer>div.like>i{
+    background: url("../../images/ledger_list/default_like.png") no-repeat 100%;
+    background-size: 100%;
+}
+.list .footer>.like.active>i{
+    background: url("../../images/ledger_list/like.png") no-repeat 100%;
+    background-size: 100%;
+}
+.list .footer>div i{
+    display: inline-block;
+    width:0.3rem;
+    height:0.3rem;
+    margin-right: 0.05rem;
+}
+/*发布时间遮罩层*/
+.shade{
+    position: absolute;
+    z-index: 1000;
+    top: 2.28rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(7,17,27,0.8);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+.shade>.content{
+    width: 95%;
+    margin:0 auto;
+    font-size:12px;
+    color:#333333;
+    background-color: #ffffff;
+}
+.shade>.content>li{
+    padding-left:0.4rem;
+    height:1.4rem;
+    line-height: 1.4rem;
+    border-bottom: 1px solid #e2e2e2;
+}
+.shade>.content>li.active{
+    color:#ce3d3a;
+}
+.shade>.content>li.active>i{
+    display: inline-block;
+    width:0.3rem;
+    height:0.3rem;
+    background: url("../../images/ledger_list/choice.png") no-repeat;
+    background-size: 100%;
+    position: relative;
+    right:-5.6rem;
+}
+/*筛选遮罩层*/
+.screen_shade{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(7,17,27,0.8);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+.screen_shade>.content{
+    width:85%;
+    height:100%;
+    float: right;
+    background:url("../../images/ledger_list/shade.png") no-repeat;
+    background-size: cover;
+    color:#ffffff;
+    font-size: 11px;
+}
+.screen_shade>.content>.head{
+    width:100%;
+    height:1rem;
+    line-height:1rem;
+    padding-left:0.26rem;
+    background-color: rgba(0,0,0,0.1);
+    font-size: 13px;
+}
+.screen_shade>.content>.title{
+    font-size:9px;
+    padding:0.27rem 0 0.23rem 0.2rem;
+}
+.screen_shade>.content>.container{
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-wrap: wrap;
+    padding:0 0.2rem;
+}
+.screen_shade>.content>.container>.item{
+    width:30%;
+    border-radius: 3px;
+    padding:0.3rem 0;
+    background-color: rgba(255,152,150,0.2);
+    margin:0 0.2rem 0.2rem 0;
+    text-align: center;
+}
+.screen_shade>.content>.container>.active{
+    background-color: rgba(0,0,0,0.1);
+}
+.screen_shade>.content>.foot{
+    padding:0.26rem 0.2rem 0 0.2rem;
+}
+.screen_shade>.content>.foot>.title{
+    font-size:9px;
+    padding-bottom: 0.23rem;
+}
+.screen_shade>.content>.foot>.container{
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+.screen_shade>.content>.foot>.container>i{
+    margin:0.3rem 0.2rem;
+}
+.screen_shade>.content>.foot>.container>label{
+    flex:1;
+    display: inline-block;
+    height:1rem;
+    line-height: 1rem;
+    background-color: rgba(255,152,150,0.2);
+    color:#ffffff;
+}
+.screen_shade>.content>.foot>.container>label>input{
+    border: none;
+    background-color: transparent;
+    color:#ffffff;
+    width: 80%;
+    padding-left:0.1rem;
+}
+.screen_shade>.content>.foot>.container>label>i{
+    display: inline-block;
+    width:0.3rem;
+    height:0.3rem;
+    background: url("../../images/ledger_list/date.png") no-repeat;
+    background-size: 100%;
+}
+.screen_shade>.content>footer{
+    width:85%;
+    position: fixed;
+    bottom: 0;
+    right:0;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+.screen_shade>.content>footer>div{
+    flex:1;
+    text-align: center;
+    height:1rem;
+    line-height: 1rem;
+}
+.screen_shade>.content>footer>.reset{
+    background: -webkit-linear-gradient(left,#ffa313, #ff7f02); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right,#ffa313, #ff7f02); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right,#ffa313, #ff7f02); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right,#ffa313, #ff7f02); /* 标准的语法 */
+}
+.screen_shade>.content>footer>.save{
+    background: -webkit-linear-gradient(left,#ea5e27, #ce3d3a); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right,#ea5e27, #ce3d3a); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right,#ea5e27, #ce3d3a); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right,#ea5e27, #ce3d3a);
+}
+
+.nothing{
+    width:3rem;
+    height: 2.8rem;
+    position:absolute;
+    bottom:1rem;
+    left:3.5rem;
+    background-image:url("../../images/ledger_list/kong.png");
+    background-size:100% 100%;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.nothing-text{
+    margin-bottom:-0.7rem;
+    font-size:16px;
+    color:#999;
+}

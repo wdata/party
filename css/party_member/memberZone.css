@@ -1,0 +1,94 @@
+/*banner广告区*/
+.banner{
+    padding:10px;
+}
+.banner .head{
+    width:100%;
+    height:0.9rem;
+    position: relative;
+}
+.banner .head .title{
+    font-size: 14px;
+    float: left;
+}
+.banner .head .title span{
+    display: inline-block;
+    width:1px;
+    height:10px;
+    background-color: #cc3e39;
+    margin-right:3px;
+}
+.banner .head .title>b{
+    font-weight: bold;
+    color:#333333;
+}
+.banner .head .right{
+    float: right;
+    width:0.5rem;
+    height:0.5rem;
+    background: url(../../images/branch/right.png) no-repeat 100%;
+    background-size: 100%;
+}
+.banner_content .banner_img{
+    width:25%;
+    float: left;
+}
+.swiper-container .swiper-slide .swiper_img{
+    width:1.7rem;
+    height:1.7rem;
+
+}
+.swiper-container .swiper-slide p{
+    text-align: center;
+    font-size:9px;
+    padding-top:10px;
+    color:#666666;
+}
+.swiper-container .swiper-slide>p>span{
+    display: block;
+    padding-top:4px;
+}
+.newledgers .head .search{
+    float: right;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: url(../../images/branch/search@2x.png) no-repeat;
+    background-size: 100%;
+}
+.newledgers .head .search img{
+    width:100%;
+    height:100%;
+}
+/*轨迹图片底部*/
+.growBottom{
+    width: 93%;
+    margin: 0 auto;
+    margin-left: 3.5%;
+}
+.modelledgers  .swiper-slide a,.modelledgers  .swiper-slide a img{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.newledgers  .swiper-slide a,.newledgers  .swiper-slide a img{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.member_track img{
+    width:100%;
+    height:4.5rem;
+}
+
+.target-box{
+    display:flex;
+    justify-content:space-between;
+}
+
+.target-display{
+    width:11%;
+}
+.target-display a{
+    display:flex;
+    justify-content:space-between;
+}

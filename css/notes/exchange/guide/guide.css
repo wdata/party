@@ -1,0 +1,98 @@
+body{
+    background-color:#e3e9ef ;
+    height: auto;
+}
+.guide{
+    padding-top:64px;
+}
+.ledger{
+    width:95%;
+    height:100%;
+    margin: 0 auto;
+    position: relative;
+}
+.ledger dl{
+    width:100%;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    padding: 0.27rem;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #ffffff;
+}
+.ledger dl:first-child{
+    margin-top:0.5rem;
+}
+.ledger dl dt{
+    flex:0 0 1.7rem;
+    padding-right: 0.21rem;
+}
+.ledger dl dt>img{
+    width:100%;
+    border-radius: 3px;
+}
+.ledger dl dd.content{
+    width:78%;
+}
+.ledger dl dd.content h2{
+    color:#333333;
+    font-size: 14px;
+    margin-bottom: 0.2rem;
+}
+.ledger dl dd.content .content{
+    font-size: 12px;
+    color:#999999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 0.2rem;
+}
+.ledger dl dd.content .foot .foot_title>i.time{
+    color:#c2c2c2;
+    margin-top:0.1rem;
+}
+.ledger>.footer{
+    width:95%;
+    text-align: center;
+    margin:0 auto 0.4rem;
+    background-color: #ffffff;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+}
+.ledger>.footer>div{
+    flex:1;
+    height:1rem;
+    line-height: 1rem;
+    color:#acbac9;
+}
+.ledger>.footer>div>a{
+    color:#acbac9;
+}
+.ledger>.footer>div.active{
+    color:#ce3d39;
+}
+.ledger>.footer>div.collect>i{
+    background: url("../../../../images/ledger_list/default_star.png") no-repeat 100%;
+    background-size: 100%;
+}
+.ledger>.footer>.collect.active>i{
+    background: url("../../../../images/ledger_list/star.png") no-repeat 100%;
+    background-size: 100%;
+}
+.ledger>.footer>div.comment>a>i{
+    background: url("../../../../images/ledger_list/comment.png") no-repeat 100%;
+    background-size: 100%;
+}
+.ledger>.footer>div.like>i{
+    background: url("../../../../images/ledger_list/default_like.png") no-repeat 100%;
+    background-size: 100%;
+}
+.ledger>.footer>.like.active>i{
+    background: url("../../../../images/ledger_list/like.png") no-repeat 100%;
+    background-size: 100%;
+}
+.ledger>.footer>div i{
+    display: inline-block;
+    width:0.3rem;
+    height:0.3rem;
+    margin-right: 0.05rem;
+}

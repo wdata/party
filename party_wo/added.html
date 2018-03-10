@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>新增党性</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="flexible" content="initial-dpr=2"/>
+    <link rel="stylesheet" href="../plugin/flexible/flexible.css">
+    <script src="../plugin/flexible/flexible.js"></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../plugin/dialog/dialog.css">
+    <link rel="stylesheet" type="text/css" href="../css/general/general_header.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/party_wo/added.css"/>
+</head>
+
+<body>
+<div class="page">
+    <header class="head">
+        <div class="header"><span>新增党性</span><a href="party_spirit.html"><span></span></a></div>
+    </header>
+</div>
+<div class="added">
+    <div class="heart">
+        <form id="added">
+            <header><span>标题</span><input type="text" name="title" class="title" placeholder="请输入报告标题"></header>
+            <input type="text" id="content" class="hide" name="content">
+            <div class="content">
+                <header>正文</header>
+                <div class="words" contenteditable="true" aria-label="请输入正文"></div>
+                <div class="parice">
+                    <div class="parice-img">
+                        <img class="tianjia" src="../images/party_wo/addprice.png" alt="">
+                        <div class="parice-text">添加图片</div>
+                        <input class="shangchuan"  name="file" type="file" accept="image/*;capture=camera" onchange="imgSizeCheck(this)">
+                    </div>
+                    <div class="show"><img src="" alt=""></div>
+                </div>
+            </div>
+            <div class="add" onclick="add()">提交</div>
+        </form>
+    </div>
+</div>
+<script src="../plugin/zepto/zepto.js"></script>
+<script src="../plugin/zepto/event.js"></script>
+<script src="../plugin/zepto/touch.js"></script>
+<script src="../plugin/dialog/dialog.js"></script>
+<script src="../plugin/cookie/zepto.cookie.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/party_wo/added.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

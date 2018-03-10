@@ -1,0 +1,78 @@
+/*------------------------------------------内容项------------------------------------*/
+.rating {
+	width: 100%;
+	min-height: 100%;
+	box-sizing: border-box;
+	position: absolute;
+	top: 64px;
+	left: 0;
+	right: 0;
+	padding: 0.45rem 0.3rem;
+	background-color: #e3eaef;
+}
+
+.heart {
+	width: 100%;
+	height: 100%;
+	padding: 0.25rem;
+	background-color: #fff;
+}
+
+.rating a {
+	position: relative;
+	width: 100%;
+	display: block;
+}
+
+.rating dt a {
+	margin-bottom: 0.25rem;
+}
+
+.rating dt img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.rating dt a>div {
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	padding-left: 0.3rem;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 999;
+	font-size: 0.35rem;
+}
+
+.rating dd a {
+	width: 100%;
+	height: 2rem;
+	line-height: 0.6rem;
+	padding: 0.35rem 0;
+	border-top: 1px solid #E2E2E2;
+	padding-right: 2rem;
+	font-size: 0.37rem;
+	color:#333;
+}
+
+.rating dd a>div {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.rating dd a img {
+	height: 1.5rem;
+	width: 1.5rem;
+	float: right;
+	position: absolute;
+	top: 0.25rem;
+	right: 0;
+}

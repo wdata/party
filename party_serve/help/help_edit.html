@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>党员服务</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<meta name="flexible" content="initial-dpr=2" />
+		<link rel="stylesheet" href="../../plugin/flexible/flexible.css">
+		<script src="../../plugin/flexible/flexible.js"></script>
+		<link rel="stylesheet" href="../../css/reset.css">
+		<link rel="stylesheet" href="../../plugin/dialog/dialog.css">
+		<link rel="stylesheet" type="text/css" href="../../css/general/general_header.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/party_serve/help/help_edit.css" />
+	</head>
+
+	<body>
+
+		<div class="page">
+			<header class="head">
+				<div class="header"><span>我的困难</span>
+					<a href="help.html?hide=1"><span></span></a>
+				</div>
+			</header>
+		</div>
+		<div class="help_edit">
+			<div class="heart">
+				<form id = 'added'>
+					<header>标题<input type="text" class="title" name="title" placeholder="请输入标题" value="" maxlength="37" /></header>
+					<div class="words">
+						<header>正文</header>
+						<div class="text" id="text" contentEditable="true">请输入内容</div>
+						<input type="text" class="hide" id="content" name="content">
+						<div class="apply_right">
+							<p>添加</p>
+							<div class="addPicture">
+								<div class="pictureBox">
+									<input required type="file" name="file" id="img_file" accept="image/*;capture=camera" class="upload fl pr" onchange="imgSizeCheck(this)">
+								</div>
+								<p>图片</p>
+							</div>
+						</div>
+					</div>
+					<footer>
+						<div class="tijiao"  onclick="add()">提交</div>
+					</footer>
+				</form>
+			</div>
+		</div>
+		<script src="../../plugin/zepto/zepto.js"></script>
+		<script src="../../plugin/zepto/event.js"></script>
+		<script src="../../plugin/zepto/touch.js"></script>
+		<script src="../../plugin/dialog/dialog.js"></script>
+		<script src="../../plugin/cookie/zepto.cookie.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../js/party_serve/help/help_edit.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

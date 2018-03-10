@@ -1,0 +1,107 @@
+a{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+}
+.md_panel {
+    -moz-transition: -moz-transform .3s ease-in-out 0s;
+    -ms-transition: -ms-transform .3s ease-in-out 0s;
+    -webkit-transition: -webkit-transform .3s ease-in-out 0s;
+    -o-transition: -o-transform .3s ease-in-out 0s;
+    transition: transform .3s ease-in-out 0s;
+    -ms-transform: translate3d(0,100%,0);
+    -moz-transform: translate3d(0,100%,0);
+    -webkit-transform: translate3d(0,100%,0);
+    -o-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+    position: absolute;
+    top: 0;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+    z-index: 11;
+    background-color: #F7F7F7;
+    font-family: Tahoma,arial,verdana,sans-serif;
+    -webkit-user-select : none;
+}
+.md_panel.show{
+    -ms-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.md_panel a{
+    text-decoration: none;
+}
+.md_selectarea{
+    flex: 1;
+    color:#ce3d3a;
+    font-size: 14px;
+    padding-left:0.26rem;
+}
+.md_selectarea>a{
+    margin-left:0.26rem;
+}
+.md_head{
+    height:1.5rem;
+    line-height: 1.5rem;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+}
+
+.md_headtext{
+    flex: 1;
+    color:#ce3d3a;
+    font-size: 14px;
+}
+.md_head .btn{
+    flex: 1;
+    text-align: right;
+    margin-right: 0.2rem;
+}
+.btn>.unfinished{
+    float: right;
+    height:0.7rem;
+    line-height:0.7rem;
+    text-align: left;
+    background-color: #e4e4ea;
+    color:#9f9fb3;
+    border: 1px solid #d1d1d9;
+    border-radius: 3px;
+    margin-top:0.35rem;
+}
+.btn>.unfinished>span{
+    margin:0.1rem;
+}
+.btn>.unfinished i{
+    float: right;
+    display: inline-block;
+    width:0.7rem;
+    height:0.7rem;
+    background: url("../../images/inform/cut%20.png") no-repeat 100%;
+    background-size: 100% ;
+    position: relative;
+    top:-1px;
+    border-radius:3px;
+}
+.btn>.finished i{
+    float: left;
+}
+ .md_prev, .md_next{
+     display: inline-block;
+     width:0.2rem;
+     height:0.2rem;
+}
+.md_prev{
+    position: relative;
+    top: -0.053rem;
+    background: url("../../images/inform/left.png") no-repeat;
+    background-size: 100% 100%;
+}
+.md_next{
+    background: url("../../images/inform/right.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    top:-0.053rem;
+}
+

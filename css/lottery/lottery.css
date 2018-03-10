@@ -1,0 +1,143 @@
+/*-------------------顶部和初始化-----------*/
+
+.lottery,
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+
+.lottery .heart {
+	width: 100%;
+	height: 100%;
+	background-color:#fafafa;
+}
+
+/*--------------------------头部图片-------------*/
+.lottery header img{
+	width:100%;
+	display: block;
+}
+/*--------------------------中部抽奖图片-------------*/
+.lottery .lottery-area {
+	width:100%;
+}
+.lottery .lottery-area ul{
+	width:100%;
+	display: flex;
+  	flex-wrap:wrap;
+  	padding:0.6rem 0.3rem;
+}
+.lottery .lottery-area ul li{
+	width:29.7%;
+	margin-right:0.5rem;
+	margin-bottom:0.5rem;
+}
+.lottery .lottery-area ul li:nth-child(3n){
+	margin-right:0;
+}
+.lottery .lottery-area ul img{
+	width:100%;
+}
+.lottery .lottery-area .has-been-opened {
+	position:relative;
+}
+.lottery .lottery-area .has-been-opened .text{
+	width:100%;
+	position: absolute;
+	top:50%;
+	left:28%;
+	color:#743b1c;
+	font-size:0.7rem;
+	margin:-0.3rem 0 0 -0.75rem;
+	text-align: center;
+}
+
+.lottery .lottery-area .return{
+	width:3.4rem;
+	height:1.2rem;
+	line-height:1.2rem;
+	text-align:center;
+	background-color:#CE3A3D;
+	color:#fff;
+	font-size:0.36rem;
+	display: block;
+	margin:0 auto;
+}
+
+/*--------------------------点击出现中奖图片-------------*/
+.remind{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(7,17,27,0.8);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    display:none;
+}
+.remind .jiang{
+	width:100%;
+	height:68%;
+	background-image:url(../../images/lottery/guang.png);
+	background-size: cover;
+	position: absolute;
+	top:7%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.remind .jiang-heart{
+	width:55%;
+	position: relative;
+	top:0.5rem;
+}
+.remind .jiang-heart>div{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+
+.remind .jiang img{
+	width:100%;
+	height:100%;
+	display: block;
+}
+.remind .jiang .text{
+	width: 100%;
+	color:#fed639;
+	position:absolute;
+	margin:0 auto;
+	top:71.5%;
+	font-size:0.32rem;
+}
+.remind .jiang .text p:first-child{
+	margin-bottom:0.25rem;
+	display: block;
+	text-align: center;
+}
+
+.remind .jiang .text p:last-child{
+	color:#f13333;
+	text-align: center;
+	
+}
+.remind .jiang .zhidao{
+	display:block;
+	width:55%;
+	height:1rem;
+	line-height:1rem;
+	border-radius:1rem;
+	background-color:#CE3A3D;
+	text-align:center;
+	bottom:5%;
+	color:#fff;
+	font-size:0.45rem;
+	position: relative;
+	top:2rem;
+}

@@ -1,0 +1,140 @@
+.test{
+	width:100%;
+	min-height:93%;
+	position: absolute;
+	top: 64px;left:0;right:0;
+	padding:0.35rem;
+	background-color:#E3E9EF;
+	box-sizing:border-box;
+}
+.heart{
+	width:100%;
+	position:relative;
+}
+.heart>header{
+	padding:0.1rem;
+	display:flex;
+	margin-bottom:0.35rem;
+}
+.heart>header a{
+	display:block;
+	width:2.2rem;
+	height:1rem;
+	line-height:1rem;
+	text-align:center;
+	font-size:0.35rem;
+	color:#999;
+	border:1px solid #999;
+	box-sizing:border-box;
+	margin-right:0.5rem;
+}
+/*------------------切换样式---------*/
+/*·······头部真题学习和微型测试·······*/
+.heart .switch{
+	color:#CE3D3A;
+	border-color:#CE3D3A;
+}
+/*·······微型测试剩余时间·······*/
+.small-test ul li .expired{
+	color:#E2E2E2;
+}
+
+/*--------------真题学习-------------*/
+.zhenti-test{
+	background-color:#fff;
+	width:100%;
+	padding:0.2rem;
+}
+.zhenti-test li{
+	width:100%;
+	height:1.7rem;
+	border-bottom:1px solid #E2E2E2;
+}
+.zhenti-test li:last-child{
+	border-bottom:0;
+}
+.zhenti-test li a{
+	display:block;
+	width:100%;
+	height:100%;
+	display:flex;
+	flex-direction: column;
+ 	justify-content: space-between;
+	position:relative;
+	padding:0.35rem 0.2rem 0.35rem 0.5rem;
+}
+.zhenti-test li a header{
+	font-size:0.4rem;
+	color:#333;
+}
+.zhenti-test li a header i{
+	width:0.15rem;
+	height:0.15rem;
+	position:absolute;
+	top:0.4rem;
+	left:0.15rem;
+	background-color:#CE3D3A;
+	border-radius:50%;
+	overflow:hidden;
+	display:block;
+}
+.zhenti-test li a div{
+	color:#999;
+	font-size:0.33rem;
+	display: flex;
+	justify-content:space-between;
+}
+
+/*--------------微型测试-------------*/
+.small-test{
+	width:100%;
+}
+.small-test li{
+	width:100%;
+	height:1.7rem;
+	background-color:#fff;
+	padding:0.2rem 2.5rem 0.2rem 0.2rem;
+	margin-bottom:0.35rem;
+	position:relative;
+}
+.small-test li:last-child{
+	border-bottom:0;
+}
+.small-test li a{
+	display:block;
+	width:100%;
+	height:100%;
+	display:flex;
+	justify-content:space-around;
+	flex-direction:column;
+}
+.small-test a header{
+	font-size:0.44rem;
+	color:#333;
+}
+.small-test a .time{
+	color:#999;
+	font-size:0.28rem;
+}
+.small-test a .time .release{
+	margin-right:0.15rem;
+}
+.small-test a .time-left{
+	color:#ce3d3a;
+	font-size:0.28rem;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	padding:0.2rem 0.2rem 0.2rem 0;
+	display:flex;
+	justify-content:space-around;
+	flex-direction:column;
+}
+.small-test a .time-left p:first-child{
+	text-align:end;
+}
+.small-test a .time-left p .date{
+	font-size:0.6rem;
+	margin-right:0.2rem;
+}

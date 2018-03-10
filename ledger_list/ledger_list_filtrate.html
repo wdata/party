@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta>
+    <title>台账列表2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="flexible" content="initial-dpr=2" />
+    <link rel="stylesheet" href="../plugin/flexible/flexible.css">
+    <script src="../plugin/flexible/flexible.js"></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <!--日期插件样式更换-->
+    <link rel="stylesheet" href="../plugin/date/calendar.css">
+    <link rel="stylesheet" href="../css/ledger_list/ledger_list.css">
+    <link rel="stylesheet" href="../css/ledger_list/ledger_list_filtrate.css">
+
+</head>
+<body>
+<div class="page">
+    <div class="banner">
+        <div class="title"><i onclick="history.go(-1);"></i>台账搜索</div>
+        <div class="banner_bg"><img src="../images/ledger_list/bg.png" alt=""></div>
+    </div>
+    <div class="content">
+        <div class="inputBox">
+            <div class="choose1">
+                <div class="chooseDate" id="calender">
+                    <!--日期模板更换-->
+                    <input type="datetime"  onfocus="blur()" class="calendars star" placeholder="请选择日期"  min-date="2014-05-10" max-date="2018-06-1" format="yyyy-MM-dd"  readonly="readonly">
+                    <i></i>
+                </div>
+                <div class="chooseParty">
+                    <span class="choosegroup_span">请选择党组</span>
+                    <i></i>
+                </div>
+            </div>
+            <div class="choose2">
+                <div class="chooseTag">
+                    <span class="choosetag_span">请选择标签</span>
+                    <i></i>
+                </div>
+                <div class="chooseSpecify">
+                    <span class="chooseSpecify_span">请选择规定或创新</span>
+                    <i></i>
+                </div>
+            </div>
+            <button>查询</button>
+        </div>
+        <nav class="nav">
+            <p class="pointDes"></p>
+            <div class="pointBox">
+                <span class="pointOne point">指标一</span>
+                <span class="pointTwo point">指标二</span>
+                <span class="pointThree point">指标三</span>
+                <span class="pointFour point">指标四</span>
+            </div>
+        </nav>
+        <!--指标1列表-->
+        <div class="list1 list show">
+            <dl>
+                <dt><img src="../images/ledger_list/ledger1.png"></dt>
+                <dd class="content">
+                    <div class="tag1">
+                        <img src="../images/ledger_list/1.png" alt="标签1">
+                    </div>
+                    <h2>指示1优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/ledger_list/ledger2.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger3.png"></dt>
+                <dd class="content">
+                    <div class="tag2">
+                        <img src="../images/ledger_list/2.png" alt="标签2">
+                    </div>
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger4.png"></dt>
+                <dd class="content">
+                    <div class="tag3">
+                        <img src="../images/ledger_list/3.png" alt="标签3">
+                    </div>
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger1.png"></dt>
+                <dd class="content">
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger2.png"></dt>
+                <dd class="content">
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger3.png"></dt>
+                <dd class="content">
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">2017.3.28&nbsp&nbsp12:50</i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+        </div>
+        <!--指标2列表-->
+        <div class="list2 list">
+            <dl>
+                <dt><img src="../images/ledger_list/ledger1.png"></dt>
+                <dd class="content">
+                    <div class="tag1">
+                        <img src="../images/ledger_list/1.png" alt="标签1">
+                    </div>
+                    <h2>指标2优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/ledger_list/ledger2.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger3.png"></dt>
+                <dd class="content">
+                    <div class="tag2">
+                        <img src="../images/ledger_list/2.png" alt="标签2">
+                    </div>
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger4.png"></dt>
+                <dd class="content">
+                    <div class="tag3">
+                        <img src="../images/ledger_list/3.png" alt="标签3">
+                    </div>
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger1.png"></dt>
+                <dd class="content">
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger2.png"></dt>
+                <dd class="content">
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger3.png"></dt>
+                <dd class="content">
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">2017.3.28&nbsp&nbsp12:50</i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+        </div>
+        <!--指标3列表-->
+        <div class="list3 list">
+            <dl>
+                <dt><img src="../images/ledger_list/ledger1.png"></dt>
+                <dd class="content">
+                    <div class="tag1">
+                        <img src="../images/ledger_list/1.png" alt="标签1">
+                    </div>
+                    <h2>指标3优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/ledger_list/ledger2.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger3.png"></dt>
+                <dd class="content">
+                    <div class="tag2">
+                        <img src="../images/ledger_list/2.png" alt="标签2">
+                    </div>
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger4.png"></dt>
+                <dd class="content">
+                    <div class="tag3">
+                        <img src="../images/ledger_list/3.png" alt="标签3">
+                    </div>
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger1.png"></dt>
+                <dd class="content">
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger2.png"></dt>
+                <dd class="content">
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger3.png"></dt>
+                <dd class="content">
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">2017.3.28&nbsp&nbsp12:50</i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+        </div>
+        <!--指标4列表-->
+        <div class="list4 list">
+            <dl>
+                <dt><img src="../images/ledger_list/ledger1.png"></dt>
+                <dd class="content">
+                    <div class="tag1">
+                        <img src="../images/ledger_list/1.png" alt="标签1">
+                    </div>
+                    <h2>指示4优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/ledger_list/ledger2.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger3.png"></dt>
+                <dd class="content">
+                    <div class="tag2">
+                        <img src="../images/ledger_list/2.png" alt="标签2">
+                    </div>
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger4.png"></dt>
+                <dd class="content">
+                    <div class="tag3">
+                        <img src="../images/ledger_list/3.png" alt="标签3">
+                    </div>
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger1.png"></dt>
+                <dd class="content">
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger2.png"></dt>
+                <dd class="content">
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">
+                                2017.3.28&nbsp&nbsp12:50
+                            </i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+
+            <dl>
+                <dt><img src="../images/ledger_list/ledger3.png"></dt>
+                <dd class="content">
+                    <h2>优秀党员的五个标尺</h2>
+                    <div class="content">合格的党员的厚度如何，五种标尺多思量</div>
+                    <div class="overview">
+                        <span>主体责任落实</span>
+                        <span>干部关爱</span>
+                        <span>廉政谈话</span>
+                        <i></i>
+                    </div>
+                    <div class="foot">
+                        <div class="foot_title">
+                            <img src="../images/test/wsx.png" alt="">
+                            <span class="name">纪宗靖</span>
+                            <span class="position">组织委员</span>
+                            <i class="time">2017.3.28&nbsp&nbsp12:50</i>
+                        </div>
+
+                    </div>
+                </dd>
+            </dl>
+            <div class="footer">
+                <div class="collect active"><i></i>收藏(<span>800</span>)</div>
+                <div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>
+                <div class="like active"><i></i>点赞(<span>500</span>)</div>
+            </div>
+        </div>
+        <!--选择党组弹出层-->
+        <div class="blackgroup_box">
+            <div class="blackgroup_content">
+                <h3 class="group_h3">请选择党组</h3>
+                <div class="group_content">
+                    <div class="group_classify">
+                        <p>
+                            <span>市局党组</span>
+                            <span>横琴区局党组</span>
+                            <span>稽查系统班子</span>
+                        </p>
+                        <p>
+                            <span>车购税班子</span>
+                            <span>直属分局班子</span>
+                            <span>香港区局党组</span>
+                        </p>
+                        <p>
+                            <span>斗门区局党组</span>
+                            <span>金湾区局党组</span>
+                            <span>保税区局党组</span>
+                        </p>
+                        <p>
+                            <span>万山区局党组</span>
+                            <span>高栏岗区局党组</span>
+                        </p>
+                        <p>
+                            <span>高新技术开发区局党组</span>
+                            <span>珠澳跨境工业区党组</span>
+                        </p>
+                    </div>
+                    <div class="group_submit">
+                        <button type="reset"  class="group_cancle">取消</button>
+                        <button type="submit" class="group_sure">确定</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--选择标签弹出层-->
+        <div class="blacktag_box">
+            <div class="blacktag_content">
+                <h3 class="tag_h3">请选择标签</h3>
+                <div class="tag_content">
+                    <div class="tag_classify">
+                        <p>
+                            <span>主体责任落实</span>
+                            <span>民主（组织）生活会</span>
+                        </p>
+                        <p>
+                            <span>中心组学习</span>
+                            <span>下抓两级机制落实</span>
+                            <span>监督执纪</span>
+                        </p>
+                        <p>
+                            <span>入党思想心得</span>
+                            <span>日常学习心得</span>
+                            <span>品牌创新</span>
+                        </p>
+                        <p>
+                            <span>干部关爱</span>
+                            <span>文明创新</span>
+                            <span>三会一课</span>
+                            <span>廉政谈话</span>
+                        </p>
+                        <p>
+                            <span>其他类别</span>
+                        </p>
+                    </div>
+                    <div class="tag_submit">
+                        <button type="reset" class="tag_cancle">取消</button>
+                        <button type="submit" class="tag_sure">确定</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--请选择规定或创新-->
+        <div class="blackspec_box">
+            <div class="blackspec_content">
+                <h3 class="spec_h3">请选择</h3>
+                <div class="spec_content">
+                    <div class="spec_classify">
+                        <p>规定动作</p>
+                        <p>创新动作</p>
+                    </div>
+                    <div class="spec_submit">
+                        <button type="reset" class="spec_cancle">取消</button>
+                        <button type="submit" class="spec_sure">确定</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../plugin/zepto/zepto.js"></script>
+<!--日期插件更换-->
+<script src="../plugin/date/calendar.js"></script>
+<script src="../plugin/zepto/event.js"></script>
+<script src="../js/ledger_list/ledger_list_filtrate.js"></script>
+</body>
+</html>

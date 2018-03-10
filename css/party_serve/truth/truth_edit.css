@@ -1,0 +1,75 @@
+.page{
+	z-index:101;
+}
+.truth_edit{
+	width:100%;
+	position:absolute;
+	top: 64px;left:0;right:0;
+	padding:0.35rem 0;
+	box-sizing:border-box;
+}
+body{
+	background-color:#e4e9ef;
+}
+.truth_edit .heart{
+	width:100%;height:100%;
+	position:relative;
+}
+.truth_edit .heart>header{
+	background-color: #fff;
+	font-size:0.38rem;
+	width:100%;
+	height:1rem;
+	line-height:1rem;
+	padding:0 0.35rem;
+	color:#999;
+	margin-bottom:0.3rem;
+}
+.truth_edit .heart>header>input{
+	border:0;
+	cursor:none;
+	margin-left:0.15rem;
+	width:88%;
+	height:0.8rem;
+	color:#333;
+	font-size:0.36rem;
+}
+.truth_edit .words{
+	background-color:#fff;
+	padding:0 0.35rem;
+	margin-bottom:0.6rem;
+	padding-bottom:0.35rem;
+	position: relative;
+}
+.truth_edit .words>header{
+	background-color:#fff;
+	line-height:1rem;
+	font-size:0.38rem;
+	color:#999;
+}
+.truth_edit .text{
+	width:100%;
+	height:10rem;
+	font-size:0.35rem;
+	line-height:0.5rem;
+	color:#666;
+	overflow:auto;
+	text-indent:0.1rem;
+}
+.truth_edit .heart>footer{
+	text-align: center;
+}
+.truth_edit .heart>footer>a{
+	display:inline-block;
+	width:4rem;
+	height:1rem;
+	line-height:1rem;
+	text-align: center;
+	color:#fff;
+	background-color:#e14b47;
+	font-size:0.35rem;
+	border-radius:1rem;
+}
+.truth_edit input::placeholder{
+	color:#999;
+}

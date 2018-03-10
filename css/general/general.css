@@ -1,0 +1,84 @@
+
+/*-----------------------------------------一级页面的头部和底部---------------------------------------------*/
+body,html{
+	width:100%;
+	height:100%;
+}
+
+/*头部*/
+.head_title{
+	width:100%;
+    height:64px;
+    line-height: 44px;
+    background-color: #CE3D3A;
+    text-align:center;
+    color:#fff;
+    font-size:16px;
+	padding-top:20px;
+	position: fixed;
+	top:0;
+	z-index:1001;
+}
+/***********************去签到*******************************/
+header.head .sign{
+    position:absolute;
+	top: 80px;
+    right:0.3rem;
+    width:1.4111rem;
+    height:0.45rem;
+    display: block;
+}
+header.head  .sign img{
+    width:1.3rem;
+    height:0.585rem;
+}
+/***********************底部导航---通用*******************************/
+.navigation{
+	width:100%;
+	height:1.2rem;
+	display:flex;
+	position:fixed;
+	bottom:0;
+	right:0;
+	left:0;
+	background-color:#fafafa;
+	border-top:1px solid #eee;
+	color:#999;
+	z-index:9999;
+}
+.navigation a{
+	display:block;
+	flex:1;
+	text-align:center;
+	color:#000;
+	font-size:0.3rem;
+}
+.navigation .navColor{
+	color:#ce3d3a;
+}
+.navigation .footer_logo{
+	width:0.5rem;
+	height:0.5rem;
+	margin:0.1rem auto;
+	position:relative;
+}
+.navigation img{
+	width:0.5rem;
+	height:0.5rem;
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+}
+
+
+/*为不修改原css,好移植*/
+/*活动*/
+.activity-index{
+	margin-bottom:1.2rem;
+}
+/*学习*/
+.exchange,.content{
+	margin-bottom:1.2rem;
+}

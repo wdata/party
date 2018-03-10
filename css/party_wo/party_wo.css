@@ -1,0 +1,140 @@
+body{
+    background-color:#ededf1;
+}
+/*-------------------------------头部  我的头像和名字--------------------------------------------*/
+.party-wo{
+    position:absolute;
+    top:64px;
+    right:0;
+    left:0;
+    bottom:0;
+    background-color:#F0EFF4;
+}
+.heart{
+    position:relative;
+}
+
+/*背景图片*/
+.back-price{
+    width:100%;
+    height:4rem;
+    display:block;
+}
+/*头部个人空间*/
+.party-wo .con{
+    width:93%;
+    position:absolute;
+    top:61.5%;
+    left:3.5%;
+}
+.party-wo header {
+    width:100%;
+    position:relative;
+    margin-bottom:0.35rem;
+    background-color:#fff;
+}
+.party-wo header .personal{
+    width:100%;
+    padding:0 0 0 0.35rem;
+}
+.party-wo header .personal a{
+    width:100%;
+    height:100%;
+    text-align:center;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.party-wo header .logo{
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius:50%;
+    margin:0.35rem 0;
+}
+.party-wo header .name{
+    font-size:14px;
+    color:#333;
+    flex:1;
+    height:100%;
+    text-align:left;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-left:0.35rem;
+}
+.party-wo header .name p{
+    color:#999;
+    margin-top:0.2rem;
+}
+.party-wo header .geren{
+    height:0.8rem;
+    line-height:0.8rem;
+    width:2rem;
+    color:#fff;
+    background-color:#ce3d3a;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    font-size:12px;
+}
+/*-------------------------------中部4个跳转--------------------------------------------*/
+.party-wo .mian{
+    display:flex;
+    border-top:1px solid #e2e2e2;
+    margin:0 0.35rem;
+}
+.party-wo .mian a{
+    flex:1;
+    padding:0.35rem;
+    background-color:#fff;
+}
+.party-wo .mian a .icon{
+    width:0.6rem;
+    height:0.6rem;
+    display:block;
+    margin:0 auto;
+    margin-bottom:0.35rem;
+}
+.party-wo .mian a .par{
+    color:#333;
+    font-size:12px;
+    text-align:center;
+    line-height: 0.5rem;
+}
+/*-------------------------------底部 四个跳转-------------------------------------------*/
+.party-wo footer{
+    background-color:#fff;
+    padding:0 0.35rem;
+    margin-top:0.35rem;
+}
+.party-wo footer .content a{
+    width:100%;
+    height:1.4rem;
+    line-height:1.4rem;
+    color:#333;
+    font-size:14px;
+    border-bottom:1px solid #eee;
+    position:relative;
+    display:flex;
+    align-items:center;
+    padding:0.1rem;
+}
+.party-wo footer .content a:last-child{
+    border-bottom:0;
+}
+.party-wo footer .content a .par{
+    flex:1;
+    padding-left:0.35rem;
+}
+.party-wo footer .content a .icon{
+    display:block;
+    width:0.5rem;
+    height:0.5rem;
+}
+.party-wo footer .content a i{
+    display:block;
+    width:0.2rem;
+    height:0.5rem;
+    background:url("../../images/general/return.png") no-repeat;
+    background-size:cover;
+    transform:rotate(180deg);
+}

@@ -1,0 +1,149 @@
+/*领导表率空间*/
+/*导航*/
+.nav{
+    width:100%;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom: 1px solid #c2c2c2;
+}
+.nav .item{
+    display: inline-block;
+    flex:1;
+    text-align: center;
+    font-size: 10px;
+}
+.nav .item img{
+    width:50%;
+}
+.nav .item p{
+    margin-top:5px;
+}
+/*banner广告区*/
+.banner{
+    padding:10px;
+}
+.banner .head{
+    width:100%;
+    height:0.9rem;
+    position: relative;
+}
+.banner .head .title{
+    font-size: 14px;
+    float: left;
+}
+.banner .head .title span{
+    display: inline-block;
+    width:1px;
+    height:10px;
+    background-color: #cc3e39;
+    margin-right:3px;
+}
+.banner .head .title>b{
+    font-weight: bold;
+    color:#333333;
+}
+.banner .head .right{
+    float: right;
+    width:0.5rem;
+    height:0.5rem;
+    background: url(../../images/branch/right.png) no-repeat 100%;
+    background-size: 100%;
+}
+.banner_content .banner_img{
+    width:25%;
+    float: left;
+}
+.swiper-container .swiper-slide .swiper_img{
+    width:1.7rem;
+    height:1.7rem;
+
+}
+.swiper-container .swiper-slide p{
+    text-align: center;
+    font-size:10px;
+    padding-top:10px;
+    color:#666666;
+}
+.swiper-container .swiper-slide>p>span{
+    display: block;
+    padding-top:4px;
+}
+/*最新台账*/
+.titleRight{
+    width: 0.25rem;
+    height: 0.3rem;
+    margin-left: 0.2rem;
+}
+.search>img{
+    width: 100%;
+}
+.newSlide{
+    width: 2.4rem!important;
+    height: 2.4rem;
+}
+
+/*轨迹*/
+.track{
+    width: 3rem;
+    margin-left: 37%;
+}
+.track>span{
+    display: inline-block;
+    width: 0.5rem;
+    height: 2px;
+    background-color: #f8d7d8;
+    margin-right: 3px;
+    margin-bottom: 2%;
+}
+.leaderHead{
+    height: 1rem!important;
+}
+.ledgerTrack{
+    height: 6.2rem;
+    padding: 0px 10px 10px 10px!important;
+}
+.grow-container,.leader_track,.group_track,.member_track{
+    height: 5rem;
+}
+.swiper-container .grow-slide img {
+    width: 100%;
+    height: 100%;
+}
+.swiper-container .grow-slide{
+    height: 4.58rem;
+}
+.swiper-container .swiper-slide .bg {
+    position: relative;
+    top: -2px;
+    display: block;
+    background: url(../../images/index/bg.png) no-repeat -2px 0;
+    background-size: 100%;
+    width: 100%;
+    height: 15px;
+}
+/*四个指标*/
+.target-box{
+    margin-bottom: 0.5rem;
+}
+.target-box>p{
+    font-size: 0.4rem;
+    display: inline-block;
+    width: 92%;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.target-display{
+    display: inline-block;
+    width: 6%;
+}
+/*轨迹图片底部*/
+.growBottom{
+    width: 93%;
+    margin: 0 auto;
+    position: absolute;
+    left: 3.5%;
+    top: 91%;
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>个人信息</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="flexible" content="initial-dpr=2"/>
+    <link rel="stylesheet" href="../../plugin/flexible/flexible.css">
+    <script src="../../plugin/flexible/flexible.js"></script>
+    <link rel="stylesheet" href="../../plugin/swiper/css/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/general/general_header.css"/>
+    <link rel="stylesheet" href="../../css/grassroots/personal/polity.css">
+</head>
+<body>
+<div class="page">
+    <header class="head">
+        <div class="header">
+            <a onclick="history.go(-1);"><span></span></a>
+            <span>政治面貌</span>
+            <a href="edit_index.html" class="save">保存</a>
+        </div>
+    </header>
+</div>
+<div class="personal-edit">
+    <div class="heart">
+        <div class="block">
+            <ul>
+                <li>
+                    <a id="unit" onclick="remind('remind_unit','unit','swiper_unit',1)"><!--判断进入页面是添加还是修改内容，给图片添加样式hide控制图片的显示或隐藏-->
+                        <img class="addto " src="../../images/grassroots/personal/addTo.png"/>
+                        <img class="modify hide" src="../../images/grassroots/personal/modify.png" />
+                        所属单位：
+                        <span><input type="text" name="name"/></span>
+                    </a>
+                </li>
+                <li>
+                    <a id="unit_time" href="#">
+                        迁入时间：<span></span>
+                    </a>
+                </li>
+                <li>
+                    <a id="branch"  onclick="branch('remind_branch','branch','swiper-branch',0)">
+                        <img class="addto" src="../../images/grassroots/personal/addTo.png"/>
+                        <img class="modify hide" src="../../images/grassroots/personal/modify.png"/>
+                        所属支部：<span></span>
+                    </a>
+                </li>
+                <li>
+                    <a id="branch_time"  href="#">
+                        迁入时间：<span></span>
+                    </a>
+                </li>
+                <li>
+                    <a id="judge" onclick="remind('remind_judge','judge','swiper-judge',0)">
+                        <img class="addto" src="../../images/grassroots/personal/addTo.png"/>
+                        <img class="modify hide" src="../../images/grassroots/personal/modify.png"/>
+                        是否为市局党委委员纪委委员：<span></span>
+                    </a>
+                </li>
+                <li>
+                    <a id="position" onclick="position('remind_pos','position','swiper_position',2)">
+                        <img class="addto" src="../../images/grassroots/personal/addTo.png"/>
+                        <img class="modify hide" src="../../images/grassroots/personal/modify.png"/>
+                        当前行政职位和职级：<span></span>
+                    </a>
+                </li>
+                <li>
+                    <a id="political" onclick="remind('remind_poli','political','swiper-poli',1)">
+                        <img class="addto" src="../../images/grassroots/personal/addTo.png"/>
+                        <img class="modify hide" src="../../images/grassroots/personal/modify.png"/>
+                        政治身份：<span></span>
+                    </a>
+                </li>
+                <li>
+                    <a id="political_time" href="#">
+                        迁入时间：<span></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--当前职务-->
+<div class="remind remind_pos" onclick="remind_text(this,'position',event)">
+    <div class="remind_title position">
+        <section><a onclick="cancel('remind_pos','position')" class="cancel">取消</a><a onclick="save_remind('remind_pos','position')" class="determine">确定</a></section>
+        <div class="swiper-container swiper_position">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">市局党组书记</div>
+                <div class="swiper-slide">市局分管党建局领导(市局党组成员)</div>
+                <div class="swiper-slide">市局党组成员</div>
+                <div class="swiper-slide">其他处级领导</div>
+                <div class="swiper-slide">市局党委办主任(科级领导)</div>
+            </div>
+        </div>
+        <div class="frame"></div>
+    </div>
+</div>
+<!--是否为市局党委委员纪委委员-->
+<div class="remind remind_judge" onclick="remind_text(this,'judge',event)">
+    <div class="remind_title judge">
+        <section><a onclick="cancel('remind_judge','judge')" class="cancel">取消</a><a onclick="save_remind('remind_judge','judge')" class="determine">确定</a></section>
+        <div class="swiper-container swiper-judge">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">是</div>
+                <div class="swiper-slide">否</div>
+            </div>
+        </div>
+        <div class="frame"></div>
+    </div>
+</div>
+<!--所属单位-->
+<div class="remind remind_unit" onclick="remind_text(this,'unit',event)">
+    <div class="remind_title unit">
+        <section><a onclick="cancel('remind_unit','unit')" class="cancel">取消</a><a onclick="save_remind('remind_unit','unit')" class="determine">确定</a></section>
+        <div class="swiper-container swiper_unit">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">珠海市局</div>
+                <div class="swiper-slide">香洲市局</div>
+                <div class="swiper-slide">斗门市局</div>
+                <div class="swiper-slide">金湾区党支部</div>
+            </div>
+        </div>
+        <div class="frame"></div>
+    </div>
+</div>
+<!--政治身份-->
+<div class="remind remind_poli" onclick="remind_text(this,'political',event)">
+    <div class="remind_title political">
+        <section><a onclick="cancel('remind_poli','political')" class="cancel">取消</a><a onclick="save_remind('remind_poli','political')" class="determine">确定</a></section>
+        <div class="swiper-container swiper-poli">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">中共党员</div>
+                <div class="swiper-slide">重点发展对象</div>
+                <div class="swiper-slide">入党积极分子</div>
+                <div class="swiper-slide">群众</div>
+            </div>
+        </div>
+        <div class="frame"></div>
+    </div>
+</div>
+<!--所属支部-->
+<div class="remind remind_branch" onclick="remind_text(this,'branch',event)">
+    <div class="remind_title branch">
+        <section><a onclick="cancel('remind_branch','branch')" class="cancel">取消</a><a onclick="save_remind('remind_branch','branch')" class="determine">确定</a></section>
+        <div class="swiper-container swiper-branch">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">市局机关办公室(学会)党支部</div>
+                <div class="swiper-slide">市局机关政策法规科党支部</div>
+                <div class="swiper-slide">市局机关货物和劳务税科党支部</div>
+                <div class="swiper-slide">市局机关所得税科党支部</div>
+                <div class="swiper-slide">市局机关收入核算科党支部</div>
+                <div class="swiper-slide">市局机关纳税服务科党支部</div>
+                <div class="swiper-slide">市局机关征收管理科党支部</div>
+                <div class="swiper-slide">市局机关财务管理科党支部</div>
+                <div class="swiper-slide">市局机关人事、教育党支部</div>
+                <div class="swiper-slide">市局机关离退休干部党支部</div>
+                <div class="swiper-slide">市局机关监察室党支部</div>
+                <div class="swiper-slide">市局机关大国科党支部</div>
+                <div class="swiper-slide">市局机关进出口税收管理科党支部</div>
+                <div class="swiper-slide">市局机关党委办、工会党支部</div>
+                <div class="swiper-slide">信息中心党支部</div>
+                <div class="swiper-slide">市局机关机关服务中心党支部</div>
+                <div class="swiper-slide">市局机关票证中心党支部</div>
+                <div class="swiper-slide">市局稽查局党总支</div>
+                <div class="swiper-slide">市局稽查局党支部</div>
+                <div class="swiper-slide">第一稽查局党支部</div>
+                <div class="swiper-slide">第二稽查党支部</div>
+                <div class="swiper-slide">第三稽查局党支部</div>
+                <div class="swiper-slide">车购税分局党支部</div>
+                <div class="swiper-slide">直属分局党支部</div>
+                <div class="swiper-slide">香洲区局党总支</div>
+                <div class="swiper-slide">香洲区局机关党支部</div>
+                <div class="swiper-slide">香洲区局南湾分局党支部</div>
+                <div class="swiper-slide">香洲区局唐家湾分局党支部</div>
+                <div class="swiper-slide">斗门区局党总支</div>
+                <div class="swiper-slide">斗门区局行政党支部</div>
+                <div class="swiper-slide">斗门区局税政党支部</div>
+                <div class="swiper-slide">斗门区局白蕉分局党支部</div>
+                <div class="swiper-slide">斗门区局乾务分局党支部</div>
+                <div class="swiper-slide">斗门区局莲洲分局党支部</div>
+                <div class="swiper-slide">金湾区局党总支</div>
+                <div class="swiper-slide">金湾区局机关党支部</div>
+                <div class="swiper-slide">金湾区局三灶分局党支部</div>
+                <div class="swiper-slide">金湾区局红旗分局党支部</div>
+                <div class="swiper-slide">保税区局党支部</div>
+                <div class="swiper-slide">万山区局党支部</div>
+                <div class="swiper-slide">横琴新区局党支部</div>
+                <div class="swiper-slide">高栏港区局党支部</div>
+                <div class="swiper-slide">高新区局党支部</div>
+                <div class="swiper-slide">跨境区局党支部</div>
+            </div>
+        </div>
+        <div class="frame"></div>
+    </div>
+</div>
+
+
+
+
+
+<script src="../../plugin/swiper/js/swiper-3.3.1.min.js"></script>
+<script src="../../plugin/zepto/zepto.js"></script>
+<script src="../../plugin/zepto/event.js"></script>
+<script src="../../plugin/zepto/touch.js"></script>
+<!--出生年月插件-->
+<script src="../../plugin/datePicker/datePicker.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../js/grassroots/personal/polity.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

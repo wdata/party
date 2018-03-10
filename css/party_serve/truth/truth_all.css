@@ -1,0 +1,178 @@
+.truth_all{
+	width:100%;
+	/*min-height:100%;*/
+	position:relative;
+	background-color:#e4e9ef;
+	padding-top:64px;
+}
+.truth_all .heart{
+	width:100%;height:100%;
+	position:relative;
+}
+.truth_all .words{
+	background-color:#fff;
+	width:100%;
+	padding:0.35rem 0.3rem;
+	overflow:hidden;
+	margin-bottom:0.3rem;
+}
+.truth_all .words header{
+	text-align:center;
+	color:#333;
+}
+.truth_all .words h4{
+	margin-bottom:0.2rem;
+	font-size:0.4rem;
+	line-height:0.6rem;
+}
+.truth_all .words .time{
+	color:#999;
+	font-size:0.3rem;
+	margin-bottom:0.25rem;
+}
+.truth_all .words .text{
+	color:#666;
+	font-size:0.34rem;
+}
+.truth_all .words .text p{
+	margin-bottom:0.2rem;
+	line-height:0.55rem;
+	text-indent:0.6rem;
+}
+.truth_all .words .text>div{
+	margin-bottom:0.2rem;
+	line-height:0.55rem;
+	text-indent:0.6rem;
+}
+.truth_all .words .like{
+	float:right;
+	font-size:0.32rem;
+	color:#9AA9B9;
+}
+.truth_all .words .like>img{
+	width:0.4rem;
+	height:0.33rem;
+	vertical-align:middle;
+	margin-right:0.1rem;
+	display: none;
+}
+.truth_all .words .like .ledger{
+	display: inline-block;
+}
+.truth_all .words .active{
+	color:#CE3D3A;
+}
+.truth_all .words .active .ledger{
+	display:none;
+}
+.truth_all .words .active .clicked{
+	display:inline-block;
+}
+
+.truth_all .comment{
+	background-color:#fff;
+	width:100%;
+	padding:0 0.3rem 1rem;
+	overflow:hidden;
+}
+.truth_all .comment>header{
+	font-size:0.36rem;
+	color:#9AA9B9;
+	border-bottom:1px solid #ededf0;
+	height:1rem;
+	line-height:1rem;
+}
+.truth_all .comment li{
+	overflow:hidden;
+	border-bottom:1px solid #ededf0;
+	padding:0.2rem 0;
+}
+.truth_all .comment li .logo{
+	width:1.5rem;
+	float:left;
+}
+.truth_all .comment li .logo img{
+	width:1.2rem;
+	height:1.2rem;
+	display:block;
+	border-radius:50%;
+}
+.truth_all .comment li>article{
+	float:left;
+	width:7.9rem;
+	padding:0.1rem 0;
+	font-size:0.36rem;
+}
+.truth_all .comment li>article header{
+	line-height:0.5rem;
+	overflow: hidden;
+	color:#333;
+	margin-bottom:0.1rem;
+}
+.truth_all .comment li>article header .name{
+	margin-right:0.2rem;
+}
+.truth_all .comment li>article header time{
+	float:right;
+	font-size:0.25rem;
+	color:#999;
+}
+.truth_all .comment li>article p{
+	color:#666;
+	font-size:0.34rem;
+	line-height:0.5rem;
+}
+.truth_all .comment .wu{
+	width: 100%;
+	height: 1rem;
+	text-align: center;
+	line-height: 0.6rem;
+	font-size: 0.4rem;
+}
+
+
+
+
+.truth_all .enter{
+	width:100%;
+	height:1rem;
+	position:fixed;
+	bottom:0;
+	right:0;left:0;
+	background-color:#f5f5f5;
+	border-top:1px solid #f5f5f5;
+}
+.truth_all .enter_heart{
+	position: relative;
+	width:100%;
+	height:1rem;
+}
+.truth_all .enter input{
+	position:absolute;
+	left:0.3rem;
+	bottom:0.15rem;
+	top:0.15rem;
+	width:7.55rem;
+	height:0.7rem;
+	padding:0.05rem 0.2rem;
+	box-sizing:border-box;
+	cursor: none;
+	border-radius:0.1rem;
+	border:1px solid #c2c2c2;
+}
+.truth_all .enter .enter_bt{
+	display:block;
+	position:absolute;
+	width:1.6rem;
+	height:0.7rem;
+	line-height:0.7rem;
+	text-align: center;
+	color:#fff;
+	background-color:#e14b47;
+	font-size:0.3rem;
+	top:0.15rem;
+	bottom:0.15rem;
+	right:0.3rem;
+	border-radius:0.1rem;
+}
+

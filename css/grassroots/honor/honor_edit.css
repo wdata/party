@@ -1,0 +1,215 @@
+/*荣誉奖励编辑*/
+.honor_edit{
+	width:100%;
+}
+
+/*荣誉奖励编辑页面 */
+.honor_edit  a{
+	color:#666;
+	font-size:0.36rem;
+	display:block;
+	width:100%;
+	height:1.5rem;
+	line-height:1.5rem;
+	border-bottom:1px solid #999;
+	padding-left:0.6rem;
+	position:relative;
+}
+.honor_edit li span{
+	display: inline-block;
+	height:0.9rem;
+	line-height:0.9rem;
+}
+.honor_edit  input{
+	border:0;
+	font-size:0.36rem;
+	height:0.8rem;
+	line-height:0.8rem;
+}
+.honor_edit img{
+	width:0.55rem;
+	height:0.55rem;
+	position: absolute;
+	left:0;
+	top:0.50rem;
+}
+.honor_edit li:last-child{
+	margin-top:0.4rem;
+}
+.honor_edit #specific{
+	border:0;
+	padding-left:0;
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.honor_edit #specific>section{
+	padding-left:0.6rem;
+	position:relative;
+}
+.honor_edit #specific section>span{
+	width:0.45rem;
+	height:0.45rem;
+	border-radius:50%;
+	background-color:#ce3a3d;
+	margin-right:0.15rem;
+	position:absolute;
+	top:0.5rem;
+	left:0;
+}
+.honor_edit #specific textarea{
+	width:100%;
+	height:6rem;
+	border:0;
+	background-color:#f5f5f5;
+	padding:0 0.3rem;
+	box-sizing:border-box;
+	resize:none;
+}
+.honor_edit #specific>div{
+	position:absolute;
+	bottom:0.3rem;
+	right:0.3rem;
+	color:#666;
+}
+.honor_edit #specific>div>span{
+	margin-right:2px;
+	height:0.4rem;
+}
+/*遮罩层弹出层*/
+.remind{
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0,0,0,0.7);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    display:none;
+}
+.level,.date{
+	width:100%;
+	height:50%;
+	background-color:#fff;
+	position: fixed;
+	bottom:0;
+	right:0;
+	left:0;
+}
+.level section,.date section{
+	position:absolute;
+	top:0.8rem;
+	left:0;
+	right:0;
+	width:100%;
+	height:1.5rem;
+	z-index:100;
+}
+.level section .cancel,.date section .cancel{
+	font-size:0.36rem;
+	float:left;
+	color:#666;
+	padding:0.5rem;
+}
+.level section .determine,.date section .determine{
+	color:#ce3a3d;
+	font-size:0.36rem;
+	float:right;
+	overflow:hidden;
+	padding:0.5rem;
+}
+.level .swiper-container{
+	width:100%;
+	height:1.5rem;
+	position: fixed;
+	bottom:15%;
+	right:0;
+	left:0;
+	overflow:visible!important;
+	color:#666;
+}
+.level .swiper-slide{
+	color:#666;
+	width:100%;
+	height:1.5rem;
+	line-height:1.5rem;
+	text-align:center;
+	font-size:0.5rem;
+}
+.level .frame{
+	border-top-width:1px;
+	border-bottom-width:1px;
+	border-color:#999;
+	border-style: solid;
+	width:100%;
+	height:1.5rem;
+	position: fixed;
+	bottom:15%;
+	right:0;
+	left:0;
+}
+.level{
+	display:none;
+}
+.level .swiper-slide-active{
+	color:#333;
+}
+
+
+
+.date ul{
+	width:100%;
+	height:3rem;
+	position: fixed;
+	bottom:15%;
+	right:0;
+	left:0;
+	display: block;
+}
+.date ul a{
+	color:#666;
+	display:block;
+	width:100%;
+	height:1.5rem;
+	line-height:1.5rem;
+	text-align:center;
+	font-size:0.5rem;
+}
+.date{
+	height:60%;
+	display:block;
+}
+
+/*插件   出生年月样式修改*/
+.ym_roll,.date_roll_mask{
+	position: fixed;
+	bottom:8%;
+	right:0;
+	left:0;
+	font-weight:normal!important;
+	height:34%!important;
+}
+.gearDate .date section{
+	position:absolute;
+	top:0.8rem;
+	left:0;
+	right:0;
+	width:100%;
+	height:1.5rem;
+	padding:0!important;
+}
+.ym_roll>div{
+	height:100%!important;
+}
+.date_mm{
+	text-indent:0!important;
+}
+.tooth,.date_grid{
+	color:#666;
+}
+.gearDate{
+	background: rgba(0,0,0,0.7)!important;
+}

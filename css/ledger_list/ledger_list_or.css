@@ -1,0 +1,22 @@
+
+.content>.nav{
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    height:1rem;
+    line-height: 1rem;
+    width:95%;
+    margin:0.28rem auto 0;
+}
+.list{
+    margin-top:1rem;
+}
+
+body,html{
+    width:100%;
+    height:100%;
+}
+.ledgee{
+    width:100%;
+    min-height:100%;
+}
+

@@ -1,0 +1,118 @@
+/*支部堡垒主页和支部堡垒空间公共的样式*/
+/**********************头部*************************************/
+/*清除浮动*/
+.clear{ 
+    clear:both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+/*顶部背景*/
+header.head{
+    width:100%;
+    padding:74px 0 0.35rem;
+    background: url(../../images/branch/head_bg.png) no-repeat;
+    background-size: cover;
+}
+.title_img{
+    text-align: center;
+}
+.title_img .img-bg{
+    width:2rem;
+    height:2rem;
+    border-radius: 50%;
+    background-color:rgba(255,255,255,0.2);
+    margin: auto;
+    padding:5px;
+}
+.title_img img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+/*头像下的文字*/
+.title_img .title{
+    height: 0.7rem;
+    line-height: 0.7rem;
+    color:#fff;
+    font-size: 0.4rem;
+    /*background: url(../../images/branch/authority@2x.png) no-repeat 100% 100%;*/
+    /*background-size: 100%;*/
+    margin: 10px auto;
+}
+
+.head_message{
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    color:#c2c2c2;
+    margin-top:0.35rem;
+    font-size:10px;
+}
+.head_message .item{
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid rgba(255,255,255,0.5);
+}
+.head_message .item span{
+    color: #fefefe;
+    font-size: 12px;
+}
+.head_message .last{
+    border-right:none;
+}
+.head_message .item p{
+    margin-top: 5px;
+}
+
+/******************banner广告区***************************/
+.banner_content .banner_img{
+    width:25%;
+    float: left;
+}
+.newledgers .swiper-slide{
+    width:2.4rem!important;
+    height:2.4rem!important;
+}
+.swiper-slide>img{
+    width: 100%;
+    height:100%;
+}
+/*小标题左边的红杠*/
+.ledger .head .title span,.banner .head .title span,.other .head .title span,.newledgers .head .title span,.fourpoints .head .title span,.tracks .head .title span,.modelledgers .head .title span{
+    display: inline-block;
+    width:1px;
+    height:10px;
+    background-color: #cc3e39;
+    margin-right:3px;
+}
+/************************会滑动的台账************************/
+
+
+.banner,.ledger,.other,.newledgers,.fourpoints,.tracks,.modelledgers{
+    padding:10px;
+}
+.banner .head,.ledger .head,.other .head,.newledgers .head,.fourpoints .head,.tracks .head,.modelledgers .head{
+    width: 100%;
+    height: 0.9rem;
+    position: relative;
+    margin-top: 0.1rem;
+}
+.banner .head .title,.ledger .head .title a,.other .head .title,.newledgers .head .title a,.fourpoints .head .title,.tracks .head .title,.modelledgers .head .title{
+    color: #333333;
+    font-size: 0.4rem;
+    font-weight: bolder;
+    float: left;
+}
+
+.banner .head .right{
+    float: right;
+    width:0.5rem;
+    height:0.5rem;
+    background: url(../../images/branch/right.png) no-repeat 100%;
+    background-size: 100%;
+}
+.banner .head .right a{
+	width:100%;
+	height:100%;
+	display: block;
+}

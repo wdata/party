@@ -1,0 +1,224 @@
+.results{
+	width:100%;
+	min-height:93%;
+	position: absolute;
+	top: 64px;left:0;right:0;
+	box-sizing:border-box;
+	background-color:#E3E9EF;
+}
+
+.heart{
+	width:100%;
+	position:relative;
+}
+
+/*------------------答案-------------*/
+.results .all-question .answer-col{
+	color:#CE3D3A;
+}
+.results .all-question .answer-y{
+	color:#CE3D3A!important;
+}
+.results .conf-hide{
+	display:none;
+}
+/*-------------------------勾选小图标----------------------*/
+.results .question .icon{
+	width:0.4rem;
+	height:0.4rem;
+	position:absolute;
+	top:0.04rem;
+	left:0;
+	bottom:0;
+	border-radius:50%;
+}
+.results .question .conf,.results .question .choose,.results .question .air{
+	width:0.42rem;
+	height:0.42rem;
+	border-radius:50%;
+	text-align: center;
+	line-height:0.4rem;
+}
+.results .question .air{
+	border:1px solid #9b9b9b;
+}
+.results .question .conf{
+	border:1px solid #CE3D3A;
+}
+.results .question .choose{
+	background-color:#CE3D3A;
+}
+.results .conf .confirm{
+	width:0.36rem;
+	height:0.36rem;
+	display: block;
+}
+.results .choose .confirm{
+	width:0.24rem;
+	height:0.18rem;
+	margin-top:0.1rem;
+}
+
+/*-----------------排版布局-----------------------*/
+.all-question{
+	width:100%;
+	padding:0.35rem;
+}
+.question{
+	background-color:#fff;
+	margin-bottom:0.35rem;
+	position:relative;
+}
+
+/*----------顶部-左侧排序数-----------*/
+.question .top-left{
+	width:0.8rem;
+	position:absolute;
+	top:0;left:0;
+}
+.question .top-left img{
+	width:0.8rem;
+	height:0.8rem;
+}
+.question .top-left .number{
+	width:0.64rem;
+	height:0.8rem;
+	line-height:0.8rem;
+	text-align:center;
+	display: block;
+	position:absolute;
+	top:0;
+	left:0;
+	color:#fff;
+	font-size:0.38rem;
+}
+
+/*---------正确or错误------------*/
+.question .yes-no{
+	position:absolute;
+	bottom:0.3rem;
+	right:0.3rem;
+}
+.question .yes-no img{
+	width:2rem;
+	display:block;
+}
+
+
+
+/*---------中部题目------------*/
+.question dl{
+	padding:0.6rem 0.35rem 0.35rem 0.7rem;
+}
+.question dt{
+	color:#333;
+	font-size:0.4rem;
+	margin-bottom:0.35rem;
+}
+.question dd{
+	color:#666;
+	font-size:0.34rem;
+	line-height:0.5rem;
+	padding-left:0.6rem;
+	position:relative;
+	margin:0.25rem 0;
+	overflow:hidden;
+}
+.question dd .select{
+	float:left;
+	width:95%;
+}
+.question dd p{
+	float:left;
+	width:5%;
+	height:100%;
+	display:block;
+}
+
+
+/*-------------------看其他人---------------*/
+.other{
+	width:100%;
+}
+.other .header{
+	line-height:1.2rem;
+	padding-left:0.35rem;
+	background-color:#fff;
+	color:#333;
+	font-size:0.42rem;
+}
+
+
+.other dl{
+	width:100%;
+}
+.other dt{
+	line-height:1rem;
+	padding-left:0.35rem;
+	background-color:#F5F5F5;
+	color:#999;
+	font-size:0.38rem;
+}
+.other dd{
+	padding:0.35rem;
+	height:2.1rem;
+	box-sizing:border-box;
+	border-bottom:1px solid #e2e2e2;
+	font-size:0.34rem;
+	position:relative;
+	overflow:hidden;
+	display: flex;
+	background-color:#fff;
+}
+.other dd:last-child{
+	border-bottom:0;
+}
+.other dd .avatr{
+	height:100%;
+	display:block;
+	border-radius:50%;
+}
+.other .words{
+	margin-left:0.36rem;
+	flex:1;
+	padding-top:0.1rem;
+}
+.other .words .words-nav{
+	color:#999;
+	font-size:0.36rem;
+}
+.other .words .words-nav .name{
+	color:#333;
+	margin-right:0.15rem;
+}
+.other .words .progress-bar{
+	position:relative;
+	padding-left:5.8rem;
+	height:0.6rem;
+	line-height:0.6rem;
+	color:#E2E2E2;
+	font-size:0.36rem;
+}
+.other .words .progress-bar .tilte_all{
+	width:5.6rem;
+	height:0.15rem;
+	position:absolute;
+	left:0;
+	top:0.2rem;
+	border-radius:0.15rem;
+}
+.other .words .progress-bar .tilte{
+	width:4rem;
+	height:0.15rem;
+	position:absolute;
+	left:0;
+	top:0.2rem;
+	border-radius:0.15rem;
+}
+.other .words .correct-rate{
+	font-size:0.36rem;
+	color:#999;
+}
+.other .words .words-yes{
+	margin:0 0.05rem;
+}

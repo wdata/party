@@ -1,0 +1,133 @@
+/*-----------------------------点赞收藏-----------------------------*/
+.activity-index li footer .active{
+	color:#ce3d3a;
+}
+.activity-index li footer .active .no{
+	display: none;
+}
+.activity-index li footer .active .yes{
+	display: inline-block;
+}
+.heigh{
+	height: 64px;
+}
+/*-------------------------------------活动首页CSS-------------------------------*/
+.activity-index{
+	width: 100%;
+	/*min-height: 83.5%;*/
+	min-height: 81%;
+	box-sizing: border-box;
+	background-color:#E3EAEF;
+	position: relative;
+}
+.heart{
+	width: 100%;
+	height: 100%;
+}
+.activity-index nav{
+	display:flex;
+	position:fixed;
+	width:100%;
+	top:64px;
+	z-index:1001;
+	border-bottom:1px solid #fafafa;
+	height:1rem;
+}
+.activity-index nav a{
+	flex:1;
+	color:#333;
+	font-size:0.35rem;
+	height:1rem;
+	text-align: center;
+	line-height:1rem;
+	background-color:#fff;
+}
+.activity-index nav a span{
+	padding:0.1rem 0.2rem;
+}
+.activity-index nav .dian{
+	color:#ce3d3a;
+}
+.activity-index nav .dian span{
+	border-bottom:1px solid #CE3D3A;
+}
+.activity-index ul{
+	/*margin:0 0.3rem 0.2rem;*/
+	width:100%;
+	height:100%;
+	position: relative;
+	top: 1rem;
+	padding:0 10px 1.2rem;
+}
+.activity-index li{
+	background-color:#fff;
+	margin-top:0.3rem;
+}
+.activity-index li>a{
+	width:100%;
+	height:100%;
+	padding:0.2rem;
+	display:block;
+}
+.activity-index li a>img{
+	width:100%;
+	height:5rem;
+	display: block;
+}
+.activity-index li>a section{
+	width:100%;
+	height:1.4rem;
+	margin-bottom:0.2rem;
+	font-size:0.34rem;
+}
+.activity-index li>a section .text span{
+	display:block;
+	padding-top:0.25rem;
+	color:#333;
+}
+.activity-index li>a section .text .time{
+	font-size:0.25rem;
+	color:#666;
+}
+.activity-index li>a section>img{
+	width:1.4rem;
+	height:1.4rem;
+	border-radius:50%;
+	float:left;
+	display: block;
+	margin-right:0.3rem;
+}
+.activity-index li>a .title{
+	width:100%;
+	height:0.8rem;
+	line-height:0.8rem;
+	font-size:0.4rem;
+	margin-top:0.2rem;
+	color:#333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.activity-index li footer{
+	height:1rem;
+	line-height:1rem;
+	display:flex;
+	margin:0 0.2rem;
+	border-top:1px solid #eee;
+}
+.activity-index li footer a{
+	flex:1;
+	text-align:center;
+	color:#333;
+}
+.activity-index li footer img{
+	width:0.38rem;
+	height:0.3rem;
+	display:inline-block;
+	margin-right:0.05rem;
+}
+.activity-index li footer .yes{
+	display: none;
+}
+
+

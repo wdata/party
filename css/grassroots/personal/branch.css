@@ -1,0 +1,134 @@
+.back{
+	width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: -44px;
+	left: 0;
+	right: 0;
+	z-index: 0;
+}
+.branch {
+	position: relative;
+	z-index: 100;
+	padding-top:64px;
+}
+
+.branch a {
+	color: #fff;
+}
+
+.brancher {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.branch nav {
+	width: 100%;
+	height: 1.333rem;
+	padding:3.333% 3.333% 0;
+	margin-bottom: 3.333%;
+	position: relative;
+	z-index:99;
+}
+
+.branch nav a:first-child {
+	margin-right: 4%;
+}
+
+.branch nav a {
+	width: 48%;
+	height: 100%;
+	line-height: 1rem;
+	text-align: center;
+	display: block;
+	background-color: rgba(139,65,85,0.37);
+	float: left;
+	font-size: 0.4rem;
+}
+
+.branch nav .yanse {
+	background-color: rgba(61,11,24,0.37);
+}
+
+.branch dl {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	margin-bottom:3.333%;
+	padding:0 3.333%;
+}
+
+.branch dl a {
+	width: 100%;
+	height: 100%;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+	padding-top: 0.8rem;
+	display: block;
+	overflow: hidden;
+	background-color: rgba(164,85,106,0.37);
+}
+
+.branch dl img {
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 50%;
+	text-align: center;
+	overflow: hidden;
+	display: block;
+	margin-right: 0.35rem;
+}
+
+.branch dt img {
+	width: 2.2rem;
+	height: 2.2rem;
+}
+
+.branch dt {
+	width: 100%;
+	height: 3.8rem;
+	margin-bottom: 3.333%;
+	font-size: 0.44rem;
+}
+
+.branch dd {
+	margin-bottom: 3.333%;
+	width: 48%;
+	height: 3rem;
+	float: left;
+	font-size: 0.36rem;
+}
+
+.branch dd:nth-child(2n) {
+	margin-right: 4%;
+}
+
+.branch dl .left {
+	float: left;
+}
+
+.branch dl .right {
+	float: left;
+	height: 100%;
+	line-height: 100%;
+}
+.branch dt .right{
+	width:71%;
+}
+.branch dd section {
+	margin-top: 3%;
+	margin-bottom: 8%;
+	word-wrap: break-word;
+	word-break: normal;
+	width:2rem;
+	line-height:0.45rem;
+}
+.branch dt section{
+	width:2.8rem;
+	line-height:0.6rem;
+	margin-bottom:0.5rem;
+}
+.branch dl p {
+	font-size: 0.24rem;
+}

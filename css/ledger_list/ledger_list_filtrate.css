@@ -1,0 +1,350 @@
+
+/*****************正文***********************/
+/*******************选择查询*************************/
+.content{
+    position: relative;
+    z-index: 100;
+}
+.content>.inputBox{
+    width: 80%;
+    margin: 0.25rem auto 0;
+    background-color: rgba(255,255,255,0.84);
+    border-radius: 3px;
+}
+.inputBox .chooseDate,.inputBox .chooseParty,.inputBox .chooseTag,.inputBox .chooseSpecify{
+    border-bottom: 1px solid #8c9cad;
+    width: 42%;
+    float: left;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 11%;
+    padding-bottom: 2%;
+}
+.choose1,.choose2{
+    display: flex;
+}
+.inputBox .chooseDate,.inputBox .chooseParty,.inputBox .chooseTag,.inputBox .chooseSpecify{
+    flex:1;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:  #8c9cad;
+}
+::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:  #8c9cad;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:  #8c9cad;
+}
+::-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:  #8c9cad;
+}
+.chooseDate>input,.chooseParty>span,.chooseTag>span,.chooseSpecify>span{
+    color: #8c9cad;
+}
+.content>.inputBox input{
+    border: none;
+    background-color: transparent;
+    width: 86%;
+}
+.chooseParty>.choosegroup_span,.chooseTag>.choosetag_span,.chooseSpecify>.chooseSpecify_span{
+    display: inline-block;
+    width: 86%;
+}
+.content .inputBox i{
+    display: inline-block;
+    width: 0.3rem;
+    height: 0.3rem;
+    background: url(../../images/ledger_list/right.png)no-repeat 2%;
+    background-size: 100%;
+    vertical-align: middle;
+}
+.inputBox>button{
+    margin: 5% 0 2% 34%;
+    text-align: center;
+    color: #fff;
+    background: #ce3d2a;
+    border: 1px solid #ce3d2a;
+    border-radius: 20px;
+    width: 33%;
+    line-height: 0.8rem;
+}
+
+/***********************指标导航*******************/
+.content>.nav{
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    height:1rem;
+    line-height: 1rem;
+    font-size: 0.28rem;
+    background-color: #fff;
+    width:95%;
+    margin:0.28rem auto 0;
+    position: relative;
+}
+.pointDes{
+    flex:1;
+    background-color: #fff;
+    color: #333333;
+    border-left: 0.15rem solid #ce3d3a;
+    width: 69.3%;
+}
+.pointBox{
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+.pointBox span{
+    text-align: center;
+    color: #fff;
+    flex: 1;
+    padding: 0 0.05rem;
+}
+.pointBox>.pointOne{
+    background-color: #ce3d3a;
+    display: none;
+}
+.pointBox>.pointTwo{
+    background-color: #add281;
+}
+.pointBox>.pointThree{
+    background-color: #577bd4;
+}
+.pointBox>.pointFour{
+    background-color: #f1cf67;
+}
+
+
+/***************************指标对应的列表**********************/
+.list1,.list2,.list3,.list4{
+    width: 95%;
+    margin: 0.1rem auto 0;
+}
+.show{
+    display: block;
+}
+.list2,.list3,.list4{
+    display: none;
+}
+.list1 dl,.list2 dl,.list3 dl,.list4 dl{
+    width:100%;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    padding: 0.27rem;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #ffffff;
+}
+.list1 dl dt,.list2 dl dt,.list3 dl dt,.list4 dl dt{
+    flex:0 0 2rem;
+    padding-right: .21rem;
+}
+.list1 dl dt>img,.list2 dl dt>img,.list3 dl dt>img,.list4 dl dt>img{
+    width:100%;
+    height:100%;
+}
+.list1 dl dd.content,.list2 dl dd.content,.list3 dl dd.content,.list4 dl dd.content{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:2.28rem;
+    position: relative;
+}
+/*右上角的标签*/
+.tag1,.tag2,.tag3{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top: -18%;
+    left: 89.5%;
+}
+.tag1>img,.tag2>img,.tag3>img{
+    width:100%;
+}
+
+.list1 dl dd.content>h2,.list2 dl dd.content>h2,.list3 dl dd.content>h2,.list4 dl dd.content>h2{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+}
+.list1 dl dd.content>.content,.list2 dl dd.content>.content,.list3 dl dd.content>.content,.list4 dl dd.content>.content{
+    font-size: 12px;
+    color:#999999;
+}
+.list1 dl dd.content>.overview,.list2 dl dd.content>.overview,.list3 dl dd.content>.overview,.list4 dl dd.content>.overview{
+    margin:0.15rem 0;
+    font-size: 10px;
+}
+.list1 dl dd.content>.overview>span,.list2 dl dd.content>.overview>span,.list3 dl dd.content>.overview>span,.list4 dl dd.content>.overview>span{
+    display: inline-block;
+    padding:0.05rem;
+    border: 1px solid #e2e2e2;
+    border-radius: 12px;
+    color:#c2c2c2;
+}
+.list1 dl dd.content>.overview>i,.list2 dl dd.content>.overview>i,.list3 dl dd.content>.overview>i,.list4 dl dd.content>.overview>i{
+    display: inline-block;
+    width: 0.5rem;
+    height:0.5rem;
+    background: url("../../images/ledger_list/right.png") no-repeat 100%;
+    background-size: 100%;
+    float: right;
+}
+.list1 dl dd.content>.foot .foot_title,.list2 dl dd.content>.foot .foot_title,.list3 dl dd.content>.foot .foot_title,.list4 dl dd.content>.foot .foot_title{
+    font-size: 10px;
+}
+.list1 dl dd.content>.foot .foot_title>span,.list2 dl dd.content>.foot .foot_title>span,.list3 dl dd.content>.foot .foot_title>span,.list4 dl dd.content>.foot .foot_title>span{
+    position: relative;
+    top:-0.2rem;
+    color:#999999;
+}
+.list1 dl dd.content>.foot .foot_title>i.time,.list2 dl dd.content>.foot .foot_title>i.time,.list3 dl dd.content>.foot .foot_title>i.time,.list4 dl dd.content>.foot .foot_title>i.time{
+    position: absolute;
+    bottom:0.2rem;
+    right:0;
+    color:#c2c2c2;
+}
+.list1 dl dd.content>.foot .foot_title>img,.list2 dl dd.content>.foot .foot_title>img,.list3 dl dd.content>.foot .foot_title>img,.list4 dl dd.content>.foot .foot_title>img{
+    width:0.6rem;
+    height:0.6rem;
+    border-radius: 50%;
+}
+.list1>.footer,.list2>.footer,.list3>.footer,.list4>.footer{
+    width:95%;
+    text-align: center;
+    margin:0 auto 0.4rem;
+    background-color: #ffffff;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+}
+.list1>.footer>div,.list2>.footer>div,.list3>.footer>div,.list4>.footer>div{
+    flex:1;
+    height:1rem;
+    line-height: 1rem;
+    color:#acbac9;
+}
+.list1>.footer>div>a,.list2>.footer>div>a,.list3>.footer>div>a,.list4>.footer>div>a{
+    color:#acbac9;
+}
+.list1>.footer>div.active,.list2>.footer>div.active,.list3>.footer>div.active,.list4>.footer>div.active{
+    color:#ce3d3a;
+}
+.list1>.footer>div.collect>i,.list2>.footer>div.collect>i,.list3>.footer>div.collect>i,.list4>.footer>div.collect>i{
+    background: url("../../images/ledger_list/star.png") no-repeat 100%;
+    background-size: 100%;
+}
+.list1>.footer>div.comment>a>i,.list2>.footer>div.comment>a>i,.list3>.footer>div.comment>a>i,.list4>.footer>div.comment>a>i{
+    background: url("../../images/ledger_list/comment.png") no-repeat 100%;
+    background-size: 100%;
+}
+.list1>.footer>div.like>i,.list2>.footer>div.like>i,.list3>.footer>div.like>i,.list4>.footer>div.like>i{
+    background: url("../../images/ledger_list/like.png") no-repeat 100%;
+    background-size: 100%;
+}
+.list1>.footer>div>a>i,.list2>.footer>div>a>i,.list3>.footer>div>a>i,.list4>.footer>div>a>i{
+    display: inline-block;
+    width:0.3rem;
+    height:0.3rem;
+    margin-right: 0.05rem;
+}
+/********************请选择党组遮罩层，请选择标签遮罩层****************/
+.blackgroup_box,.blacktag_box,.blackspec_box{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(7,17,27,0.8);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    display: none;
+}
+.blackgroup_box>.blackgroup_content,.blacktag_box>.blacktag_content,.blackspec_box>.blackspec_content{
+    width: 85%;
+    margin: 39% auto;
+    font-size: 12px;
+    color: #333333;
+    background-color: #ffffff;
+}
+h3.group_h3,h3.tag_h3,h3.spec_h3{
+    background: #ce3d2a;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 0.38rem;
+}
+.group_content,.tag_content,.spec_content{
+
+}
+.group_classify,.tag_classify{
+    margin: 0.3rem auto 0.5rem;
+    width: 90%;
+}
+.spec_classify{
+    margin: 0.3rem auto 2.7rem;
+    width: 90%;
+}
+.group_classify span,.tag_classify span{
+    border: 1px solid #ce3d2a;
+    border-radius: 36px;
+    color: #ce3d2a;
+    display: inline-block;
+    line-height: 0.6rem;
+    padding: 0rem 0.15rem;
+    margin-top: 3%;
+    margin-left: 0.6%;
+}
+.spec_classify>p{
+    border: 1px solid #ce3d2a;
+    border-radius: 36px;
+    color: #ce3d2a;
+    text-align: center;
+    line-height: 0.6rem;
+    padding: 0rem 0.15rem;
+    width: 33%;
+    margin: 7% auto 0;
+}
+.group_classify>p,.tag_classify>p{
+    padding-left: 6%;
+}
+.group_classify span.active,.tag_classify span.active,.spec_classify>p.active{
+    background-color: #ce3d2a;
+    color: #fff;
+}
+.group_submit,.tag_submit,.spec_submit{
+    border-top: 1px solid #e3e9ef;
+}
+.group_submit>button,.tag_submit>button,.spec_submit>button{
+    width: 50%;
+    float: left;
+    border: 1px solid #e3e9ef;
+    border-top: none;
+    border-bottom: none;
+    background-color: #fff;
+    line-height: 1.2rem;
+    font-size: 0.36rem;
+}
+.group_submit button:nth-child(1),.tag_submit button:nth-child(1),.spec_submit button:nth-child(1){
+    color: #c2c2c2;
+}
+.group_submit button:nth-child(2),.tag_submit button:nth-child(2),.spec_submit button:nth-child(2){
+    border-left: none;
+    color: #ce3d3a;
+}
+
+/***************************iphone5屏幕的媒体查询**********************/
+@media(max-width:321px){
+
+    .pointDes {
+        flex: 1;
+        background-color: #fff;
+        color: #333333;
+        border-left: 0.15rem solid #ce3d3a;
+        overflow: hidden;
+    }
+    /*弹出层*/
+    .group_classify, .tag_classify {
+        margin: 0.3rem auto 0.5rem;
+        width: 98%;
+    }
+
+}

@@ -1,0 +1,152 @@
+.examination{
+	width:100%;
+	min-height:93%;
+	position: absolute;
+	top: 64px;left:0;right:0;
+	padding:0.35rem;
+	box-sizing:border-box;
+	background-color:#E3E9EF;
+}
+
+.heart{
+	width:100%;
+	position:relative;
+}
+/*------------------答案-------------*/
+.examination .all-question .answer-col{
+	color:#CE3D3A;
+}
+.examination .all-question .answer-y{
+	color:#CE3D3A!important;
+}
+.examination .conf-hide{
+	display:none;
+}
+/*------------------------搜索-----------------------*/
+.examination .search{
+    width:90%;
+    margin:0.35rem auto 0.7rem;
+    background-color: rgba(255,255,255,0.84);
+    color:#999999;
+    height:1rem;
+    line-height: 1rem;
+    border-radius: 20px;
+}
+.examination .search>input{
+    border:none;
+    padding-left:0.27rem;
+    background-color: transparent;
+    width:85%;
+    margin-right: 0.3rem;
+    border-right: 1px solid #c2c2c2;
+}
+.examination .search>i{
+    display: inline-block;
+    width:0.5rem;
+    height:0.5rem;
+    background: url("../../../../images/notes/search.png")no-repeat 100% 100%;
+    background-size: 100%;
+    vertical-align: middle;
+}
+
+/*-------------------------勾选小图标----------------------*/
+.examination .question .icon{
+	width:0.4rem;
+	height:0.4rem;
+	position:absolute;
+	top:0.04rem;
+	left:0;
+	bottom:0;
+	border-radius:50%;
+}
+.examination .question .conf,.examination .question .choose,.examination .question .air{
+	width:0.42rem;
+	height:0.42rem;
+	border-radius:50%;
+	text-align: center;
+	line-height:0.4rem;
+}
+.examination .question .air{
+	border:1px solid #9b9b9b;
+}
+.examination .question .conf{
+	border:1px solid #CE3D3A;
+}
+.examination .question .choose{
+	background-color:#CE3D3A;
+}
+.examination .conf .confirm{
+	width:0.36rem;
+	height:0.36rem;
+	display: block;
+}
+.examination .choose .confirm{
+	width:0.24rem;
+	height:0.18rem;
+	margin-top:0.1rem;
+}
+
+
+
+
+/*-----------------排版布局-----------------------*/
+.all-question{
+	width:100%;
+}
+.question{
+	background-color:#fff;
+	margin-bottom:0.35rem;
+}
+.question dl{
+	padding:0.35rem;
+}
+.question dt{
+	color:#333;
+	font-size:0.4rem;
+	margin-bottom:0.35rem;
+}
+.question dd{
+	color:#666;
+	font-size:0.34rem;
+	line-height:0.5rem;
+	padding-left:0.6rem;
+	position:relative;
+	margin:0.25rem 0;
+	overflow:hidden;
+}
+.question dd .select{
+	float:left;
+	width:95%;
+}
+.question dd p{
+	float:left;
+	width:5%;
+	height:100%;
+	display:block;
+}
+
+
+
+/*----------------------答案解析-----------*/
+.question .anAlysis{
+	color:#fff;
+	background-color:#CE3D3A;
+	font-size:0.35rem;
+}
+.question .anAlysis .to-view{
+	width:100%;
+	height:1rem;
+	line-height:1rem;
+	text-align:center;
+}
+.question .anAlysis .answer{
+	padding:0.35rem;
+	line-height:0.6rem;
+	font-size:0.33rem
+}
+.question .anAlysis .answer p{
+	font-size:0.4rem
+}
+.question .anAlysis .answer .reply{
+	font-size:0.37rem;
+}

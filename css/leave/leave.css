@@ -1,0 +1,274 @@
+
+.page{
+    position: fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background: url("../../images/leave/bg.png") no-repeat;
+    background-size: cover;
+}
+.page>.head{
+    height:1rem;
+    line-height: 1rem;
+    background-color: rgba(0,0,0,0.5);
+}
+.page>.head>i{
+    display: inline-block;
+    width:0.5rem;
+    height:0.5rem;
+    background: url("../../images/leave/return.png") no-repeat 100%;
+    background-size: 100%;
+    margin:0.2rem 0 0 0.2rem;
+}
+.shade{
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.85);
+}
+.content>i,.page a.icon>i{
+    display: inline-block;
+    width:1rem;
+    height:1rem;
+    background: url("../../images/leave/add.png") no-repeat;
+    background-size: 100%;
+    position: fixed;
+    top:1.5rem;
+    right:0.5rem;
+    z-index:101;
+}
+.content>.bg{
+    height:5rem;
+    width:30%;
+    position: fixed;
+    top:2.4rem;
+    right:1.3rem;
+}
+.content>.bg>img{
+    width:100%;
+}
+.content>.hint{
+    color:#ffffff;
+    width:70%;
+    height:1rem;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #ffffff;
+    border-radius: 60px;
+    position: fixed;
+    top:8.4rem;
+    right:1.3rem;
+}
+.content>.btn{
+    color:#ffffff;
+    width:20%;
+    height:1rem;
+    line-height: 1rem;
+    margin:0 auto;
+    background-color: #ce3d3a;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 5px;
+    position: fixed;
+    top:11rem;
+    right:40%;
+}
+
+
+.add_shade{
+    position: absolute;
+    z-index: 102;
+    top: 0;
+    left: 0;
+    background: url("../../images/leave/bg.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.85);
+}
+.add_shade>.container{
+    width:80%;
+    height:4rem;
+    background-color: #ffffff;
+    margin:45% auto;
+    border-radius: 5px;
+    padding-top:0.3rem;
+
+}
+.add_shade>.container>.inp{
+    border-bottom: 1px solid #999999;
+    padding:0.4rem 0 0 0.3rem;
+    height:1rem;
+}
+.add_shade>.container>.inp>input{
+    vertical-align: bottom;
+    border: none;
+    color:#666666;
+    font-size: 14px;
+}
+.add_shade>.container>.btn{
+    margin-top:1.4rem;
+    width: 40%;
+    height:1rem;
+    line-height: 1rem;
+    float: right;
+    color:#666666;
+}
+.add_shade>.container>.btn>.ensure{
+    float: right;
+    margin-right: 1.2rem;
+    color:#ce3d3a;
+}
+/*添加临时党支部成员*/
+.add_user>.head{
+    position: relative;
+    z-index: 102;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    height:1rem;
+    line-height: 1rem;
+    background-color: #ce3d3a;
+    font-size:12px;
+    padding:0 0.26rem;
+}
+.add_user>.head>.item{
+    flex:1;
+    color:#ffffff;
+}
+.add_user>.head>.center{
+    font-size:14px;
+}
+.add_user>.search,.party_list>.seek{
+    padding:0.7rem 0 0.1rem 0;
+    margin-left: 0.26rem;
+    border-bottom: 1px solid #cd92a8;
+}
+.add_user>.search>i,.party_list>.seek>i{
+    display: inline-block;
+    width:0.4rem;
+    height:0.4rem;
+    background: url("../../images/leave/search.png") no-repeat;
+    background-size: 100%;
+    margin-right: 0.2rem;
+}
+.add_user>.search>input,.party_list>.seek>input{
+    border: none;
+    background-color: transparent;
+    color:#999999;
+    font-size: 14px;
+}
+
+
+.add_user>.search>.portrait{
+    display: inline-block;
+    width:1.2rem;
+    height:1.2rem;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.2);
+    padding:3px;
+    margin:0.15rem 0.2rem;
+}
+.add_user>.search>.portrait>img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+
+
+
+.list{
+    padding:0 0.26rem 0.26rem 0.26rem;
+    color:#ffffff;
+}
+.list>li{
+    height:1.5rem;
+    border-bottom: 1px solid #cd92a8;
+}
+.list>li>i{
+    display: inline-block;
+    width:0.5rem;
+    height:0.5rem;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    position: relative;
+    top:-0.26rem;
+    left:0;
+}
+.list>li>i.active{
+    background: url("../../images/leave/check.png") no-repeat;
+    background-size: 100%;
+}
+.list>li>.portrait{
+    display: inline-block;
+    width:1.2rem;
+    height:1.2rem;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.2);
+    padding:3px;
+    margin:0.15rem 0.2rem;
+    /*float: left;*/
+}
+.list>li>.portrait>img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+.list>li>.name{
+    position: relative;
+    top:-0.4rem;
+    left:0;
+}
+
+/*临时党支部列表*/
+.party_list{
+    margin-top:0.8rem;
+}
+.party_list>.add_party,.party_list>.join_party{
+    color:#ffffff;
+    font-size: 14px;
+    margin-top:0.26rem;
+}
+.party_list>.add_party>.head,.party_list>.join_party>.head{
+    padding-left:0.3rem;
+    height:0.8rem;
+    line-height: 0.8rem;
+    background-color: #ce3d3a;
+    width:100%;
+
+}
+.party_list>.add_party>ul,.party_list>.join_party>ul{
+    padding:0 0.26rem;
+    width:100%;
+}
+.party_list>.add_party>ul>li,.party_list>.join_party>ul>li{
+    height:1.5rem;
+    border-bottom: 1px solid #cd92a8;
+}
+.party_list>.add_party>ul>li:last-child,.party_list>.join_party>ul>li:last-child{
+    border-bottom: none;
+}
+.party_list>.add_party>ul>li>.head_img,.party_list>.join_party>ul>li>.head_img{
+    display: inline-block;
+    width:1rem;
+    height:1rem;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.2);
+    padding:3px;
+    margin: 0.24rem 0.2rem;
+}
+.party_list>.add_party>ul>li>.head_img>img,.party_list>.join_party>ul>li>.head_img>img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+.party_list>.add_party>ul>li>.name,.party_list>.join_party>ul>li>.name{
+    font-size: 13px;
+    position: relative;
+    top:-0.25rem;
+    left:0;
+}

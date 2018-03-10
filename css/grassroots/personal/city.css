@@ -1,0 +1,44 @@
+.city ul {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	margin-bottom:3.333%;
+}
+.city ul img {
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 50%;
+	text-align: center;
+	overflow: hidden;
+	display: block;
+	margin-right: 0.35rem;
+	border:5px solid rgba(0,0,0,0.1);
+	float:left;
+}
+.city li a {
+	width: 100%;
+	height: 100%;
+	display: block;
+	overflow: hidden;
+	padding-top:5.5%;
+	padding-left:5%;
+	background-color: rgba(164,85,106,0.37);
+}
+.city li {
+	width: 100%;
+	height: 2.5rem;
+	margin-bottom: 3.333%;
+	font-size: 0.44rem;
+}
+.city li a>div{
+	float:left;
+	width:70%;
+	height:100%;
+	padding-top:0.2rem;
+}
+.city li a>div section{
+	margin-bottom:5%;
+}
+.city li a>div p{
+	font-size:0.24rem;
+}

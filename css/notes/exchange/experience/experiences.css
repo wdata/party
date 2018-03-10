@@ -1,0 +1,149 @@
+body{
+    background-color:#e3e9ef ;
+    height: auto;
+}
+.experiences{
+    padding-top:64px;
+}
+.btn{
+    display: inline-block;
+    /*position: absolute;*/
+    /*right:0;*/
+    text-align: center;
+    width:3rem;
+    height:1rem;
+    line-height: 1rem;
+    background-color: #ce3a3d;
+    color:#fff;
+    margin:0.26rem 0.22rem 0.26rem 0;
+    border-radius: 2px;
+    float: right;
+}
+
+
+.ledger,.experience{
+    width:95%;
+    margin: 0 auto;
+}
+.ledger dl{
+    width:100%;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    padding: 0.27rem;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #ffffff;
+}
+.ledger dl dt{
+    flex:0 0 2rem;
+    padding-right: .21rem;
+}
+.ledger dl dt>img{
+    width:100%;
+    border-radius: 3px;
+}
+.ledger dl dd.content{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:2.28rem;
+}
+.ledger dl dd.content>h2,.experience .title{
+    color:#333333;
+    font-size: 14px;
+    margin-bottom: 0.2rem;
+}
+.ledger dl dd.content>.content{
+    font-size: 12px;
+    color:#999999;
+}
+.ledger dl dd.content>.overview{
+    margin:0.15rem 0;
+    font-size: 10px;
+}
+.ledger dl dd.content>.overview>span{
+    display: inline-block;
+    padding:0.05rem;
+    border: 1px solid #e2e2e2;
+    border-radius: 12px;
+    color:#c2c2c2;
+    font-size: 10px;
+}
+.ledger dl dd.content>.foot .foot_title{
+    font-size: 0.3rem;
+}
+.ledger dl dd.content>.foot .foot_title>span,.experience .head>span{
+    position: relative;
+    top:-0.2rem;
+    color:#999999;
+}
+.ledger dl dd.content>.foot .foot_title>i.time,.experience .head>.time{
+    position: absolute;
+    right:0.5rem;
+    color:#c2c2c2;
+    margin-top:0.1rem;
+}
+.ledger dl dd.content>.foot .foot_title>img,.experience .head>img{
+    width:0.6rem;
+    height:0.6rem;
+    border-radius: 50%;
+}
+.ledger>.footer,.experience>.footer{
+    width:95%;
+    text-align: center;
+    margin:0 auto 0.4rem;
+    background-color: #ffffff;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+}
+.ledger>.footer>div,.experience>.footer>div{
+    flex:1;
+    height:1rem;
+    line-height: 1rem;
+    color:#acbac9;
+}
+.ledger>.footer>div>a,.experience>.footer>div>a{
+    color:#acbac9;
+}
+.ledger>.footer>div.active,.experience>.footer>div.active{
+    color:#ce3d39;
+}
+.ledger>.footer>div.collect>i,.experience>.footer>div.collect>i{
+    background: url("../../../../images/ledger_list/default_star.png") no-repeat 100%;
+    background-size: 100%;
+}
+.ledger>.footer>.collect.active>i,.experience>.footer>.collect.active>i{
+    background: url("../../../../images/ledger_list/star.png") no-repeat 100%;
+    background-size: 100%;
+}
+.ledger>.footer>div.comment>a>i,.experience>.footer>div.comment>a>i{
+    background: url("../../../../images/ledger_list/comment.png") no-repeat 100%;
+    background-size: 100%;
+}
+.ledger>.footer>div.like>i,.experience>.footer>div.like>i{
+    background: url("../../../../images/ledger_list/default_like.png") no-repeat 100%;
+    background-size: 100%;
+}
+.ledger>.footer>.like.active>i,.experience>.footer>.like.active>i{
+    background: url("../../../../images/ledger_list/like.png") no-repeat 100%;
+    background-size: 100%;
+}
+.ledger>.footer>div i,.experience>.footer>div i{
+    display: inline-block;
+    width:0.3rem;
+    height:0.3rem;
+    margin-right: 0.05rem;
+}
+
+/*心得*/
+
+.experience>.list{
+    width:100%;
+    background-color: #fff;
+    padding:0.26rem;
+    border-bottom: 1px solid #e2e2e2;
+}
+.experience .content{
+    line-height: 0.5rem;
+    color:#666;
+}

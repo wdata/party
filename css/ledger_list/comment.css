@@ -1,0 +1,206 @@
+body{
+    padding-top:64px;
+}
+.head-details{
+    width:100%;
+    margin: 0 auto;
+}
+.head-details dl{
+    width:100%;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    padding: 0.27rem;
+    background-color: #ffffff;
+}
+.head-details dl dt{
+    flex:0 0 2.4rem;
+    padding-right: .21rem;
+    width: 2.2rem;
+    height: 2.7rem;
+}
+.head-details dl dt>img{
+    width:100%;
+    height:100%;
+}
+
+.head-details dl dd.content{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:2.7rem;
+    width:50%;
+    position: relative;
+}
+.head-details dl dd.content>.icon{
+    position: absolute;
+    right:-0.1rem;
+    top:0;
+    width:0.8rem;
+}
+.head-details dl dd.content>.icon>img{
+    width:100%;
+}
+.head-details dl dd.content>h2{
+    color:#333333;
+    display:block;
+    height:0.8rem;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0.1rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    width: 93%;
+}
+.head-details dl dd.content>.content{
+    font-size: 12px;
+    color:#999999;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    line-height: 0.6rem;
+    height: 1rem;
+    width: 93%;
+
+}
+.head-details dl dd.content>.overview{
+    margin:0.15rem 0;
+    font-size: 10px;
+    height:1.1rem;
+    overflow:hidden;
+}
+.head-details dl dd.content>.overview>span{
+    display: inline-block;
+    padding:0.1rem 0.08rem 0.06rem 0.08rem;
+    border: 1px solid #e2e2e2;
+    border-radius: 12px;
+    color:#c2c2c2;
+}
+.head-details dl dd.content>.overview>i{
+    display: inline-block;
+    width: 0.5rem;
+    height:0.5rem;
+    background: url("../../images/ledger_list/right.png") no-repeat 100%;
+    background-size: 100%;
+    float: right;
+}
+.head-details dl dd.content>.overview>i a{
+	display: block;
+	width:100%;
+	height:100%;
+}
+.head-details dl dd.content>.foot .foot_title{
+    font-size: 10px;
+}
+.head-details dl dd.content>.foot .foot_title>span{
+    position: relative;
+    top:-0.2rem;
+    color:#999999;
+}
+.head-details dl dd.content>.foot .foot_title>i.time{
+    position: absolute;
+    right:0;
+    color:#c2c2c2;
+    padding:0.1rem 0.26rem 0 0;
+}
+.head-details dl dd.content>.foot .foot_title>img{
+    width:0.6rem;
+    height:0.6rem;
+    border-radius: 50%;
+}
+
+
+/*评论列表*/
+.comment_list{
+    width:100%;
+    margin: 0.26rem auto 0;
+    background-color:#fff;
+    min-height: 74%;
+}
+.comment_list>.title{
+    height:1rem;
+    line-height: 1rem;
+    background-color: #ffffff;
+    color:#9aa9b9;
+    border-bottom: 1px solid #e2e2e2;
+    padding-left:0.27rem;
+    font-size: 12px;
+}
+.comment_list dl{
+    width:100%;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    padding: 0.2rem 0.27rem 0.5rem 0.27rem;
+    border-bottom:1px solid #e2e2e2;
+}
+.comment_list dl:last-child{
+    border-bottom:0;
+}
+/*.comment_list dl:last-child{*/
+    /*padding-bottom: 1.5rem;*/
+/*}*/
+.comment_list dl dt{
+    flex:0 0 1.2rem;
+    padding-right: .21rem;
+}
+.comment_list dl dt>img{
+    width:100%;
+    border-radius: 50%;
+}
+.comment_list dl dd.container{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top:0.2rem;
+}
+.comment_list dl dd.container>span{
+    float: left;
+    font-size: 13px;
+    color:#333333;
+    margin-bottom: 0.2rem;
+}
+.comment_list dl dd.container>span>.time{
+    float: right;
+    color:#999999;
+    font-size:12px;
+}
+.comment_list dl dd.container>.overview{
+    font-size: 13px;
+    line-height: 0.6rem;
+    color:#666666;
+}
+/*输入框*/
+footer{
+    position: fixed;
+    width:100%;
+    height:1rem;
+    bottom:0;
+    left:0;
+    padding:0.2rem;
+}
+footer>.foot{
+    position: relative;
+    bottom:0.5rem;
+}
+footer>.foot>input{
+    border: 1px solid #e2e2e2;
+    height:1rem;
+    border-radius: 3px;
+    width:82%;
+    font-size: 13px;
+    padding-left:0.2rem;
+}
+footer>.foot>.send {
+    display: inline-block;
+    width: 13%;
+    height: 1rem;
+    line-height: 1rem;
+    border-radius: 3px;
+    background-color: #ce3d3a;
+    text-align: center;
+    color:#ffffff;
+}

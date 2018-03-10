@@ -1,0 +1,81 @@
+/* 思想汇报页面 */
+/*党员发展空间*/
+/*******************头部样式******************/
+.page{
+    padding-bottom: 0.4rem;
+}
+header.head{
+    width:100%;
+    background: #ce3d2a;
+}
+header.head .head_return{
+    line-height: 44px;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    margin-top:20px;
+}
+header.head .head_return>i{
+    display: inline-block;
+    width: 0.3rem;
+    height: 22px;
+    margin-top: 11px;
+    margin-left: 0.35rem;
+    background: url(../../images/member_develop/return.png) no-repeat 100%;
+    background-size: 100%;
+    float: left;
+}
+
+
+/*************正文******************/
+article{
+    background: #ffffff;
+    border-radius: 3px;
+    width: 92%;
+    margin: 0.5rem auto 0;
+    height: 10.5rem;
+}
+article .article_container{
+    padding: 0 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article .article_container h3{
+    display: inline-block;
+    font-size: 0.38rem;
+    /*margin-left: 33%;*/
+    text-align: center;
+    width: 80%;
+}
+article .article_container i{
+    background: url(../../images/member_develop/edit.png) no-repeat;
+    background-size: 100%;
+    width: 0.75rem;
+    height: 0.75rem;
+    position: absolute;
+    right: 6%;
+    top: 10%;
+}
+article .article_container p{
+	text-align: center;
+	margin-top: 0.2rem;
+	color: #999999;
+}
+.apply h4,.apply p,.apply div{
+    width: 92%;
+    margin: 0.2rem auto;
+    line-height: 0.5rem;
+    color: #666666;
+}
+.apply p{
+    text-indent: 2em;;
+}
+.apply{
+    line-height: 0.5rem;
+    color: #666666;
+}
+.apply img{
+    display:block;
+    max-width:100%;
+}

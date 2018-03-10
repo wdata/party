@@ -1,0 +1,258 @@
+body{
+    min-height:100%;
+}
+body>.bg{
+    position: absolute;
+    width:100%;
+    top:64px;
+    background: url("../../images/leave/bg.png");
+    background-size:cover;
+    z-index: -99;
+}
+.tab{
+    width:100%;
+    height: 39px;
+    background-color:#fff;
+    color:#000;
+    display:flex;
+    border-top:1px solid #eee;
+    position: fixed;
+    top:64px;
+}
+.tab button{
+    flex:1;
+    height: 100%;
+    background-color:#fff;
+    border:0;
+    font-weight:bold;
+    font-size:16px;
+}
+.taizhang{
+    height:100%;
+}
+#warp{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    background: url("../../images/leave/bg.png") no-repeat 0 -100%;
+    background-size: cover;
+
+}
+
+
+.red{
+    color: #ce3d3a;
+}
+
+
+
+
+
+
+
+/*日期*/
+.date{
+    color:#ffffff;
+    position: absolute;
+    width:14%;
+    height:85.8%;
+    top:104px;
+}
+.content{
+    height:100%;
+    border-right: 1px solid #ffffff;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content>li.year{
+    padding:0.3rem 0;
+    flex:0;
+}
+.content>li{
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+.content>li>span:first-child{
+    display: inline-block;
+    position: absolute;
+    left:0;
+    top:40%;
+    width:100%;
+    height:100%;
+}
+.content>li>i.active{
+    position: absolute;
+    top:42%;
+    right:-0.15rem;
+    display: inline-block;
+    width:0.3rem;
+    height:0.3rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.content>li>.time{
+    display: none;
+}
+.content>li>.time.active{
+    position: absolute;
+    right:-1.5rem;
+    top:40%;
+    display: inline-block;
+}
+
+/*图片区域*/
+#pic {
+    position: absolute;
+    right:0;
+    width:70%;
+    height:85.8%;
+    top:104px;
+}
+
+#pic ul {
+    height:100%;
+    position: relative;
+}
+
+#pic ul li {
+    position: absolute;
+    transition: all 1s linear 0s;
+    width:7rem;
+    height:5.6rem;
+}
+#pic ul li a{
+    display:block;
+    width:100%;
+    height:100%;
+}
+#pic ul>li>a>.title{
+    position: absolute;
+    width: 97%;
+    height: 93%;
+    top: 3%;
+    left: 4%;
+    z-index: 100;
+    font-size: 15px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    padding-top: 31%;
+    color: #fff;
+}
+#pic ul>li>a>i{
+    display: inline-block;
+    width:1rem;
+    height:1rem;
+    background: url("../../images/collect/biaoqian.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top:0.2rem;
+    right:0;
+}
+#pic ul>li>.footer{
+    width:100%;
+    position: absolute;
+    bottom: 0.26rem;
+    left: 0.3rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    color:#ffffff;
+    height:1rem;
+    padding:0.25rem 0.5rem 0 0.3rem;
+    z-index:1000;
+
+}
+#pic ul>li>.footer>div.like>i{
+    display: inline-block;
+    width:0.5rem;
+    height:0.5rem;
+    margin-right:0.15rem;
+    z-index:1001;
+}
+#pic ul>li>.footer>div.like>span{
+    position: relative;
+    top:-2px;
+}
+#pic ul>li>.footer>div.title{
+    height: 0.54rem;
+    border: 1px solid #ffffff;
+    border-radius: 0.54rem;
+    padding:0.08rem 0.15rem;
+    font-size:10px;
+}
+/*图片明暗*/
+#pic ul li{
+    right: 0;
+}
+/*图片width*/
+#pic ul li img {
+    width:100%;
+    height:100%;
+}
+
+
+
+
+/*----------------------------------------------我的收藏         文章--------------------------------*/
+.wenzhang{
+    width:100%;
+    position: relative;
+    top:104px;left:0;right:0;
+    padding:0 0.25rem 0.35rem;
+    border-top:1px solid #eee;
+}
+.wenzhang .heart{
+    width:100%;
+    position:relative;
+}
+
+.wenzhang ul{
+    height:100%;
+}
+.wenzhang li{
+    width:100%;
+    height:2.7rem;
+    border-bottom:1px solid #E2E2E2;
+    padding:0.35rem 0.1rem;
+}
+.wenzhang li>a{
+    width:100%;
+    height:100%;
+    display:flex;
+}
+.wenzhang li img{
+    height:100%;
+    width:3.2999rem;
+    display:block;
+    float:left;
+    margin-right:0.35rem;
+}
+.wenzhang li .text{
+    float:left;
+    width:60%;
+    height:100%;
+    font-size:0.35rem;
+    position:relative;
+}
+.wenzhang li .text header{
+    padding-top:0.1rem;
+    line-height:0.6rem;
+    color:#333;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.wenzhang li .text .time{
+    font-size:0.26rem;
+    color:#999;
+    position:absolute;
+    bottom:0.15rem;
+}
+.wenzhang li .text .time span:first-child{
+    margin-right:0.15rem;
+}

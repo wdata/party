@@ -1,0 +1,135 @@
+.papars{
+	width:100%;
+	min-height:93%;
+	position: absolute;
+	top: 64px;left:0;right:0;
+	box-sizing:border-box;
+	background-color:#E3E9EF;
+}
+
+.heart{
+	width:100%;
+	position:relative;
+}
+.papars .jump{
+	display:block;
+    width:55%;
+    height:1rem;
+    line-height:1rem;
+    border-radius:1rem;
+    text-align:center;
+    font-size:0.35rem;
+    color:#fff;
+    box-sizing:border-box;
+    background-color:#CE3D3A;
+    margin:0.2rem auto 1rem;
+}
+
+/*------------------答案-------------*/
+.papars .all-question .answer-col{
+	color:#CE3D3A;
+}
+/*-------------------------勾选小图标----------------------*/
+.papars .question .icon{
+	width:0.4rem;
+	height:0.4rem;
+	position:absolute;
+	top:0.04rem;
+	left:0;
+	bottom:0;
+	border-radius:50%;
+}
+.papars .question .choose,.papars .question .air{
+	width:0.42rem;
+	height:0.42rem;
+	border-radius:50%;
+	text-align: center;
+	line-height:0.4rem;
+}
+.papars .question .air{
+	border:1px solid #9b9b9b;
+}
+.papars .question .choose{
+	background-color:#CE3D3A;
+}
+.papars .conf .confirm{
+	width:0.36rem;
+	height:0.36rem;
+	display: block;
+}
+.papars .choose .confirm{
+	width:0.24rem;
+	height:0.18rem;
+	margin-top:0.1rem;
+}
+
+/*-----------------排版布局-----------------------*/
+.all-question{
+	width:100%;
+	padding:0.35rem;
+}
+.question{
+	background-color:#fff;
+	margin-bottom:0.35rem;
+	position:relative;
+}
+
+/*----------顶部-左侧排序数-----------*/
+.question .top-left{
+	width:0.8rem;
+	position:absolute;
+	top:0;left:0;
+}
+.question .top-left img{
+	width:0.8rem;
+	height:0.8rem;
+}
+.question .top-left .number{
+	width:0.64rem;
+	height:0.8rem;
+	line-height:0.8rem;
+	text-align:center;
+	display: block;
+	position:absolute;
+	top:0;
+	left:0;
+	color:#fff;
+	font-size:0.38rem;
+}
+
+
+/*---------中部题目------------*/
+.question dl{
+	padding:0.6rem 0.35rem 0.35rem 0.7rem;
+}
+.question dt{
+	color:#333;
+	font-size:0.4rem;
+	margin-bottom:0.35rem;
+}
+.question dt i{
+	width:0.8rem;
+	height:100%;
+	border-bottom:1px solid #333;
+	display: inline-block;
+	margin-left:0.15rem;
+}
+.question dd{
+	color:#666;
+	font-size:0.34rem;
+	line-height:0.5rem;
+	padding-left:0.6rem;
+	position:relative;
+	margin:0.25rem 0;
+	overflow:hidden;
+}
+.question dd .select{
+	float:left;
+	width:95%;
+}
+.question dd p{
+	float:left;
+	width:5%;
+	height:100%;
+	display:block;
+}

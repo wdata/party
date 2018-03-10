@@ -1,0 +1,169 @@
+/*支部堡垒空间页面*/
+/*向左滑动图片*/
+.leaderSlide{
+    width: 1.55rem!important;
+    height: 3rem!important;
+}
+.leaderSlide>img{
+    width: 100%;
+    height: 1.55rem;
+    border-radius: 70px;
+
+}
+.leaderSlide>p{
+    line-height: 0.1rem!important;
+}
+.banner{
+
+    border-bottom: 1px solid #c2c2c2;
+}
+.banner>.head>.right>img{
+    width: 100%;
+}
+.swiper-container .swiper-slide p{
+    text-align: center;
+    font-size: 0.266rem;
+    padding-top:10px;
+    color:#666666;
+}
+.swiper-slide>.firstImg{
+    border-radius: 5px 0 0 5px;
+}
+/*最新台账*/
+.titleRight{
+    width: 0.25rem;
+    height: 0.3rem;
+    margin-left: 0.2rem;
+}
+.ledger .head .four-target{
+    float: inherit!important;
+}
+.ledger>.head>.search{
+    width: 0.45rem;
+    height: 0.45rem;
+    float: right;
+}
+.search>img{
+    width: 100%;
+}
+.newSlide{
+    width: 2.4rem!important;
+    height: 2.4rem;
+}
+
+/*轨迹*/
+.track{
+    width: 3rem;
+    margin-left: 37%;
+}
+.track>span{
+    display: inline-block;
+    width: 0.5rem;
+    height: 2px;
+    background-color: #f8d7d8;
+    margin-right: 3px;
+    margin-bottom: 2%;
+}
+.leaderHead{
+    height: 1rem!important;
+}
+.ledgerTrack{
+    height: 6.2rem;
+    padding: 0px 10px 10px 10px!important;
+}
+.grow-container{
+    height: 5rem;
+}
+.swiper-container .grow-slide img {
+    width: 100%;
+    height: 100%;
+}
+.swiper-container .grow-slide{
+    height: 4.58rem;
+}
+/*四个指标*/
+.target-box{
+    margin-bottom: 0.5rem;
+}
+.target-box>p{
+    font-size: 0.4rem;
+    display: inline-block;
+    width: 92%;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.target-display{
+    display: inline-block;
+    width: 6%;
+}
+/*右下角的触发button*/
+.choose-button{
+    
+    position: fixed;
+    top: 90%;
+    left: 80%;
+    width: 1.5rem;
+    height: 1.5rem;
+    z-index: 9999;
+}
+.choose-button>img{
+    width: 100%;
+}
+/*遮罩层弹出层*/
+.black-container{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(7,17,27,0.8);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+   
+}
+.black-hide{
+   display: none;
+}
+.black-show{
+    display: block;
+}
+.buttonList1,.buttonList2{
+    height: 2.5rem;
+}
+.buttonList2{
+    margin-left: 10%;
+}
+.black_li1,.black_li2{
+    float: left;
+    margin-left: 6%;
+}
+.black-img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.black-img>img{
+    width: 100%;
+}
+.blackBox{
+    position: fixed;
+    top: 38%;
+    left: 16%;
+    width: 100%;
+}
+.blackBox p{
+    text-align: center;
+    margin-top: 0.2rem;
+    color: #fff;
+}
+.detail-close{
+    position: fixed;
+    top: 89%;
+    left: 46%;
+    z-index: 999999;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 1rem;
+}

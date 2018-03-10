@@ -1,0 +1,138 @@
+.truth{
+	width:100%;
+	min-height:76%;
+	position:relative;
+	/*top: 108px;left:0;right:0;*/
+	padding:0.35rem;
+	background-color:#e4e9ef;
+	top:108px;
+}
+.truth .heart{
+	width:100%;height:100%;
+	position:relative;
+}
+.truth .edit-di{
+	width:100%;
+	height:0.8rem;
+}
+.truth .edit{
+	width:2.4rem;
+	height:0.8rem;
+	line-height:0.8rem;
+	text-align:center;
+	position:absolute;
+	top:0;right:0;
+	background-color:#ce3d3a;
+	font-size:0.34rem;
+	color:#fff;
+}
+.truth ul{
+	padding:0.3rem 0 0;
+}
+.truth li{
+	position:relative;
+	width:100%;
+	height:3.4rem;
+	margin-bottom:0.1rem;
+}
+.truth .logo {
+	width:1.96rem;
+	height:1.97rem;
+	border-radius:50%;
+	border:0.1rem solid #dfdde2;
+	position:absolute;
+}
+.truth .logo img{
+	width:1.8rem;
+	height:1.8rem;
+	display:block;
+	border-radius:50%;
+	border:0.1rem solid #deadb1;
+}
+.truth .words{
+	background:url(../../../images/party_serve/bg.png) no-repeat;
+	background-size:cover;
+	width:7.2rem;
+	height:3.2rem;
+	position:absolute;
+	top:0.12rem;right:0;
+	padding-top:0.5rem;
+	padding-left:0.7rem;
+	padding-bottom:0.45rem;
+	padding-right:0.3rem;
+	box-sizing:border-box;
+}
+
+.truth .words>a{
+	display:block;
+	width:100%;
+	height:100%;
+	font-size:0.34rem;
+	position:relative;
+}
+.truth .words header {
+	margin-bottom:0.25rem;
+}
+.truth .words header .position{
+	font-size:0.28rem;
+	color:#9d9d9d;
+	margin-right:0.1rem;
+}
+.truth .words header .name{
+	font-size:0.35rem;
+	color:#666;
+}
+.truth .words p {
+	color:#333;
+	line-height:0.5rem;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.truth .words footer{
+	overflow:hidden;
+	position:absolute;
+	bottom:0;right:0;left:0;
+	color:#9AA9B9;
+	font-size:0.3rem;
+	width: 103%;
+}
+.truth .words footer .time{
+	float:left;
+	color:#666;
+}
+.truth .words footer .comment{
+	float:right;
+	margin-right:0.3rem;
+}
+.truth .words footer .comment>img{
+	width:0.4rem;
+	height:0.33rem;
+	vertical-align:middle;
+	margin-right:0.1rem;
+}
+.truth .words footer .like{
+	float:right;
+}
+.truth .words footer .like>img{
+	width:0.4rem;
+	height:0.33rem;
+	vertical-align:middle;
+	margin-right:0.1rem;
+	display: none;
+}
+.truth .words footer .like .ledger{
+	display: inline-block;
+}
+.truth .words footer .active{
+	color:#CE3D3A;
+}
+.truth .words footer .active .ledger{
+	display:none;
+}
+.truth .words footer .active .clicked{
+	display:inline-block;
+}
+

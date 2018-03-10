@@ -1,0 +1,118 @@
+.nav{
+    position: relative;
+    width:100%;
+    min-height:93%;
+    margin-top:64px;
+    padding:1px 0;
+    background: -ms-linear-gradient(top, #a19fa5,  #323848);        /* IE 10 */
+
+    background:-moz-linear-gradient(top,#a19fa5,#323848);/*火狐*/
+
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#a19fa5), to(#323848));/*谷歌*/
+
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a19fa5), to(#323848)); /* Safari 4-5, Chrome 1-9*/
+
+    background: -webkit-linear-gradient(top, #a19fa5, #323848);   /*Safari5.1 Chrome 10+*/
+
+    background: -o-linear-gradient(top, #a19fa5, #323848);  /*Opera 11.10+*/
+}
+.banner{
+    display: block;
+    position: relative;
+    width:95%;
+    margin: 0.5rem auto;
+}
+.banner>.bg{
+    width:95%;
+    padding-top:0.4rem;
+}
+.banner>.bg>img{
+    width:100%;
+}
+.banner>.text{
+    width:69%;
+    height:97%;
+    background-color: rgba(25,130,211,0.8);
+    position: absolute;
+    right:0.26rem;
+    top:0;
+    color:#fff;
+}
+.banner>.text .course{
+    width:50%;
+    margin: 0 auto;
+    text-align: right;
+}
+.banner>.text h1{
+    font-size: 0.69rem;
+    margin:2.5rem 0 0.1rem 0;
+}
+.banner>.text p{
+    line-height: 0.5rem;
+}
+
+.life>.text{
+    background-color: rgba(114,101,211,0.8);
+    position: absolute;
+    left:0.26rem;
+}
+.life>.bg{
+    position: relative;
+    left:5%;
+}
+.life>.text .course{
+    width:60%;
+    text-align: left;
+}
+
+.learn>.text{
+    background-color: rgba(222,202,65,0.8);
+    position: absolute;
+    left:0.26rem;
+}
+.learn>.bg{
+    position: relative;
+    left:5%;
+}
+.learn>.text .course{
+    width:60%;
+    text-align: left;
+}
+
+.warn>.text{
+    background-color: rgba(35,129,44,0.8);
+    position: absolute;
+    left:0.26rem;
+}
+.warn>.bg{
+    position: relative;
+    left:5%;
+}
+.warn>.text .course{
+    width:60%;
+    text-align: left;
+}
+
+.duty>.text{
+    background-color: rgba(239,111,49,0.8);
+}
+.duty>.text .course{
+    width:65%;
+}
+.pay .text{
+    left:0.26rem;
+    background-color: rgba(218,37,28,0.8);
+}
+.pay .course{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.pay .course h1{
+    margin:0.6rem auto 0;
+}
+.pay .logo{
+    width:50%;
+}

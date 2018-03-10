@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta>
+    <title>台账列表</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="flexible" content="initial-dpr=2" />
+    <link rel="stylesheet" href="../plugin/flexible/flexible.css">
+    <script src="../plugin/flexible/flexible.js"></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../plugin/dropload-gh-pages/dist/dropload.css"/>
+    <!--日期插件样式更换-->
+    <link rel="stylesheet" href="../plugin/date/calendar.css">
+    <link rel="stylesheet" href="../css/general/general_header.css">
+    <link rel="stylesheet" href="../css/ledger_list/ledger_list.css">
+
+</head>
+<body>
+<div class="page">
+    <header class ="head">
+        <div class="header"><span class="title">所有台账</span><a onclick="history.go(-1);"><span></span></a></div>
+    </header>
+</div>
+<div class="ledgee">
+    <div class="banner">
+        <!--<div class="title"><i onclick="history.go(-1);"></i>所有台账</div>-->
+        <div class="banner_bg"><img src="../images/ledger_list/bg.png" alt=""></div>
+    </div>
+    <div class="content">
+        <div class="search">
+            <input type="search" class="search-kerword" placeholder="请输入关键字"><i class="search-click"></i>
+        </div>
+        <nav class="nav" style="visibility: hidden;">
+            <div class="item active time">发布时间<i></i><p></p></div>
+            <div class="item like">点赞最多<p class="hide"></p></div>
+            <div class="item screen"><i></i>筛选<p class="hide"></p></div>
+        </nav>
+        <div class="list">
+            <!---->
+            <!--<dl>-->
+                <!--<dt><img src="../images/ledger_list/ledger3.png"></dt>-->
+                <!--<dd class="content">-->
+                    <!--<h2>优秀党员的五个标尺</h2>-->
+                    <!--<div class="content">合格的党员的厚度如何，五种标尺多思量</div>-->
+                    <!--<div class="overview">-->
+                        <!--<span>主体责任落实</span>-->
+                        <!--<span>干部关爱</span>-->
+                        <!--<span>廉政谈话</span>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                    <!--<div class="foot">-->
+                        <!--<div class="foot_title">-->
+                            <!--<img src="../images/test/wsx.png" alt="">-->
+                            <!--<span class="name">纪宗靖</span>-->
+                            <!--<span class="position">组织委员</span>-->
+                            <!--<i class="time">2017.3.28&nbsp&nbsp12:50</i>-->
+                        <!--</div>-->
+
+                    <!--</div>-->
+                <!--</dd>-->
+            <!--</dl>-->
+            <!--<div class="footer">-->
+                <!--<div class="collect active"><i></i>收藏(<span>800</span>)</div>-->
+                <!--<div class="comment"><a href="comment.html"><i></i>评论(<span>700</span>)</a></div>-->
+                <!--<div class="like active"><i></i>点赞(<span>500</span>)</div>-->
+            <!--</div>-->
+        </div>
+        <!--毫无数据-->
+        <div class="nothing hide"><div class="nothing-text">暂无数据</div></div>
+        <!--弹框组-->
+        <div class="shade hide">
+            <ul class="content">
+                <li>按时间顺序<i></i></li>
+                <li>按时间顺序<i></i></li>
+            </ul>
+        </div>
+        <div class="screen_shade hide">
+            <div class="content">
+                <div class="head">筛选</div>
+                <div class="title">标签</div>
+                <div class="container">
+                    <div class="item">主体责任落实</div>
+                    <div class="item">中心组学习</div>
+                    <div class="item">监督执纪</div>
+                    <div class="item">入党思想心得</div>
+                    <div class="item">日常学习心得</div>
+                    <div class="item">品牌创新</div>
+                    <div class="item">干部关爱</div>
+                    <div class="item">文明创建</div>
+                    <div class="item">三会一课</div>
+                    <div class="item">廉政谈话</div>
+                    <div class="item">民主（组织）生活会</div>
+                    <div class="item">下抓两级机制落实</div>
+                    <div class="item">其他类别</div>
+                </div>
+                <div class="foot">
+                    <div class="title">发布时间</div>
+                    <div class="container">
+                        <label>
+                            <!--日期插件模板更换 设置最大最小日期配置-->
+                            <input type="datetime" onfocus="blur()" class="calendars star"  min-date="2014-05-10" max-date="2017-06-1" format="yyyy-MM-dd"  readonly="readonly">
+                            <i></i></label>
+                        <i>-</i>
+                        <label>
+                            <!--日期插件模板更换 设置最大最小日期配置-->
+                            <input type="datetime" onfocus="blur()" class="calendars end"  min-date="1990-05-10" max-date="2017-06-1" format="yyyy-MM-dd"  readonly="readonly">
+                            <i></i></label>
+                    </div>
+                </div>
+                <footer>
+                    <div class="reset">重置</div>
+                    <div class="save">完成</div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../plugin/zepto/zepto.js"></script>
+
+<!--日期插件更换-->
+<script src="../plugin/date/calendar.js"></script>
+<script src="../plugin/cookie/zepto.cookie.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../plugin/dropload-gh-pages/dist/dropload.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/common.js"></script>
+<script src="../js/ledger_list/ledger_list.js"></script>
+</body>
+</html>

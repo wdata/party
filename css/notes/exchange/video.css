@@ -1,0 +1,68 @@
+body{
+    padding-top: 20px;
+}
+header.head{
+    width:100%;
+    background: #000;
+}
+header.head .head_return{
+    line-height: 1.3rem;
+    color: #999;
+    font-size: 0.38rem;
+    text-align: center;
+}
+header.head .head_return>i{
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 4%;
+    margin-left: 0.26rem;
+    background: url(../../../images/notes/return.png) no-repeat 100%;
+    background-size: 100%;
+    float: left;
+}
+.video{
+    position: fixed;
+    width:100%;
+    height:100%;
+    background-color: #000;
+}
+.video>.title{
+    width:100%;
+    height:1rem;
+    line-height: 1rem;
+}
+.video>.title>span{
+    display: inline-block;
+    width:0.5rem;
+    height:0.5rem;
+    float: right;
+    margin:0.2rem 0.26rem;
+}
+.video>.title>span.collect{
+    background: url(../../../images/notes/collect_gray.png) no-repeat;
+    background-size: 100%;
+}
+.video>.title>span.collect.active{
+    background: url(../../../images/notes/collect_red.png) no-repeat;
+    background-size: 100%;
+}
+.video>.title>span.comment{
+    background: url(../../../images/notes/comment_gray.png) no-repeat;
+    background-size: 100%;
+}
+.video>.title>span.comment.active{
+    background: url(../../../images/notes/comment_red.png) no-repeat;
+    background-size: 100%;
+}
+.video>.title>span.like{
+    background: url(../../../images/notes/like_ash.png) no-repeat;
+    background-size: 100%;
+}
+.video>.title>span.like.active{
+    background: url(../../../images/notes/like_red.png) no-repeat;
+    background-size: 100%;
+}
+video{
+    width:100%;
+}

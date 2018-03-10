@@ -1,0 +1,110 @@
+body{
+    background: url("../../images/leave/bg.png") no-repeat 0 -100%;
+    background-size: cover;
+}
+body>.bg{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background: url("../../images/leave/bg.png") no-repeat;
+    background-size: cover;
+    z-index: -99;
+}
+/*添加临时党支部成员*/
+.add_user>.head{
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    height: 44px;
+    line-height: 44px;
+    background-color: #ce3d3a;
+    font-size:14px;
+    padding:0 0.26rem;
+    margin-top:20px;
+}
+.add_user>.head .item{
+    flex:1;
+    text-align: center;
+    color:#ffffff;
+}
+.add_user>.head>.center{
+    font-size:14px;
+}
+.add_user>.search{
+    padding:0.7rem 0 0.1rem 0;
+    margin-left: 0.26rem;
+    border-bottom: 1px solid #cd92a8;
+}
+.add_user>.search>i{
+    display: inline-block;
+    width:0.4rem;
+    height:0.4rem;
+    background: url("../../images/leave/search.png") no-repeat;
+    background-size: 100%;
+    margin-right: 0.2rem;
+}
+.add_user>.search>input{
+    border: none;
+    background-color: transparent;
+    color:#999999;
+    font-size: 14px;
+}
+
+
+.add_user>.search>.portrait{
+    display: inline-block;
+    width:1.2rem;
+    height:1.2rem;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.2);
+    padding:3px;
+    margin:0.15rem 0.2rem;
+}
+.add_user>.search>.portrait>img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+
+
+
+.list{
+    padding:0 0.26rem 0.26rem 0.26rem;
+    color:#ffffff;
+}
+.list>li{
+    height:1.5rem;
+    border-bottom: 1px solid #cd92a8;
+}
+.list>li>i{
+    display: inline-block;
+    width:0.5rem;
+    height:0.5rem;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    position: relative;
+    top:-0.26rem;
+    left:0;
+}
+.list>li>i.active{
+    background: url("../../images/leave/check.png") no-repeat;
+    background-size: 100%;
+}
+.list>li>.portrait{
+    display: inline-block;
+    width:1.2rem;
+    height:1.2rem;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.2);
+    padding:3px;
+    margin:0.15rem 0.2rem;
+}
+.list>li>.portrait>img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+.list>li>.name{
+    position: relative;
+    top:-0.4rem;
+    left:0;
+}

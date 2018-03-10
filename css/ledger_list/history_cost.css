@@ -1,0 +1,42 @@
+.history-cost{
+    color:#333;
+    font-size:14px;
+    position:absolute;
+    top:64px;
+    width:100%;
+}
+.history-cost .top-header{
+    line-height:3rem;
+    color:#666;
+    display:flex;
+    font-size:16px;
+    justify-content:space-between;
+    padding:0 0.35rem;
+}
+.history-cost .top-header span{
+    color: #f36562;
+    font-size:32px;
+}
+.minxi header{
+    padding:0 0.35rem;
+    background-color:#f5f5f5;
+    color:#999;
+    height:1rem;
+    line-height:1rem;
+}
+.minxidel{
+    border-bottom:1px solid #eee;
+    line-height:1.5rem;
+    height:1.5rem;
+    display:flex;
+    justify-content:space-between;
+    padding:0 0.35rem;
+    color:#999;
+    font-size:16px;
+}
+.minxidel time{
+    color:#666;
+}
+.money{
+    color: #f36562;
+}

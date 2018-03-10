@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>荣誉奖励编辑</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<meta name="flexible" content="initial-dpr=2" />
+		<link rel="stylesheet" href="../../plugin/flexible/flexible.css">
+		<script src="../../plugin/flexible/flexible.js"></script>
+		<link rel="stylesheet" href="../../plugin/swiper/css/swiper-3.3.1.min.css">
+		<link rel="stylesheet" href="../../css/reset.css">
+		<link rel="stylesheet" type="text/css" href="../../css/general/general_header.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/grassroots/honor/honor.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/grassroots/honor/honor_edit.css"/>
+	</head>
+		
+	<body>
+		<div class="page">
+			<header class="head">
+				<div class="header">
+					<a onclick="history.go(-1);"><span></span></a>
+					<span>荣誉奖励</span>
+					<a href="../honor/honor.html" class="save">保存</a>
+				</div>
+			</header>
+		</div>
+		
+		<div class="honor_edit">
+			<div class="heart">
+				<ul>
+					<li><a id = "theme" href="#"><img class = "addto" src="../../images/grassroots/personal/addTo.png" alt="#"/><img class = "modify hide" src="../../images/grassroots/personal/modify.png" alt="#"/>主题：<span><input type="text" name="name" placeholder="20字内" readonly /></span></a></li>
+					<li><a id = "time" href="#"><img class = "addto" src="../../images/grassroots/personal/addTo.png" alt="#"/><img class = "modify hide" src="../../images/grassroots/personal/modify.png" alt="#"/>时间：<span></span></a></li>
+					<li><a id = "level" href="#"><img class = "addto" src="../../images/grassroots/personal/addTo.png" alt="#"/><img class = "modify hide" src="../../images/grassroots/personal/modify.png" alt="#"/>奖励级别：<span></span></a></li>
+					<li>
+						<a id = "specific" href="#"><section><span></span>具体事件：</section>
+						<textarea maxlength="1600"></textarea>
+							<div><span>0</span>/1600</div></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="remind">
+			<div class="level">
+				<section><a class = "cancel" href="#">取消</a><a class = "determine" href="#">确定</a></section>
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">中央国家级</div>
+						<div class="swiper-slide">省部级</div>
+						<div class="swiper-slide">市厅局</div>
+						<div class="swiper-slide">县局级</div>
+					</div>
+				</div>
+				<div class="frame"></div>
+			</div>
+		</div>
+		<script src="../../plugin/swiper/js/swiper-3.3.1.min.js"></script>
+		<script src="../../plugin/zepto/zepto.js"></script>
+		<script src="../../plugin/zepto/event.js"></script>
+		<script src="../../plugin/zepto/touch.js"></script>
+		<script src="../../plugin/datePicker/datePicker.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../js/grassroots/honor/honor_edit.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

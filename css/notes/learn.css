@@ -1,0 +1,119 @@
+div.nav{
+    display: flex;
+    display: -webkit-flex;
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #c2c2c2;
+    margin-top: 20px;
+}
+div.nav>.item{
+    font-size:0.4rem;
+    flex:1;
+    color:#999999;
+    text-align: center;
+}
+div.nav>.item.active{
+    color:#ce3a3d;
+}
+div.nav>.item.active  p{
+    margin:0 auto;
+    width:0.5rem;
+    height:2px;
+    background-color: #ce3a3d;
+    position: relative;
+    top:-0.06rem;
+}
+.content{
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    margin-top:0.3rem;
+    padding:3% 0 0 3%;
+}
+.content>.item{
+    width:30%;
+    margin-right:3%;
+}
+.content>.item img{
+    width:100%;
+}
+.content>.item .name{
+    padding:0.25rem 0 0.5rem 0;
+    text-align: center;
+    color:#666;
+}
+.icon{
+    display: inline-block;
+    width:1.5rem;
+    position: fixed;
+    bottom: 1.2rem;
+    right:1rem;
+}
+.icon>img{
+    width:100%;
+}
+
+/*特色交流*/
+
+.exchange{
+    padding:0 0.26rem 0.26rem 0.26rem;
+    position: absolute;
+    width:100%;
+    top: 70px;
+    bottom:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.exchange>div.speak{
+    position:relative;
+    height:19%;
+}
+.speak img{
+    width:100%;
+    height:100%;
+    display: block;
+}
+.speak .page{
+    position:absolute;
+    top:-0.1rem;
+    left:0;
+    right:0;
+}
+.speak>a{
+    display:block;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    color:#fff;
+    font-size:0.4rem;
+    background: url("../../images/notes/nav_bg.png") no-repeat;
+    background-size: cover;
+    line-height: 0.5rem;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+}
+.speak>a>p{
+    text-align:right;
+    padding-right:0.3rem;
+    color:#ffe134;
+}
+/*.speak>a>.text>p{*/
+    /*text-align:right;*/
+    /*padding-right:0.3rem;*/
+    /*color:#ffe134;*/
+
+/*}*/
+.speak>a>.text>i{
+    display: inline-block;
+    width:0.05rem;
+    height:0.4rem;
+    background-color: #ffe134;
+    margin-right:0.1rem;
+    position: relative;
+    top: 0.03rem
+}

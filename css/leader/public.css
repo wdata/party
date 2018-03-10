@@ -1,0 +1,139 @@
+/*领导表率主页和空间的公共样式*/
+/*头部样式*/
+header.head{
+    width:100%;
+    background: url(../../images/branch/head_bg.png) no-repeat;
+    background-size: cover;
+    padding:74px 0 0.35rem;
+}
+.title_img{
+    text-align: center;
+}
+.title_img .img-bg{
+    width:2rem;
+    height:2rem;
+    border-radius: 50%;
+    background-color:rgba(255,255,255,0.2);
+    margin: auto;
+    padding:5px;
+}
+
+
+.title_img .clearFix:after {
+    content:""; height:0; visibility:hidden; display:block; clear:both;
+}
+.title_img  .clearFix {
+    zoom:1;
+}
+.title_img>.title{
+    margin:0.2rem auto;
+    overflow:hidden;
+    position:relative;
+
+}
+.title_img>.title>.inwrap{
+    float:left; position:relative; left:50%;
+}
+.title_img>.title .inwrap .position {
+    float:left;
+    position:relative;
+    left:-45%;
+}
+.title_img>.title .inwrap .position li {
+    float:left;
+    padding:0 0.08rem;
+    height:0.5rem;
+    line-height: 0.5rem;
+    color:#ffffff;
+    font-size:10px;
+}
+.title_img>.title .inwrap .position li.icon{
+    opacity: 0.6;
+}
+.title_img>.title .inwrap .position li.userName{
+    font-size:11px;
+}
+
+
+
+.title_img img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+.title_img>.name{
+    color:#ffffff;
+    border:1px solid #ffffff;
+    border-radius: 22px;
+    height:0.5rem;
+    line-height:0.47rem;
+    margin:auto;
+    display:inline-block;
+    padding:0 0.3rem;
+}
+.head_message{
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    color:#c2c2c2;
+    margin-top:0.6rem;
+    font-size:10px;
+}
+.head_message .item{
+    flex:1;
+    text-align: center;
+    border-right:1px solid rgba(255,255,255,0.5);
+}
+.head_message .item span{
+    color:#fefefe;
+    font-size:12px;
+}
+.head_message .last{
+    border-right:none;
+}
+.head_message .item p{
+    margin-top: 5px;
+}
+.newSlide>img{
+	width: 100%;
+	height: 100%;
+}
+/*台账*/
+/*成长轨迹*/
+.fourpoints .head .four-target, .tracks .head .four-target {
+    float: inherit!important;
+}
+/*小标题左边的红杠*/
+.ledger .head .title span,.banner .head .title span,.other .head .title span,.newledgers .head .title span,.fourpoints .head .title span,.tracks .head .title span,.modelledgers .head .title span{
+    display: inline-block;
+    width:1px;
+    height:10px;
+    background-color: #cc3e39;
+    margin-right:3px;
+}
+
+.banner,.ledger,.other,.newledgers,.fourpoints,.tracks,.modelledgers{
+    padding:10px;
+}
+.banner .head,.ledger .head,.other .head,.newledgers .head,.fourpoints .head,.tracks .head,.modelledgers .head{
+    width: 100%;
+    height: 0.9rem;
+    position: relative;
+    margin-top: 0.1rem;
+}
+.banner .head .title,.ledger .head .title a,.other .head .title,.newledgers .head .title,.fourpoints .head .title,.tracks .head .title,.modelledgers .head .title{
+    color: #333333;
+    font-size: 0.4rem;
+    font-weight: bolder;
+    float: left;
+}
+.ledger .head .search,.newledgers .head .search{
+    float: right;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: url(../../images/branch/search@2x.png) no-repeat;
+    background-size: 100%;
+}
+
+
+
+

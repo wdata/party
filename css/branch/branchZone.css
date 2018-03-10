@@ -1,0 +1,151 @@
+/*支部堡垒空间页面*/
+/*向左滑动图片*/
+.leaderSlide{
+    width: 1.55rem!important;
+    height: 3rem!important;
+}
+.leaderSlide>img{
+    width: 100%;
+    height: 1.55rem;
+    border-radius: 70px;
+
+}
+.leaderSlide>p{
+    line-height: 0.1rem!important;
+}
+.banner{
+
+    border-bottom: 1px solid #c2c2c2;
+}
+.banner>.head>.right>img{
+    width: 100%;
+}
+.swiper-container .swiper-slide p{
+    text-align: center;
+    font-size: 0.266rem;
+    padding-top:10px;
+    color:#666666;
+}
+.swiper-slide>.firstImg{
+    border-radius: 5px 0 0 5px;
+}
+/*最新台账*/
+.titleRight{
+    width: 0.25rem;
+    height: 0.3rem;
+    margin-left: 0.2rem;
+}
+.newledgers .head .four-target,.fourpoints .head .four-target,.tracks .head .four-target,.modelledgers .head .four-target{
+    float: inherit!important;
+}
+.newledgers .head .search {
+    float: right;
+    width: 0.5rem;
+    height: 0.5rem;
+  
+}
+.newledgers>.head>.search,.fourpoints>.head>.search,.tracks>.head>.search,.modelledgers>.head>.search{
+    width: 0.45rem;
+    height: 0.45rem;
+    float: right;
+}
+.search>img{
+    width: 100%;
+}
+/*轨迹*/
+.track{
+    width: 3rem;
+    margin-left: 37%;
+}
+.track>span{
+    display: inline-block;
+    width: 0.5rem;
+    height: 2px;
+    background-color: #f8d7d8;
+    margin-right: 3px;
+    margin-bottom: 2%;
+}
+.ledgerTrack{
+    height: 6rem;
+    padding: 0 10px 10px 10px!important;
+}
+.grow-container{
+    height: 5rem;
+}
+.swiper-container .grow-slide img {
+    width: 100%;
+    height: 100%;
+}
+.swiper-container .grow-slide{
+    height: 4.58rem;
+}
+.swiper-container .swiper-slide .bg {
+    position: relative;
+    top: -2px;
+    display: block;
+    background: url(../../images/index/bg.png) no-repeat -2px 0;
+    background-size: 100%;
+    width: 100%;
+    height: 15px;
+}
+.growBottom{
+    width: 93%;
+    margin: 0 auto;
+    position: absolute;
+    left: 3.5%;
+    top: 91%;
+}
+/*四个指标*/
+.target-box{
+    margin-bottom: 0.5rem;
+}
+.target-box>p{
+    font-size: 0.4rem;
+    display: inline-block;
+    width: 92%;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.target-display{
+    display: inline-block;
+    width: 6%;
+}
+
+.nav_list .swiper-slide{
+	width:1.76rem!important;
+	margin-right:0.2666rem!important;
+}
+.nav_list .swiper-slide .swiper_img{
+    width:1.7rem;
+    height:1.7rem;
+}
+.nav_list .swiper-slide img{
+    width:100%;
+    height:100%;
+    border-radius:50%;
+}
+.nav_list .swiper-slide p{
+    text-align: center;
+    font-size:10px;
+    padding-top:10px;
+    color:#666666;
+}
+.nav_list .swiper-slide>p>span{
+    display: block;
+    padding-top:4px;
+}
+.newledgers .swiper-slide a,.newledgers .swiper-slide a img{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.modelledgers .swiper-slide{
+    width:2.4rem;
+    height:2.4rem;
+}
+.modelledgers .swiper-slide a,.modelledgers .swiper-slide a img{
+    display:block;
+    width:100%;
+    height:100%;
+}

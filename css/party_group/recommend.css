@@ -1,0 +1,89 @@
+.list{
+    width:100%;
+}
+.list>div.title{
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    padding:0.3rem 0 0 0.3rem;
+}
+.list>div.title>.head{
+    flex:0 0 1.2rem;
+    border-radius: 50%;
+    margin-right:0.26rem;
+}
+.list>div.title>.head>img{
+    width:100%;
+    border-radius: 50%;
+}
+.list>div.title>.name .position{
+    color:#999;
+    padding-top:0.15rem;
+}
+.list>div.title>.name .position>span{
+    color:#333;
+}
+.list>div.title>.name>p{
+    padding:0.2rem 0;
+    color:#999;
+}
+.list>a{
+    display: inline-block;
+    width:100%;
+    height:100%;
+    color:#333333;
+}
+.list>a:hover{
+    color:#333333;
+}
+.list dl{
+    width:100%;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    padding: 0.3rem;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #ffffff;
+}
+.list dl dt{
+    flex:0 0 3.5rem;
+    padding-right: .21rem;
+    border-radius: 2px;
+}
+.list dl dt>img{
+    width:100%;
+    height:100%;
+    border-radius: 2px;
+}
+.list dl dd.content{
+    width:50%;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list dl dd.content>h2{
+    font-size: 0.39rem;
+    line-height:0.5rem;
+    color:#333;
+}
+.list dl dd.content>.text{
+    font-size: 0.34rem;
+    color:#999999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+.list dl dd.content>.foot{
+    font-size: 10px;
+    color:#666;
+}
+.list dl dd.content>.foot .foot_title>span{
+    position: relative;
+    top:-0.2rem;
+    color:#999999;
+}
+.list dl dd.content>.foot .foot_title>img{
+    width:0.6rem;
+    height:0.6rem;
+    border-radius: 50%;
+}

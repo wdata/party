@@ -1,0 +1,115 @@
+body{
+    background: url("../../images/leave/bg.png") no-repeat 0 -100%;
+    background-size: cover;
+}
+body>.bg{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background: url("../../images/leave/bg.png") no-repeat;
+    background-size: cover;
+    z-index: -99;
+}
+.page>.head{
+    height: 44px;
+    line-height: 44px;
+    background-color: rgba(0,0,0,0.5);
+    margin-top:20px;
+}
+.page>.head>i{
+    display: inline-block;
+    width:0.3rem;
+    height: 22px;
+    background: url("../../images/leave/return.png") no-repeat 100%;
+    background-size: 100%;
+    margin: 11px 0 0 0.35rem;
+}
+.container>.chat>li{
+    display: flex;
+    display: -webkit-flex;
+    color:#ffffff;
+    padding-bottom: 0.5rem;
+}
+.container>.chat>li>.head>.head_bg{
+    display: inline-block;
+    width:1rem;
+    height:1rem;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.2);
+    padding:3px;
+    margin: 0.24rem 0.2rem;
+    position: relative;
+    top:0.8rem;
+}
+.container>.chat>li>.head>.head_bg>img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+.container>.chat>li>.content{
+    padding:0.3rem 0  0.3rem 0.26rem;
+    max-width:80%;
+}
+.container>.chat>li>.content>.name{
+    padding-bottom: 0.26rem;
+}
+.container>.chat>li>.content>.main{
+    position: relative;
+    left:-0.43rem;
+    padding:0.5rem 0.6rem 0.5rem 0.9rem;
+    background: url("../../images/leave/chat.png") no-repeat;
+    background-size: 100% 100%;
+}
+.container>.chat>li>.content>.main>.text{
+    line-height:0.5rem;
+}
+.container>.chat>li.active_me{
+    justify-content:flex-end;
+}
+.container>.chat>li.active_me>.content>.name{
+    padding: 0 0.26rem 0.26rem 0;
+    text-align: right
+}
+.container>.chat>li.active_me>.content>.main{
+    position: relative;
+    left:0.2rem;
+    background: url("../../images/leave/chat_me.png") no-repeat;
+    background-size: 100% 100%;
+}
+.container>.chat>li.active_me>.content>.main>.text{
+    line-height:0.5rem;
+    color:#000000;
+}
+.container>.chat>li:last-child{
+    padding-bottom: 1rem;
+}
+footer{
+    position: fixed;
+    width:100%;
+    height:1rem;
+    bottom:0;
+    left:0;
+    padding:0.2rem;
+}
+footer>.foot{
+    position: relative;
+    bottom:0.5rem;
+}
+footer>.foot>input{
+    border: none;
+    height:1rem;
+    border-radius: 3px;
+    width:85%;
+    margin-right:0.15rem;
+    font-size: 15px;
+    padding-left:0.2rem;
+}
+footer>.foot>.send{
+    display: inline-block;
+    width:10%;
+    height:1rem;
+    line-height:1rem;
+    border-radius: 3px;
+    background-color: #c2c2c2;
+    text-align: center;
+}

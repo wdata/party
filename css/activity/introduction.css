@@ -1,0 +1,58 @@
+header.head .header {
+	line-height: inherit;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+}
+header.head .header span{
+	width:80%;
+}
+.introduction{
+	padding: 0.5rem;
+	position: relative;
+	top: 64px;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.introduction .heart{
+	width:100%;
+	height:100%;
+	font-size:0.38rem;
+}
+.introduction .heart>img{
+	width:100%;
+	height:4.5rem;
+	display: block;
+	margin-bottom: 0.3rem;
+}
+
+.introduction .content{
+	width:100%;
+	line-height:0.5rem;
+}
+.introduction .content img{
+	max-width:100%;
+}
+
+.introduction .heart .box{
+	margin-top: 0.5rem;
+}
+.introduction .heart .box>a{
+	width:4rem;
+	height:1rem;
+	line-height:1rem;
+	border-radius:1rem;
+	display:block;
+	text-align:center;
+	font-size:0.4rem;
+	color:#fff;
+	background-color:#CE3D3A;
+}
+.introduction .heart .box .sign{
+	float:left;
+}
+.introduction .heart .box .list{
+	float:right;
+}
